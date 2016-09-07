@@ -33,7 +33,7 @@
    <div class="x-col" xid="col9">
     <span xid="span10"><![CDATA[投资总额]]></span></div> 
    <div class="x-col" xid="col7">
-    <span xid="span11">0.00元</span></div> </div>
+    <span xid="span11"><![CDATA[10.00元]]></span></div> </div>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row4">
    <div class="x-col x-col-10" xid="col11" style="text-align:right;">
     <span xid="span12" class="circle circle2"></span></div> 
