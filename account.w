@@ -54,6 +54,6 @@
    <div class="x-col" xid="col18">
     <span xid="span19"><![CDATA[已获收益]]></span></div> 
    <div class="x-col" xid="col16">
-    <span xid="span20">0.00元</span></div> </div></div></div>
+    <span xid="span20"><![CDATA[0.00元]]></span></div> </div></div></div>
   </div> 
 </div>
