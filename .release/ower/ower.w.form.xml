@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cA3MZFb" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cA3MZFb" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/button/buttonGroup,$model/UI2/system/components/justep/panel/panel,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.div2.cA3MZFb{padding: 30px 0px} .div5.cA3MZFb, .div7.cA3MZFb{margin: 10px 0px; background-color: rgb(255, 255, 255)} .x-panel-content.cA3MZFb{background-color: rgb(243, 241, 255)} .fr.cA3MZFb{padding-left: 15px; line-height: 35px} .btn-primary.cA3MZFb{border: 0px}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cA3MZFb" class="cA3MZFb"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p657deec0157d4535ae45bdb08e01f5e1-iosstatusbar cA3MZFb" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cA3MZFb"> 
+    <div class="x-panel-top cA3MZFb" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cA3MZFb"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cA3MZFb" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;标题&quot;}" __cid="cA3MZFb"> 
+        <div class="x-titlebar-left cA3MZFb" __cid="cA3MZFb"> 
+          <img src="" alt="" xid="image1" __cid="cA3MZFb" class="cA3MZFb"/>  
+          <span xid="span2" __cid="cA3MZFb" class="cA3MZFb"/>
+        </div>  
+        <div class="x-titlebar-title cA3MZFb" __cid="cA3MZFb">标题</div>  
+        <div class="x-titlebar-right  cA3MZFb" xid="div3" __cid="cA3MZFb">
+          <div class="empty cA3MZFb" __cid="cA3MZFb"/>
+          <img src="$model/UI2/kuaitou/img/icon24.png" alt="" xid="importantBtn" height="26px" bind-click="importantBtnClick" __cid="cA3MZFb" class="cA3MZFb"/>
+        </div>
+      </div> 
+    </div>  
+    <div class="x-panel-content cA3MZFb" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cA3MZFb">
+      <div xid="div2" class="div2 cA3MZFb" style="width:100%;background-color:#497BEA;color:#FFFFFF;" __cid="cA3MZFb"> 
+        <div component="$model/UI2/system/components/justep/row/row" class="x-row cA3MZFb" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cA3MZFb"> 
+          <div class="x-col cA3MZFb" xid="col1" __cid="cA3MZFb"/>  
+          <div class="x-col cA3MZFb" xid="col2" style="text-align:center;" __cid="cA3MZFb"> 
+            <span xid="span9" __cid="cA3MZFb" class="cA3MZFb">总资产（元）</span>
+          </div>  
+          <div class="x-col cA3MZFb" xid="col3" __cid="cA3MZFb"/>
+        </div>  
+        <div component="$model/UI2/system/components/justep/row/row" class="x-row cA3MZFb" xid="row2" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cA3MZFb"> 
+          <div class="x-col cA3MZFb" xid="col6" __cid="cA3MZFb"/>  
+          <div class="x-col cA3MZFb" xid="col4" style="text-align:center;" __cid="cA3MZFb"> 
+            <span xid="span10" style="font-size:20px;text-align:center;" __cid="cA3MZFb" class="cA3MZFb">0.00</span>
+          </div>  
+          <div class="x-col cA3MZFb" xid="col5" __cid="cA3MZFb"/>
+        </div> 
+      </div>  
+      <div xid="div4" style="background-color:#4774DB;color:#FFFFFF;" __cid="cA3MZFb" class="cA3MZFb"> 
+        <div component="$model/UI2/system/components/justep/row/row" class="x-row cA3MZFb" xid="row3" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cA3MZFb"> 
+          <div class="x-col cA3MZFb" xid="col8" __cid="cA3MZFb"> 
+            <div component="$model/UI2/system/components/justep/row/row" class="x-row cA3MZFb" xid="row4" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cA3MZFb"> 
+              <div class="x-col cA3MZFb" xid="col11" style="text-align:center;font-size:20px;" __cid="cA3MZFb"> 
+                <span xid="span1" __cid="cA3MZFb" class="cA3MZFb">0.00</span>
+              </div> 
+            </div>  
+            <div component="$model/UI2/system/components/justep/row/row" class="x-row cA3MZFb" xid="row5" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cA3MZFb"> 
+              <div class="x-col cA3MZFb" xid="col15" style="text-align:center;" __cid="cA3MZFb"> 
+                <span xid="span4" __cid="cA3MZFb" class="cA3MZFb">已获收益（元）</span>
+              </div> 
+            </div> 
+          </div>  
+          <div class="x-col cA3MZFb" xid="col9" __cid="cA3MZFb"> 
+            <div component="$model/UI2/system/components/justep/row/row" class="x-row cA3MZFb" xid="row6" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cA3MZFb"> 
+              <div class="x-col cA3MZFb" xid="col16" style="font-size:20px;text-align:center;" __cid="cA3MZFb"> 
+                <span xid="span6" __cid="cA3MZFb" class="cA3MZFb">0.00</span>
+              </div> 
+            </div>  
+            <div component="$model/UI2/system/components/justep/row/row" class="x-row cA3MZFb" xid="row7" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cA3MZFb"> 
+              <div class="x-col cA3MZFb" xid="col17" style="text-align:center;" __cid="cA3MZFb"> 
+                <span xid="span7" __cid="cA3MZFb" class="cA3MZFb">待收收益（元）</span>
+              </div> 
+            </div> 
+          </div> 
+        </div> 
+      </div>  
+      <div xid="div5" class="div5 cA3MZFb" __cid="cA3MZFb">
+        <div component="$model/UI2/system/components/justep/row/row" class="x-row cA3MZFb" xid="row11" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cA3MZFb"> 
+          <div class="x-col cA3MZFb" xid="col27" style="text-align:center;" __cid="cA3MZFb">
+            <span xid="span8" __cid="cA3MZFb" class="cA3MZFb">可用余额</span>
+          </div>  
+          <div class="x-col cA3MZFb" xid="col28" __cid="cA3MZFb"/>  
+          <div class="x-col cA3MZFb" xid="col29" __cid="cA3MZFb"/>
+        </div>  
+        <div component="$model/UI2/system/components/justep/row/row" class="x-row cA3MZFb" xid="row12" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cA3MZFb"> 
+          <div class="x-col cA3MZFb" xid="col30" style="font-size:24px;text-align:center;" __cid="cA3MZFb">
+            <span xid="span11" __cid="cA3MZFb" class="cA3MZFb">0.00</span>
+          </div>  
+          <div class="x-col cA3MZFb" xid="col31" __cid="cA3MZFb"/>  
+          <div class="x-col cA3MZFb" xid="col32" __cid="cA3MZFb">
+            <div component="$model/UI2/system/components/justep/button/buttonGroup" class="btn-group cA3MZFb" xid="buttonGroup1" data-bind="component:{name:'$model/UI2/system/components/justep/button/buttonGroup'}" data-config="{&quot;tabbed&quot;:true}" __cid="cA3MZFb">
+              <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cA3MZFb" xid="button1" style="margin-right:10px;width:80px;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;充值&quot;}" __cid="cA3MZFb"> 
+                <i xid="i1" __cid="cA3MZFb" class="cA3MZFb"/>  
+                <span xid="span12" __cid="cA3MZFb" class="cA3MZFb">充值</span>
+              </a>  
+              <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cA3MZFb" xid="button2" style="width:80px;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;提现&quot;}" __cid="cA3MZFb"> 
+                <i xid="i2" __cid="cA3MZFb" class="cA3MZFb"/>  
+                <span xid="span13" __cid="cA3MZFb" class="cA3MZFb">提现</span>
+              </a>
+            </div>
+          </div>
+        </div> 
+      </div>  
+      <div xid="div7" class="div7 cA3MZFb" __cid="cA3MZFb">
+        <div component="$model/UI2/system/components/justep/row/row" class="x-row cA3MZFb" xid="row13" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cA3MZFb"> 
+          <div class="x-col x-col-10 cA3MZFb" xid="col35" style="text-align:center;" __cid="cA3MZFb"> 
+            <img src="$model/UI2/kuaitou/img/more_03.jpg" alt="" xid="image2" __cid="cA3MZFb" class="cA3MZFb"/>
+          </div>  
+          <div class="x-col x-col-67 fr cA3MZFb" xid="col34" __cid="cA3MZFb"> 
+            <span xid="span15" __cid="cA3MZFb" class="cA3MZFb">我的账户</span>
+          </div>  
+          <div class="x-col cA3MZFb" xid="col33" __cid="cA3MZFb"> 
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-primary cA3MZFb" xid="btnPlat" style="background-color:white;color:#C0C0C0;width:18px;" bind-click="platBtnClick" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-ios7-arrow-right&quot;}" __cid="cA3MZFb"> 
+              <i xid="i3" class="icon-ios7-arrow-right cA3MZFb" __cid="cA3MZFb"/>  
+              <span xid="span14" __cid="cA3MZFb" class="cA3MZFb"/>
+            </a> 
+          </div> 
+        </div>  
+        <div component="$model/UI2/system/components/justep/row/row" class="x-row cA3MZFb" xid="row14" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cA3MZFb"> 
+          <div class="x-col x-col-10 cA3MZFb" xid="col38" style="text-align:center;" __cid="cA3MZFb"> 
+            <img src="$model/UI2/kuaitou/img/more_03.jpg" alt="" xid="image3" __cid="cA3MZFb" class="cA3MZFb"/>
+          </div>  
+          <div class="x-col x-col-67 cA3MZFb" xid="col37" __cid="cA3MZFb"> 
+            <div component="$model/UI2/system/components/justep/row/row" class="x-row row16 cA3MZFb" xid="row16" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cA3MZFb"> 
+              <div class="x-col cA3MZFb" xid="col43" __cid="cA3MZFb">
+                <span xid="span17" __cid="cA3MZFb" class="cA3MZFb">投资记录</span>
+              </div>  
+              <div class="x-col cA3MZFb" xid="col44" style="text-align:right;" __cid="cA3MZFb">
+                <span xid="span20" __cid="cA3MZFb" class="cA3MZFb">待收回账/累计收益</span>
+              </div>
+            </div>
+          </div>  
+          <div class="x-col cA3MZFb" xid="col36" __cid="cA3MZFb"> 
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-primary cA3MZFb" xid="button3" style="background-color:white;color:#C0C0C0;width:18px;" bind-click="platBtnClick" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-ios7-arrow-right&quot;}" __cid="cA3MZFb"> 
+              <i xid="i4" class="icon-ios7-arrow-right cA3MZFb" __cid="cA3MZFb"/>  
+              <span xid="span16" __cid="cA3MZFb" class="cA3MZFb"/>
+            </a>
+          </div> 
+        </div>  
+        <div component="$model/UI2/system/components/justep/row/row" class="x-row cA3MZFb" xid="row15" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cA3MZFb"> 
+          <div class="x-col x-col-10 cA3MZFb" xid="col41" style="text-align:center;" __cid="cA3MZFb"> 
+            <img src="$model/UI2/kuaitou/img/more_03.jpg" alt="" xid="image4" __cid="cA3MZFb" class="cA3MZFb"/>
+          </div>  
+          <div class="x-col x-col-67 fr cA3MZFb" xid="col40" __cid="cA3MZFb"> 
+            <span xid="span19" __cid="cA3MZFb" class="cA3MZFb">安全中心</span>
+          </div>  
+          <div class="x-col cA3MZFb" xid="col39" __cid="cA3MZFb"> 
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-primary cA3MZFb" xid="button4" style="background-color:white;color:#C0C0C0;width:18px;" bind-click="platBtnClick" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-ios7-arrow-right&quot;}" __cid="cA3MZFb"> 
+              <i xid="i5" class="icon-ios7-arrow-right cA3MZFb" __cid="cA3MZFb"/>  
+              <span xid="span18" __cid="cA3MZFb" class="cA3MZFb"/>
+            </a> 
+          </div> 
+        </div>
+      </div>  
+      <div xid="div8" style="background-color:#FFFFFF;" __cid="cA3MZFb" class="cA3MZFb">
+        <div component="$model/UI2/system/components/justep/row/row" class="x-row cA3MZFb" xid="row17" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cA3MZFb"> 
+          <div class="x-col x-col-10 cA3MZFb" xid="col45" style="text-align:center;" __cid="cA3MZFb"> 
+            <img src="$model/UI2/kuaitou/img/more_03.jpg" alt="" xid="image5" __cid="cA3MZFb" class="cA3MZFb"/>
+          </div>  
+          <div class="x-col x-col-67 fr cA3MZFb" xid="col46" __cid="cA3MZFb"> 
+            <span xid="span22" __cid="cA3MZFb" class="cA3MZFb">红包记录</span>
+          </div>  
+          <div class="x-col cA3MZFb" xid="col47" __cid="cA3MZFb"> 
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-primary cA3MZFb" xid="button5" style="background-color:white;color:#C0C0C0;width:18px;" bind-click="platBtnClick" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-ios7-arrow-right&quot;}" __cid="cA3MZFb"> 
+              <i xid="i6" class="icon-ios7-arrow-right cA3MZFb" __cid="cA3MZFb"/>  
+              <span xid="span21" __cid="cA3MZFb" class="cA3MZFb"/>
+            </a> 
+          </div> 
+        </div>  
+        <div component="$model/UI2/system/components/justep/row/row" class="x-row cA3MZFb" xid="row18" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cA3MZFb"> 
+          <div class="x-col x-col-10 cA3MZFb" xid="col48" style="text-align:center;" __cid="cA3MZFb"> 
+            <img src="$model/UI2/kuaitou/img/more_03.jpg" alt="" xid="image6" __cid="cA3MZFb" class="cA3MZFb"/>
+          </div>  
+          <div class="x-col x-col-67 fr cA3MZFb" xid="col49" __cid="cA3MZFb"> 
+            <span xid="span24" __cid="cA3MZFb" class="cA3MZFb">银行卡管理</span>
+          </div>  
+          <div class="x-col cA3MZFb" xid="col50" __cid="cA3MZFb"> 
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-primary cA3MZFb" xid="button6" style="background-color:white;color:#C0C0C0;width:18px;" bind-click="platBtnClick" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-ios7-arrow-right&quot;}" __cid="cA3MZFb"> 
+              <i xid="i7" class="icon-ios7-arrow-right cA3MZFb" __cid="cA3MZFb"/>  
+              <span xid="span23" __cid="cA3MZFb" class="cA3MZFb"/>
+            </a> 
+          </div> 
+        </div>
+      </div>
+    </div>  
+    <style __cid="cA3MZFb" class="cA3MZFb">.x-panel.p657deec0157d4535ae45bdb08e01f5e1-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p657deec0157d4535ae45bdb08e01f5e1-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p657deec0157d4535ae45bdb08e01f5e1-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p657deec0157d4535ae45bdb08e01f5e1-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p657deec0157d4535ae45bdb08e01f5e1-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p657deec0157d4535ae45bdb08e01f5e1-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p657deec0157d4535ae45bdb08e01f5e1-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p657deec0157d4535ae45bdb08e01f5e1-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p657deec0157d4535ae45bdb08e01f5e1-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>

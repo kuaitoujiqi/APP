@@ -1,0 +1,63 @@
+h5 ,.h5{ color:#000; font-size:16px;}
+
+.text-danger{ color:#ea413c;}
+.text-black{ color:#000;}
+
+.x-panel-top .x-titlebar{ background-color:#ea413c;}
+.x-titlebar .x-titlebar-right .btn{ padding-left:30px;}
+
+.img1{ height:200px;}
+.img3{ height:60px;}
+.img_new{ width:100px; height:70px;}
+.img_small{ height:15px;}
+.img_cloud{ height:30px;}
+
+.btn i{ font-size:20px;}
+.div13{
+	height:10px;
+	margin-bottom:10px;
+}
+.div13>.x-row{
+	float:left;
+	width:50%;
+}
+.x-row + .x-row{
+	padding-bottom:10px;
+	padding-top:0px;
+	margin-top:0px;
+}
+.progress{
+	height:5px;
+}
+.x-col-center{
+	text-align:center;
+}
+.div13>.x-row:nth-child(2){
+	
+
+}
+.row3>.x-col{
+	padding:0px;
+}
+.carousel{
+	margin-bottom:10px;
+}
+.row3>.x-col>.sp{
+	margin-left:10px;
+
+/*页脚按钮组*/
+.x-wangyi.btn-group{ background-color:#fff;}
+.x-wangyi.btn-group .btn{ border-top:0;}
+.x-wangyi.btn-group .btn span{ font-size:12px; font-weight:normal;}
+.x-wangyi.btn-group .btn:hover,.x-card.btn-group .btn.active{ color:#337ab7; padding:0;border-top:0;}
+
+/*左右内边距*/
+.x-wangyi.panel{ margin-bottom:10px;}
+.x-wangyi.panel > .panel-heading .panel-title{ color:#333;}
+.x-wangyi .list-group-item{ border-radius:0;}
+.x-wangyi .list-group-item:last-child{ border-bottom:0;}
+
+.x-nomargin{ margin-left:0; margin-right:0;}
+.x-nopadding{ padding-left:0; padding-right:0;}
+
+
