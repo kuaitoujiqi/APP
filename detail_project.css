@@ -1,0 +1,20 @@
+.div2{
+	margin:10px 0px;
+}
+.x-panel-content{
+	background-color:#f3f1fe;
+}
+.time{
+	margin-left:5px;
+}
+.span32{
+	display:inline-block;
+	width:5px;
+	height:5px;
+	border-radius:50%;
+	background-color:#ccc;
+	margin-right:5px;
+}
+.div7{
+	padding:20px;
+}
