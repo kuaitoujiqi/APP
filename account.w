@@ -20,40 +20,53 @@
           </div>
         </div> 
       </div>  
-    <div class="x-panel-content" xid="content1"><div xid="div1"><div xid="div2" style="text-align:center;height:200px;width:200px;" align="justify" class="div2"><div xid="div3" style="height:160px;width:160px;" class="div3"><div xid="div4"><span xid="span4"><![CDATA[总资产（元）]]></span></div>
-  <div xid="div5"><span xid="span5" style="font-size:24px;"><![CDATA[0.00]]></span></div></div></div></div>
+    <div class="x-panel-content" xid="content1">
+  <div component="$UI/system/components/justep/list/list" class="x-list" xid="list1">
+   <ul class="x-list-template" xid="listTemplateUl1">
+    <li xid="li1"><div xid="div1">
+   <div xid="div2" style="text-align:center;height:200px;width:200px;" align="justify" class="div2">
+    <div xid="div3" style="height:160px;width:160px;" class="div3">
+     <div xid="div4">
+      <span xid="span4">总资产（元）</span></div> 
+     <div xid="div5">
+      <span xid="span5" style="font-size:24px;">0.00</span></div> </div> </div> 
+  </div>
   <div xid="div6" style="height:10px;background-color:#F3F1FF;"></div>
-  <div xid="div7"><div component="$UI/system/components/justep/row/row" class="x-row" xid="row2">
-   <div class="x-col x-col-10" xid="col4" style="text-align:right;"><span xid="span6" class="circle"></span></div>
-   <div class="x-col" xid="col5"><span xid="span7"><![CDATA[存钱罐余额]]></span></div>
-   <div class="x-col" xid="col6"><span xid="span8"><![CDATA[0.00元]]></span></div></div>
-  <div component="$UI/system/components/justep/row/row" class="x-row" xid="row3">
-   <div class="x-col x-col-10" xid="col8" style="text-align:right;">
-    <span xid="span9" class="circle circle1"></span></div> 
-   <div class="x-col" xid="col9">
-    <span xid="span10"><![CDATA[投资总额]]></span></div> 
-   <div class="x-col" xid="col7">
-    <span xid="span11"><![CDATA[10.00元]]></span></div> </div>
-  <div component="$UI/system/components/justep/row/row" class="x-row" xid="row4">
-   <div class="x-col x-col-10" xid="col11" style="text-align:right;">
-    <span xid="span12" class="circle circle2"></span></div> 
-   <div class="x-col" xid="col12">
-    <span xid="span13"><![CDATA[待收总额]]></span></div> 
-   <div class="x-col" xid="col10">
-    <span xid="span14">0.00元</span></div> </div>
-  <div component="$UI/system/components/justep/row/row" class="x-row" xid="row5">
-   <div class="x-col x-col-10" xid="col14" style="text-align:right;">
-    <span xid="span15" class="circle circle3"></span></div> 
-   <div class="x-col" xid="col15">
-    <span xid="span16"><![CDATA[预期收益]]></span></div> 
-   <div class="x-col" xid="col13">
-    <span xid="span17">0.00元</span></div> </div>
-  <div component="$UI/system/components/justep/row/row" class="x-row" xid="row6">
-   <div class="x-col x-col-10" xid="col17" style="text-align:right;">
-    <span xid="span18" class="circle circle4"></span></div> 
-   <div class="x-col" xid="col18">
-    <span xid="span19"><![CDATA[已获收益]]></span></div> 
-   <div class="x-col" xid="col16">
-    <span xid="span20"><![CDATA[0.00元]]></span></div> </div></div></div>
+  <div xid="div7">
+   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row2">
+    <div class="x-col x-col-10" xid="col4" style="text-align:right;">
+     <span xid="span6" class="circle"></span></div> 
+    <div class="x-col" xid="col5">
+     <span xid="span7">存钱罐余额</span></div> 
+    <div class="x-col" xid="col6">
+     <span xid="span8">0.00元</span></div> </div> 
+   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row3">
+    <div class="x-col x-col-10" xid="col8" style="text-align:right;">
+     <span xid="span9" class="circle circle1"></span></div> 
+    <div class="x-col" xid="col9">
+     <span xid="span10">投资总额</span></div> 
+    <div class="x-col" xid="col7">
+     <span xid="span11">10.00元</span></div> </div> 
+   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row4">
+    <div class="x-col x-col-10" xid="col11" style="text-align:right;">
+     <span xid="span12" class="circle circle2"></span></div> 
+    <div class="x-col" xid="col12">
+     <span xid="span13">待收总额</span></div> 
+    <div class="x-col" xid="col10">
+     <span xid="span14">0.00元</span></div> </div> 
+   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row5">
+    <div class="x-col x-col-10" xid="col14" style="text-align:right;">
+     <span xid="span15" class="circle circle3"></span></div> 
+    <div class="x-col" xid="col15">
+     <span xid="span16">预期收益</span></div> 
+    <div class="x-col" xid="col13">
+     <span xid="span17">0.00元</span></div> </div> 
+   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row6">
+    <div class="x-col x-col-10" xid="col17" style="text-align:right;">
+     <span xid="span18" class="circle circle4"></span></div> 
+    <div class="x-col" xid="col18">
+     <span xid="span19">已获收益</span></div> 
+    <div class="x-col" xid="col16">
+     <span xid="span20">0.00元</span></div> </div> </div></li></ul> </div></div>
   </div> 
 </div>
