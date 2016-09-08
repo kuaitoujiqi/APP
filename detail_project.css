@@ -18,3 +18,20 @@
 .div7{
 	padding:20px;
 }
+ .panel-body{
+	float:left;
+	width:33%;
+
+}
+.tet,.tit{
+	padding-left:40px;
+}
+.tet{
+	text-indent:2em;
+}
+.col-pane{
+	padding-left:40px;
+}
+.progress{
+	height:5px;
+}

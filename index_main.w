@@ -16,7 +16,8 @@
      <expr xid="default1">$row.val(&quot;fPostNumber&quot;)&gt;=0?$row.val(&quot;fPostNumber&quot;)+&quot;跟贴&quot;:&quot;&quot;;</expr></calculate> </col> </rule>
   <column label="可购余额" name="fMoney" type="String" xid="xid5"></column>
   <column label="上线时间" name="fShang" type="String" xid="xid6"></column>
-  <column label="借款总额" name="fTotal" type="String" xid="xid7"></column></div> 
+  <column label="借款总额" name="fTotal" type="String" xid="xid7"></column>
+  <column label="进度条" name="fProgress" type="String" xid="xid8"></column></div> 
   </div>  
   <div component="$UI/system/components/justep/panel/panel" class="x-panel x-full x-card top-trans" xid="panel1">
    <div component="$UI/system/components/justep/panel/panel" class="x-panel x-full" xid="panel3">
@@ -60,7 +61,7 @@
   <span xid="span5"><![CDATA[资金由新浪支付托管]]></span></div>
    </div>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row2" style="background-color:white;">
-   <div class="x-col x-col-33" xid="col5"><img src="$UI/kuaitou/img/index_05.png" alt="" xid="image4"></img></div>
+   <div class="x-col x-col-33" xid="col5"><img src="$UI/APP/img/index_03.png" alt="" xid="image4"></img></div>
    <div class="x-col" xid="col6"><h5 xid="h53"><![CDATA[了解快投机器]]></h5>
   <span xid="span6"><![CDATA[更专业的互联网金融理财平台]]></span></div></div>
   </div>
@@ -84,7 +85,7 @@
    <div class="x-col x-col-center" xid="col11">
     <span xid="span7"><![CDATA[可购余额]]></span></div> </div>
   <div class="progress" component="$UI/system/components/bootstrap/progress/progress" xid="progress1">
-   <div class="progress-bar progress-bar-success" role="progressbar" xid="progressBar1">
+   <div class="progress-bar progress-bar-success" role="progressbar" xid="progressBar1" bind-text=' ref("fProgress")'>
     <span xid="span9">0%</span></div> </div>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row7">
    <div class="x-col x-col-center" xid="col17"><span xid="span10"><![CDATA[按月付息  到期还本]]></span></div>

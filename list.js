@@ -43,7 +43,7 @@ define(function(require) {
 	
 	//进入内容页
 	Model.prototype.detailClick = function(event){
-		justep.Shell.showPage("detail");
+		justep.Shell.showPage("detail_project");
 	};
 
 	

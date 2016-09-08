@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cbEnqYf" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cbEnqYf" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">
-  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.plat_text.cbEnqYf{text-indent: 2em; margin: 0px 40px}</xhtml:style>  
-  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cbEnqYf" class="cbEnqYf"></div>  
-  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p37399d1d9b184c43b4353f601ef2fb5c-iosstatusbar cbEnqYf" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cbEnqYf"> 
-    <div class="x-panel-top cbEnqYf" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cbEnqYf"> 
-      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cbEnqYf" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;平台介绍&quot;}" __cid="cbEnqYf"> 
-        <div class="x-titlebar-left cbEnqYf" __cid="cbEnqYf"> 
-          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cbEnqYf" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cbEnqYf"> 
-            <i class="icon-chevron-left cbEnqYf" __cid="cbEnqYf"/>  
-            <span __cid="cbEnqYf" class="cbEnqYf"/> 
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cBv6NBv" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cBv6NBv" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.plat_text.cBv6NBv{text-indent: 2em; margin: 0px 40px}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cBv6NBv" class="cBv6NBv"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p46b82c1a93304351bb560c7873eb8e16-iosstatusbar cBv6NBv" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cBv6NBv"> 
+    <div class="x-panel-top cBv6NBv" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cBv6NBv"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cBv6NBv" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;平台介绍&quot;}" __cid="cBv6NBv"> 
+        <div class="x-titlebar-left cBv6NBv" __cid="cBv6NBv"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cBv6NBv" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cBv6NBv"> 
+            <i class="icon-chevron-left cBv6NBv" __cid="cBv6NBv"/>  
+            <span __cid="cBv6NBv" class="cBv6NBv"/> 
           </a> 
         </div>  
-        <div class="x-titlebar-title cbEnqYf" __cid="cbEnqYf">平台介绍</div>  
-        <div class="x-titlebar-right  cbEnqYf" __cid="cbEnqYf">
-          <div class="empty cbEnqYf" __cid="cbEnqYf"/>
+        <div class="x-titlebar-title cBv6NBv" __cid="cBv6NBv">平台介绍</div>  
+        <div class="x-titlebar-right  cBv6NBv" __cid="cBv6NBv">
+          <div class="empty cBv6NBv" __cid="cBv6NBv"/>
         </div> 
       </div> 
     </div>  
-    <div class="x-panel-content cbEnqYf" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cbEnqYf">
-      <div xid="div1" __cid="cbEnqYf" class="cbEnqYf">
-        <img src="$model/UI2/kuaitou/img/plat_03.png" alt="" xid="image1" class="center-block cbEnqYf" __cid="cbEnqYf"/>
+    <div class="x-panel-content cBv6NBv" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cBv6NBv">
+      <div xid="div1" __cid="cBv6NBv" class="cBv6NBv">
+        <img src="$model/UI2/kuaitou/img/plat_03.png" alt="" xid="image1" class="center-block cBv6NBv" __cid="cBv6NBv"/>
       </div>  
-      <div xid="div2" class="plat_text cbEnqYf" __cid="cbEnqYf">
-        <span xid="span1" __cid="cbEnqYf" class="cbEnqYf">快投机器平台（www.kuaitoujiqi.com）由北京泰恒长隆网络科技有限公司建设并运营，公司成立于2015年9月，主要专注于供应链金融模式下的网络借贷信息服务，风控严谨，制度完善，交易系统安全，是成熟投资人值得选择的安全、可靠的网络借贷信息服务平台。快投机器与新浪第三方支付进行合作，由新浪支付提供资金存管，支付端做到独立与隔离，保障资金通道效率与安全，资产端通过与大中型企业、集团企业等核心企业，第三方担保公司、资产管理公司等机构合作，风控端与专业的律师事务所以及会计事务所全程合作 ，打造高端的互联网金融平台模式，为投资人提供全方位的投资安全保障。</span> 
+      <div xid="div2" class="plat_text cBv6NBv" __cid="cBv6NBv">
+        <span xid="span1" __cid="cBv6NBv" class="cBv6NBv">快投机器平台（www.kuaitoujiqi.com）由北京泰恒长隆网络科技有限公司建设并运营，公司成立于2015年9月，主要专注于供应链金融模式下的网络借贷信息服务，风控严谨，制度完善，交易系统安全，是成熟投资人值得选择的安全、可靠的网络借贷信息服务平台。快投机器与新浪第三方支付进行合作，由新浪支付提供资金存管，支付端做到独立与隔离，保障资金通道效率与安全，资产端通过与大中型企业、集团企业等核心企业，第三方担保公司、资产管理公司等机构合作，风控端与专业的律师事务所以及会计事务所全程合作 ，打造高端的互联网金融平台模式，为投资人提供全方位的投资安全保障。</span> 
       </div>
     </div>  
-    <style __cid="cbEnqYf" class="cbEnqYf">.x-panel.p37399d1d9b184c43b4353f601ef2fb5c-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p37399d1d9b184c43b4353f601ef2fb5c-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p37399d1d9b184c43b4353f601ef2fb5c-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p37399d1d9b184c43b4353f601ef2fb5c-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p37399d1d9b184c43b4353f601ef2fb5c-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p37399d1d9b184c43b4353f601ef2fb5c-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p37399d1d9b184c43b4353f601ef2fb5c-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p37399d1d9b184c43b4353f601ef2fb5c-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p37399d1d9b184c43b4353f601ef2fb5c-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+    <style __cid="cBv6NBv" class="cBv6NBv">.x-panel.p46b82c1a93304351bb560c7873eb8e16-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p46b82c1a93304351bb560c7873eb8e16-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p46b82c1a93304351bb560c7873eb8e16-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p46b82c1a93304351bb560c7873eb8e16-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p46b82c1a93304351bb560c7873eb8e16-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p46b82c1a93304351bb560c7873eb8e16-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p46b82c1a93304351bb560c7873eb8e16-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p46b82c1a93304351bb560c7873eb8e16-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p46b82c1a93304351bb560c7873eb8e16-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
   </div> 
 </div>
