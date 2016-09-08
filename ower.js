@@ -24,6 +24,9 @@ define(function(require){
             }
         });	
 	};
+	Model.prototype.platBtnClick = function(event){
+		justep.Shell.showPage("account");
+	};
 	Model.prototype.contentActive = function(event){
 		var windowContainer = event.source.getContent(event.source.getActiveXid()).$domNode.children();
 		this.comp(windowContainer.get(0)).refresh();

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window c2AzQju" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="c2AzQju" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">  
+  <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">.div2.c2AzQju{margin: 30px auto; border-radius: 50%; background-color: rgb(255, 222, 203); position: relative} .div3.c2AzQju{border-radius: 50%; background-color: rgb(255, 255, 255); position: absolute; top: 20px; left: 20px; padding-top: 60px} .circle.c2AzQju{display: inline-block; width: 5px; height: 5px; border-radius: 50%; background-color: rgb(74, 125, 238)} .circle2.c2AzQju{background-color: rgb(142, 162, 255)} .circle3.c2AzQju{background-color: rgb(188, 197, 238)} .circle4.c2AzQju{background-color: rgb(228, 231, 240)}</style>  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="c2AzQju" class="c2AzQju"/>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pd9965cacaa474e3b89f36013519b0607-iosstatusbar c2AzQju" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="c2AzQju"> 
+    <div class="x-panel-top c2AzQju" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="c2AzQju"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar c2AzQju" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;我的账户&quot;}" __cid="c2AzQju"> 
+        <div class="x-titlebar-left c2AzQju" __cid="c2AzQju"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon c2AzQju" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="c2AzQju"> 
+            <i class="icon-chevron-left c2AzQju" __cid="c2AzQju"/>  
+            <span __cid="c2AzQju" class="c2AzQju"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title c2AzQju" __cid="c2AzQju">我的账户</div>  
+        <div class="x-titlebar-right  c2AzQju" __cid="c2AzQju"> 
+          <div class="empty c2AzQju" __cid="c2AzQju"/> 
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content c2AzQju" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="c2AzQju"> 
+      <div component="$model/UI2/system/components/justep/list/list" class="x-list c2AzQju" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;owerData&quot;}" __cid="c2AzQju"> 
+        <ul class="x-list-template hide c2AzQju" xid="listTemplateUl1" __cid="c2AzQju" data-bind="foreach:{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}"> 
+          <li xid="li1" __cid="c2AzQju" class="c2AzQju"> 
+            <div xid="div1" __cid="c2AzQju" class="c2AzQju"> 
+              <div xid="div2" style="text-align:center;height:200px;width:200px;" align="justify" class="div2 c2AzQju" __cid="c2AzQju"> 
+                <div xid="div3" style="height:160px;width:160px;" class="div3 c2AzQju" __cid="c2AzQju"> 
+                  <div xid="div4" __cid="c2AzQju" class="c2AzQju"> 
+                    <span xid="span4" __cid="c2AzQju" class="c2AzQju">总资产（元）</span> 
+                  </div>  
+                  <div xid="div5" __cid="c2AzQju" class="c2AzQju"> 
+                    <span xid="span5" style="font-size:24px;" __cid="c2AzQju" class="c2AzQju" data-bind="text:ref(&quot;fTotal&quot;)"/> 
+                  </div> 
+                </div> 
+              </div> 
+            </div>  
+            <div xid="div6" style="height:10px;background-color:#F3F1FF;" __cid="c2AzQju" class="c2AzQju"/>  
+            <div xid="div7" __cid="c2AzQju" class="c2AzQju"> 
+              <div component="$model/UI2/system/components/justep/row/row" class="x-row c2AzQju" xid="row2" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c2AzQju"> 
+                <div class="x-col x-col-10 c2AzQju" xid="col4" style="text-align:right;" __cid="c2AzQju"> 
+                  <span xid="span6" class="circle c2AzQju" __cid="c2AzQju"/> 
+                </div>  
+                <div class="x-col c2AzQju" xid="col5" __cid="c2AzQju"> 
+                  <span xid="span7" __cid="c2AzQju" class="c2AzQju">存钱罐余额</span> 
+                </div>  
+                <div class="x-col c2AzQju" xid="col6" __cid="c2AzQju"> 
+                  <span xid="span8" __cid="c2AzQju" class="c2AzQju" data-bind="text:ref(&quot;fMoney&quot;)"/>  
+                  <span xid="span1" __cid="c2AzQju" class="c2AzQju">元</span> 
+                </div> 
+              </div>  
+              <div component="$model/UI2/system/components/justep/row/row" class="x-row c2AzQju" xid="row3" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c2AzQju"> 
+                <div class="x-col x-col-10 c2AzQju" xid="col8" style="text-align:right;" __cid="c2AzQju"> 
+                  <span xid="span9" class="circle circle1 c2AzQju" __cid="c2AzQju"/> 
+                </div>  
+                <div class="x-col c2AzQju" xid="col9" __cid="c2AzQju"> 
+                  <span xid="span10" __cid="c2AzQju" class="c2AzQju">投资总额</span> 
+                </div>  
+                <div class="x-col c2AzQju" xid="col7" __cid="c2AzQju"> 
+                  <span xid="span11" __cid="c2AzQju" class="c2AzQju" data-bind="text:ref(&quot;fNum&quot;)"/>  
+                  <span xid="span2" __cid="c2AzQju" class="c2AzQju">元</span> 
+                </div> 
+              </div>  
+              <div component="$model/UI2/system/components/justep/row/row" class="x-row c2AzQju" xid="row4" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c2AzQju"> 
+                <div class="x-col x-col-10 c2AzQju" xid="col11" style="text-align:right;" __cid="c2AzQju"> 
+                  <span xid="span12" class="circle circle2 c2AzQju" __cid="c2AzQju"/> 
+                </div>  
+                <div class="x-col c2AzQju" xid="col12" __cid="c2AzQju"> 
+                  <span xid="span13" __cid="c2AzQju" class="c2AzQju">待收总额</span> 
+                </div>  
+                <div class="x-col c2AzQju" xid="col10" __cid="c2AzQju"> 
+                  <span xid="span14" __cid="c2AzQju" class="c2AzQju" data-bind="text:ref(&quot;fDai&quot;)"/>  
+                  <span xid="span3" __cid="c2AzQju" class="c2AzQju">元</span> 
+                </div> 
+              </div>  
+              <div component="$model/UI2/system/components/justep/row/row" class="x-row c2AzQju" xid="row5" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c2AzQju"> 
+                <div class="x-col x-col-10 c2AzQju" xid="col14" style="text-align:right;" __cid="c2AzQju"> 
+                  <span xid="span15" class="circle circle3 c2AzQju" __cid="c2AzQju"/> 
+                </div>  
+                <div class="x-col c2AzQju" xid="col15" __cid="c2AzQju"> 
+                  <span xid="span16" __cid="c2AzQju" class="c2AzQju">预期收益</span> 
+                </div>  
+                <div class="x-col c2AzQju" xid="col13" __cid="c2AzQju"> 
+                  <span xid="span17" __cid="c2AzQju" class="c2AzQju" data-bind="text:ref(&quot;fYu&quot;)"/>  
+                  <span xid="span21" __cid="c2AzQju" class="c2AzQju">元</span> 
+                </div> 
+              </div>  
+              <div component="$model/UI2/system/components/justep/row/row" class="x-row c2AzQju" xid="row6" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c2AzQju"> 
+                <div class="x-col x-col-10 c2AzQju" xid="col17" style="text-align:right;" __cid="c2AzQju"> 
+                  <span xid="span18" class="circle circle4 c2AzQju" __cid="c2AzQju"/> 
+                </div>  
+                <div class="x-col c2AzQju" xid="col18" __cid="c2AzQju"> 
+                  <span xid="span19" __cid="c2AzQju" class="c2AzQju">已获收益</span> 
+                </div>  
+                <div class="x-col c2AzQju" xid="col16" __cid="c2AzQju"> 
+                  <span xid="span20" __cid="c2AzQju" class="c2AzQju" data-bind="text:ref(&quot;fEared&quot;)"/>  
+                  <span xid="span22" __cid="c2AzQju" class="c2AzQju">元</span> 
+                </div> 
+              </div> 
+            </div> 
+          </li> 
+        </ul> 
+      </div> 
+    </div>  
+    <style __cid="c2AzQju" class="c2AzQju">.x-panel.pd9965cacaa474e3b89f36013519b0607-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pd9965cacaa474e3b89f36013519b0607-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pd9965cacaa474e3b89f36013519b0607-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pd9965cacaa474e3b89f36013519b0607-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pd9965cacaa474e3b89f36013519b0607-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pd9965cacaa474e3b89f36013519b0607-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pd9965cacaa474e3b89f36013519b0607-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pd9965cacaa474e3b89f36013519b0607-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pd9965cacaa474e3b89f36013519b0607-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+  </div> 
+</div>

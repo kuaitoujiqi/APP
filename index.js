@@ -20,6 +20,9 @@ define(function(require){
 				"detail_project":{
 					url : require.toUrl('./detail_project.w')
 				},
+				"account":{
+					url : require.toUrl('./account.w')
+				},
 				"detail":{
 					url : require.toUrl('./detail.w')
 				},
