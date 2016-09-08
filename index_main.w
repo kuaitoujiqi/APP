@@ -10,10 +10,6 @@
   <column label="标题" name="title" type="String" xid="xid2"></column>
   <column label="年化利率" name="fRate" type="String" xid="xid3"></column>
   <column label="项目期限" name="fTime" type="String" xid="xid4"></column>
-  <rule xid="rule1">
-   <col name="fPostNumber" xid="ruleCol1">
-    <calculate xid="calculate1">
-     <expr xid="default1">$row.val(&quot;fPostNumber&quot;)&gt;=0?$row.val(&quot;fPostNumber&quot;)+&quot;跟贴&quot;:&quot;&quot;;</expr></calculate> </col> </rule>
   <column label="可购余额" name="fMoney" type="String" xid="xid5"></column>
   <column label="上线时间" name="fShang" type="String" xid="xid6"></column>
   <column label="借款总额" name="fTotal" type="String" xid="xid7"></column>
