@@ -111,7 +111,7 @@
     <div class="x-col x-col-67 fr" xid="col46">
      <span xid="span22">红包记录</span></div> 
     <div class="x-col" xid="col47">
-     <a component="$UI/system/components/justep/button/button" class="btn btn-primary" xid="button5" icon="icon-ios7-arrow-right" style="background-color:white;color:#C0C0C0;width:18px;" bind-click="platBtnClick">
+     <a component="$UI/system/components/justep/button/button" class="btn btn-primary" xid="button5" icon="icon-ios7-arrow-right" style="background-color:white;color:#C0C0C0;width:18px;" bind-click="hongbaoBtnClick">
       <i xid="i6" class="icon-ios7-arrow-right"></i>
       <span xid="span21"></span></a> </div> </div> 
    <div component="$UI/system/components/justep/row/row" class="x-row" xid="row18">

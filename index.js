@@ -14,6 +14,9 @@ define(function(require){
 				"list":{
 					url : require.toUrl('./list.w')
 				},
+				"hongbao":{
+					url : require.toUrl('./hongbao.w')
+				},
 				"recharge":{
 					url : require.toUrl('./recharge.w')
 				},
