@@ -18,7 +18,7 @@ define(function(require){
 					url : require.toUrl('./recharge.w')
 				},
 				"repayment1":{
-					url : require.toUrl('./repayment1')
+					url : require.toUrl('./repayment1.w')
 				},
 				"withdraw":{
 					url : require.toUrl('./withdraw.w')

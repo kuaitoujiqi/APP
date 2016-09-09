@@ -27,40 +27,40 @@
           </div>
         </div> 
       </div>  
-    <div class="x-panel-content" xid="content1"><div component="$UI/system/components/justep/button/buttonGroup" class="btn-group x-card btn-group-justified" tabbed="true" xid="buttonGroup1" style="background-color:white;">
-   <a component="$UI/system/components/justep/button/button" class="btn btn-default" label="投资" xid="button1">
-    <i xid="i1"></i>
-    <span xid="span1">投资</span></a> 
-   <a component="$UI/system/components/justep/button/button" class="btn btn-default" label="还款" xid="button2">
-    <i xid="i2"></i>
-    <span xid="span2">还款</span></a> 
-   <a component="$UI/system/components/justep/button/button" class="btn btn-default" label="充值" xid="button3">
-    <i xid="i3"></i>
-    <span xid="span3">充值</span></a> 
-   <a component="$UI/system/components/justep/button/button" class="btn btn-default" label="提现" xid="button4">
-    <i xid="i4"></i>
-    <span xid="span4">提现</span></a> </div>
-  <div xid="div1" style="background-color:white;" class="div1">
-   <div component="$UI/system/components/justep/list/list" class="x-list" xid="list1" data="investData">
-    <ul class="x-list-template" xid="listTemplateUl1">
-     <li xid="li1">
-      <div component="$UI/system/components/justep/row/row" class="x-row" xid="row1">
-       <div class="x-col x-col-1" xid="col3">
-        <span xid="span5" bind-text='ref("fTitle")'></span></div> </div> 
-      <div component="$UI/system/components/justep/row/row" class="x-row" xid="row2">
-       <div class="x-col" xid="col4" style="text-align:center;">
-        <span xid="span6" bind-text='ref("fRecharge")' style="color:#487BEE;font-size:20px;"></span>
-        <span xid="span12">元</span></div> 
-       <div class="x-col" xid="col5" style="text-align:center;">
-        <span xid="span7" bind-text='ref("fStatus")' style="font-size:20px;background-color:#FFFFFF;color:#487BEE;"></span></div> 
-       <div class="x-col" xid="col6" style="text-align:center;">
-        <span xid="span8" bind-text='ref("fTime")' style="font-size:20px;background-color:#FFFFFF;color:#487BEE;"></span></div> </div> 
-      <div component="$UI/system/components/justep/row/row" class="x-row" xid="row3">
-       <div class="x-col" xid="col7" style="text-align:center;">
-        <span xid="span9"><![CDATA[充值金额]]></span></div> 
-       <div class="x-col" xid="col8" style="text-align:center;">
-        <span xid="span10">状态</span></div> 
-       <div class="x-col" xid="col9" style="text-align:center;">
-        <span xid="span11">日期</span></div> </div> </li> </ul> </div> </div></div>
+    <div class="x-panel-content" xid="content1"><div component="$UI/system/components/justep/button/buttonGroup" class="btn-group x-card btn-group-justified" tabbed="true" xid="buttonGroup2" style="background-color:white;">
+   <a component="$UI/system/components/justep/button/button" class="btn btn-default" label="投资" xid="button8" bind-click="invest1BtnClick">
+    <i xid="i5"></i>
+    <span xid="span16">投资</span></a> 
+   <a component="$UI/system/components/justep/button/button" class="btn btn-default" label="还款" xid="button6" bind-click="repayBtnClick">
+    <i xid="i6"></i>
+    <span xid="span13">还款</span></a> 
+   <a component="$UI/system/components/justep/button/button" class="btn btn-default" label="充值" xid="button7" bind-click="rechargeBtnClick">
+    <i xid="i7"></i>
+    <span xid="span14">充值</span></a> 
+   <a component="$UI/system/components/justep/button/button" class="btn btn-default" label="提现" xid="button5" bind-click="withdrawBtnClick">
+    <i xid="i8"></i>
+    <span xid="span15">提现</span></a> </div>
+  <div xid="div2" style="background-color:white;" class="div2">
+   <div component="$UI/system/components/justep/list/list" class="x-list" xid="list2" data="investData">
+    <ul class="x-list-template" xid="listTemplateUl2">
+     <li xid="li2">
+      <div component="$UI/system/components/justep/row/row" class="x-row" xid="row4">
+       <div class="x-col x-col-1" xid="col14">
+        <span xid="span1" bind-text='ref("fTitle")'></span></div> </div> 
+      <div component="$UI/system/components/justep/row/row" class="x-row" xid="row6">
+       <div class="x-col" xid="col12" style="text-align:center;">
+        <span xid="span2" bind-text='ref("fRecharge")' style="color:#487BEE;font-size:20px;"></span>
+        <span xid="span19">元</span></div> 
+       <div class="x-col" xid="col13" style="text-align:center;">
+        <span xid="span3" bind-text='ref("fStatus")' style="font-size:20px;background-color:#FFFFFF;color:#487BEE;"></span></div> 
+       <div class="x-col" xid="col10" style="text-align:center;">
+        <span xid="span4" bind-text='ref("fTime")' style="font-size:20px;background-color:#FFFFFF;color:#487BEE;"></span></div> </div> 
+      <div component="$UI/system/components/justep/row/row" class="x-row" xid="row5">
+       <div class="x-col" xid="col11" style="text-align:center;">
+        <span xid="span17">充值金额</span></div> 
+       <div class="x-col" xid="col1" style="text-align:center;">
+        <span xid="span18">状态</span></div> 
+       <div class="x-col" xid="col2" style="text-align:center;">
+        <span xid="span20">日期</span></div> </div> </li> </ul> </div> </div></div>
   </div> 
 </div>
