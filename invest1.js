@@ -9,12 +9,14 @@ define(function(require){
 		var investData = event.source;
         $.ajax({
             type: "GET",
-            url: require.toUrl('./json/investData.json'),
+//            url: require.toUrl('./json/investData.json'),
+            url: require.toUrl('https://m.kuaitoujiqi.com/app/usercenter/invest'),
             dataType: 'json',
             async: false,
             cache: false,
             success: function(data){
-            	investData.loadData(data);//将返回的数据加载到data组件
+            	console.log(data);
+            	investData.loadData(data.data);//将返回的数据加载到data组件
             },
             error: function(){
               throw justep.Error.create("加载数据失败");
