@@ -12,12 +12,13 @@ define(function(require){
 		var owerData = event.source;
         $.ajax({
             type: "GET",
-            url: require.toUrl('./json/owerData.json'),
+//            url: require.toUrl('./json/owerData.json'),
+            url: require.toUrl('https://m.kuaitoujiqi.com/app/usercenter/index'),
             dataType: 'json',
             async: false,
             cache: false,
             success: function(data){
-            	owerData.loadData(data);//将返回的数据加载到data组件
+            	owerData.loadData(data.data);//将返回的数据加载到data组件
             },
             error: function(){
               throw justep.Error.create("加载数据失败");
