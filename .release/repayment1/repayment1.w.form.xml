@@ -3,7 +3,7 @@
 <div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cnQJfme" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cnQJfme" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/button/buttonGroup,$model/UI2/system/components/justep/panel/panel,">
   <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.btn-group.cnQJfme{border: 1px solid rgb(238, 238, 238)} .x-panel-content.cnQJfme{background-color: rgb(244, 241, 255)} .div1.cnQJfme{margin-top: 10px} .x-col-1.cnQJfme{border-bottom: 1px solid rgb(238, 238, 238)}</xhtml:style>  
   <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cnQJfme" class="cnQJfme"></div>  
-  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p2628adf50ddc4c3caac431c9d40d3597-iosstatusbar cnQJfme" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cnQJfme"> 
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pa4a042e04dc44e298ff61e9220dfaf9e-iosstatusbar cnQJfme" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cnQJfme"> 
     <div class="x-panel-top cnQJfme" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cnQJfme"> 
       <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cnQJfme" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;还款记录&quot;}" __cid="cnQJfme"> 
         <div class="x-titlebar-left cnQJfme" __cid="cnQJfme"> 
@@ -48,16 +48,16 @@
               </div>  
               <div component="$model/UI2/system/components/justep/row/row" class="x-row cnQJfme" xid="row2" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cnQJfme"> 
                 <div class="x-col cnQJfme" xid="col4" style="text-align:center;" __cid="cnQJfme"> 
-                  <span xid="span6" bind-text="ref(&quot;fMoney&quot;)" style="color:#487BEE;font-size:20px;" __cid="cnQJfme" class="cnQJfme"/>  
+                  <span xid="span6" bind-text="ref(&quot;fRepay&quot;)" style="color:#487BEE;font-size:20px;" __cid="cnQJfme" class="cnQJfme"/>  
                   <span xid="span12" __cid="cnQJfme" class="cnQJfme">元</span>
                 </div>  
                 <div class="x-col cnQJfme" xid="col5" style="text-align:center;" __cid="cnQJfme"> 
-                  <span xid="span7" bind-text="ref(&quot;fTime&quot;)" style="font-size:20px;background-color:#487BEE;" __cid="cnQJfme" class="cnQJfme"/>
+                  <span xid="span7" bind-text="ref(&quot;fTime&quot;)" style="font-size:20px;background-color:#FFFFFF;color:#487BEE;" __cid="cnQJfme" class="cnQJfme"/>
                 </div> 
               </div>  
               <div component="$model/UI2/system/components/justep/row/row" class="x-row cnQJfme" xid="row3" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cnQJfme"> 
                 <div class="x-col cnQJfme" xid="col7" style="text-align:center;" __cid="cnQJfme"> 
-                  <span xid="span9" __cid="cnQJfme" class="cnQJfme">投资金额</span>
+                  <span xid="span9" __cid="cnQJfme" class="cnQJfme">还款金额</span>
                 </div>  
                 <div class="x-col cnQJfme" xid="col8" style="text-align:center;" __cid="cnQJfme"> 
                   <span xid="span10" __cid="cnQJfme" class="cnQJfme">投资日期</span>
@@ -68,6 +68,6 @@
         </div> 
       </div>
     </div>  
-    <style __cid="cnQJfme" class="cnQJfme">.x-panel.p2628adf50ddc4c3caac431c9d40d3597-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p2628adf50ddc4c3caac431c9d40d3597-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p2628adf50ddc4c3caac431c9d40d3597-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p2628adf50ddc4c3caac431c9d40d3597-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p2628adf50ddc4c3caac431c9d40d3597-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p2628adf50ddc4c3caac431c9d40d3597-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p2628adf50ddc4c3caac431c9d40d3597-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p2628adf50ddc4c3caac431c9d40d3597-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p2628adf50ddc4c3caac431c9d40d3597-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+    <style __cid="cnQJfme" class="cnQJfme">.x-panel.pa4a042e04dc44e298ff61e9220dfaf9e-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pa4a042e04dc44e298ff61e9220dfaf9e-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pa4a042e04dc44e298ff61e9220dfaf9e-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pa4a042e04dc44e298ff61e9220dfaf9e-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pa4a042e04dc44e298ff61e9220dfaf9e-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pa4a042e04dc44e298ff61e9220dfaf9e-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pa4a042e04dc44e298ff61e9220dfaf9e-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pa4a042e04dc44e298ff61e9220dfaf9e-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pa4a042e04dc44e298ff61e9220dfaf9e-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
   </div> 
 </div>

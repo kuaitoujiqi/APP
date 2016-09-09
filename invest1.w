@@ -28,13 +28,13 @@
     <div class="x-panel-content" xid="content1"><div component="$UI/system/components/justep/button/buttonGroup" class="btn-group x-card btn-group-justified" tabbed="true" xid="buttonGroup1" style="background-color:white;"><a component="$UI/system/components/justep/button/button" class="btn btn-default" label="投资" xid="button1">
    <i xid="i1"></i>
    <span xid="span1">投资</span></a>
-  <a component="$UI/system/components/justep/button/button" class="btn btn-default" label="还款" xid="button2">
+  <a component="$UI/system/components/justep/button/button" class="btn btn-default" label="还款" xid="button2" bind-click="repayBtnClick">
    <i xid="i2"></i>
    <span xid="span2">还款</span></a>
-  <a component="$UI/system/components/justep/button/button" class="btn btn-default" label="充值" xid="button3">
+  <a component="$UI/system/components/justep/button/button" class="btn btn-default" label="充值" xid="button3" bind-click="rechargeBtnClick">
    <i xid="i3"></i>
    <span xid="span3">充值</span></a>
-  <a component="$UI/system/components/justep/button/button" class="btn btn-default" label="提现" xid="button4">
+  <a component="$UI/system/components/justep/button/button" class="btn btn-default" label="提现" xid="button4" bind-click="withdrawBtnClick">
    <i xid="i4"></i>
    <span xid="span4">提现</span></a></div>
   <div xid="div1" style="background-color:white;" class="div1"><div component="$UI/system/components/justep/list/list" class="x-list" xid="list1" data="investData">

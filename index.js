@@ -14,6 +14,15 @@ define(function(require){
 				"list":{
 					url : require.toUrl('./list.w')
 				},
+				"recharge":{
+					url : require.toUrl('./recharge.w')
+				},
+				"repayment1":{
+					url : require.toUrl('./repayment1')
+				},
+				"withdraw":{
+					url : require.toUrl('./withdraw.w')
+				},
 				"invest1":{
 					url : require.toUrl('./invest1.w')
 				},

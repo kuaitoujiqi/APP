@@ -21,6 +21,15 @@ define(function(require){
             }
         });	
 	};
+	Model.prototype.repayBtnClick = function(event){
+		justep.Shell.showPage("repayment1");
+	};	
+	Model.prototype.rechargeBtnClick = function(event){
+		justep.Shell.showPage("recharge");
+	};	
+	Model.prototype.withdrawBtnClick = function(event){
+		justep.Shell.showPage("withdraw");
+	};	
 
 	return Model;
 });

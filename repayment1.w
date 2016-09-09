@@ -6,7 +6,9 @@
    <column label="项目名称" name="fTitle" type="String" xid="xid2"></column>
    <column label="项目金额" name="fMoney" type="String" xid="xid3"></column>
    <column label="投资日期" name="fTime" type="String" xid="xid4"></column>
-   <column label="状态" name="fStatus" type="String" xid="xid5"></column></div></div>  
+   <column label="状态" name="fStatus" type="String" xid="xid5"></column>
+   <column label="充值金额" name="fRecharge" type="String" xid="xid6"></column>
+   <column label="还款金额" name="fRepay" type="String" xid="xid7"></column></div></div>  
   <div component="$UI/system/components/justep/panel/panel" 
     class="x-panel x-full" xid="panel1"> 
       <div class="x-panel-top" xid="top1"> 
@@ -47,14 +49,14 @@
         <span xid="span5" bind-text='ref("fTitle")'></span></div> </div> 
       <div component="$UI/system/components/justep/row/row" class="x-row" xid="row2">
        <div class="x-col" xid="col4" style="text-align:center;">
-        <span xid="span6" bind-text='ref("fMoney")' style="color:#487BEE;font-size:20px;"></span>
+        <span xid="span6" bind-text='ref("fRepay")' style="color:#487BEE;font-size:20px;"></span>
         <span xid="span12">元</span></div> 
        <div class="x-col" xid="col5" style="text-align:center;">
-        <span xid="span7" bind-text='ref("fTime")' style="font-size:20px;background-color:#487BEE;"></span></div> 
+        <span xid="span7" bind-text='ref("fTime")' style="font-size:20px;background-color:#FFFFFF;color:#487BEE;"></span></div> 
        </div> 
       <div component="$UI/system/components/justep/row/row" class="x-row" xid="row3">
        <div class="x-col" xid="col7" style="text-align:center;">
-        <span xid="span9">投资金额</span></div> 
+        <span xid="span9"><![CDATA[还款金额]]></span></div> 
        <div class="x-col" xid="col8" style="text-align:center;">
         <span xid="span10">投资日期</span></div> 
        </div> </li> </ul> </div> </div></div>
