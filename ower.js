@@ -31,6 +31,9 @@ define(function(require){
 	Model.prototype.investBtnClick = function(event){
 		justep.Shell.showPage("invest1");
 	};
+	Model.prototype.hongbaoBtnClick = function(event){
+		justep.Shell.showPage("hongbao");
+	};
 	Model.prototype.contentActive = function(event){
 		var windowContainer = event.source.getContent(event.source.getActiveXid()).$domNode.children();
 		this.comp(windowContainer.get(0)).refresh();

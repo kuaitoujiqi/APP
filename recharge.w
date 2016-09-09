@@ -57,7 +57,7 @@
         <span xid="span8" bind-text='ref("fTime")' style="font-size:20px;background-color:#FFFFFF;color:#487BEE;"></span></div> </div> 
       <div component="$UI/system/components/justep/row/row" class="x-row" xid="row3">
        <div class="x-col" xid="col7" style="text-align:center;">
-        <span xid="span9">投资金额</span></div> 
+        <span xid="span9"><![CDATA[充值金额]]></span></div> 
        <div class="x-col" xid="col8" style="text-align:center;">
         <span xid="span10">状态</span></div> 
        <div class="x-col" xid="col9" style="text-align:center;">
