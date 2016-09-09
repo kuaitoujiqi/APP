@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <div xmlns="http://www.w3.org/1999/xhtml" component="$UI/system/components/justep/window/window" design="device:m;" xid="window" class="window">  
-  <div component="$UI/system/components/justep/model/model" xid="model" style="left:18px;top:83px;height:244px;"> 
+  <div component="$UI/system/components/justep/model/model" xid="model" style="top:458px;left:536px;height:auto;"> 
   <div component="$UI/system/components/justep/data/data" autoLoad="true" xid="investData" idColumn="id" onCustomRefresh="investDataCustomRefresh"><column label="ID" name="id" type="String" xid="xid1"></column>
   <column label="项目名称" name="fTitle" type="String" xid="xid2"></column>
   <column label="项目金额" name="fMoney" type="String" xid="xid3"></column>
@@ -43,10 +43,10 @@
    <div class="x-col x-col-1" xid="col3"><span xid="span5" bind-text='ref("fTitle")'></span>
   </div></div>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row2">
-   <div class="x-col" xid="col4" style="text-align:center;"><span xid="span6" bind-text='ref("fMoney")'></span>
+   <div class="x-col" xid="col4" style="text-align:center;"><span xid="span6" bind-text='ref("fMoney")' style="color:#487BEE;font-size:20px;"></span>
   <span xid="span12">元</span></div>
-   <div class="x-col" xid="col5" style="text-align:center;"><span xid="span7" bind-text='ref("fTime")'></span></div>
-   <div class="x-col" xid="col6" style="text-align:center;"><span xid="span8" bind-text='ref("fStatus")'></span></div></div>
+   <div class="x-col" xid="col5" style="text-align:center;"><span xid="span7" bind-text='ref("fTime")' style="font-size:20px;background-color:#487BEE;"></span></div>
+   <div class="x-col" xid="col6" style="text-align:center;"><span xid="span8" bind-text='ref("fStatus")' style="font-size:20px;background-color:#000000;"></span></div></div>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row3">
    <div class="x-col" xid="col7" style="text-align:center;"><span xid="span9"><![CDATA[投资金额]]></span></div>
    <div class="x-col" xid="col8" style="text-align:center;"><span xid="span10"><![CDATA[投资日期]]></span></div>

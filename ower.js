@@ -27,6 +27,9 @@ define(function(require){
 	Model.prototype.platBtnClick = function(event){
 		justep.Shell.showPage("account");
 	};
+	Model.prototype.investBtnClick = function(event){
+		justep.Shell.showPage("invest1");
+	};
 	Model.prototype.contentActive = function(event){
 		var windowContainer = event.source.getContent(event.source.getActiveXid()).$domNode.children();
 		this.comp(windowContainer.get(0)).refresh();

@@ -2,11 +2,12 @@
 	padding:30px 0px;
 }
 .div5,.div7{
-	margin:10px 0px;
+	margin:20px 0px;
 	background-color:#fff;
 }
 .x-panel-content{
 background-color:#f3f1ff;
+padding-top:0px;
 }
 .fr{
 	padding-left:15px;
@@ -14,4 +15,13 @@ background-color:#f3f1ff;
 }
 .btn-primary{
 	border:0px;
+}
+.x-list,.x-list-template,.list-group-item {
+	padding:0px;
+}
+.row25{
+	margin-top:10px;
+}
+.row23{
+	padding:0px;
 }

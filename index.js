@@ -14,6 +14,9 @@ define(function(require){
 				"list":{
 					url : require.toUrl('./list.w')
 				},
+				"invest1":{
+					url : require.toUrl('./invest1.w')
+				},
 				"ower":{
 					url : require.toUrl('./ower.w')
 				},
