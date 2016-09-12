@@ -27,7 +27,7 @@ define(function(require) {
             async: false,
             cache: false,
             success: function(data){
-            	newsData.loadData(data.data.bulk);//将返回的数据加载到data组件
+            	newsData.loadData(data.data.bulk)//到data组件
             },
             error: function(){
               throw justep.Error.create("加载数据失败");
