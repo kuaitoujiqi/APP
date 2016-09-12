@@ -16,12 +16,14 @@ define(function(require) {
 		var newsData = event.source;
         $.ajax({
             type: "GET",
-            url: require.toUrl('./json/newsData_in_server.json'),
+//            url: require.toUrl('./json/newsData_in_server.json'),
+            url: require.toUrl('https://m.kuaitoujiqi.com/app/welcome/bulk_standard_list'),
             dataType: 'json',
             async: false,
             cache: false,
             success: function(data){
-            	newsData.loadData(data);//将返回的数据加载到data组件
+            	console.log(data);
+            	newsData.loadData(data.data.result);//将返回的数据加载到data组件
             },
             error: function(){
               throw justep.Error.create("加载数据失败");
