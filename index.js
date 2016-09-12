@@ -62,8 +62,8 @@ define(function(require){
 				"contact":{
 					url : require.toUrl('./contact.w')
 				},
-				"infore_wo":{
-					url : require.toUrl('./infore_wo.w')
+				"infore":{
+					url : require.toUrl('./infore.w')
 				},
 				"view":{
 					url : require.toUrl('./view.w')

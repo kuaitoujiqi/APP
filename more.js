@@ -20,11 +20,12 @@ define(function(require){
 	Model.prototype.contactBtnClick = function(event){
 		justep.Shell.showPage("contact");
 	};
-	Model.prototype.inforeBtnClick = function(event){
-		justep.Shell.showPage("infore_wo");
-	};
+
 	Model.prototype.viewBtnClick = function(event){
 		justep.Shell.showPage("view");
+	};
+	Model.prototype.inforeBtnClick = function(event){
+		justep.Shell.showPage("infore");
 	};
 
 	return Model;

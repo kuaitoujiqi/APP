@@ -10,7 +10,6 @@ require('$model/UI2/system/components/bootstrap/progress/progress');
 require('$model/UI2/system/components/justep/windowContainer/windowContainer');
 require('$model/UI2/system/components/bootstrap/carousel/carousel');
 require('$model/UI2/system/components/justep/row/row');
-require('$model/UI2/system/components/justep/titleBar/titleBar');
 require('$model/UI2/system/components/justep/contents/contents');
 require('$model/UI2/system/components/justep/data/data');
 require('$model/UI2/system/components/justep/window/window');
