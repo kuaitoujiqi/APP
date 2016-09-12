@@ -4,6 +4,9 @@
   <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.div1.cBzINZn{margin-bottom: 10px}</xhtml:style>  
   <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cBzINZn" class="cBzINZn"></div>  
 <<<<<<< HEAD
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p81c7c5ce11744a17842ed24516e8bb2d-iosstatusbar cBzINZn" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cBzINZn"> 
+=======
+<<<<<<< HEAD
   <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p92e553c4a72d42abb19ecce9068dd7ff-iosstatusbar cBzINZn" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cBzINZn"> 
 =======
 <<<<<<< HEAD
@@ -12,6 +15,7 @@
   <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p41439b0454534ec384359c5c1d3d9478-iosstatusbar cBzINZn" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cBzINZn"> 
 >>>>>>> 4fbdc1085dc76683feaaa29c03af4a8faee6a537
 >>>>>>> 5274d3bd1b41831247343df1bad6e911732b5892
+>>>>>>> 61144648706a1c114fbe464cfef63b54a85b31b3
     <div class="x-panel-top cBzINZn" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cBzINZn"> 
       <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cBzINZn" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;红包记录&quot;}" __cid="cBzINZn"> 
         <div class="x-titlebar-left cBzINZn" __cid="cBzINZn"> 
@@ -59,6 +63,9 @@
       </div>
     </div>  
 <<<<<<< HEAD
+    <style __cid="cBzINZn" class="cBzINZn">.x-panel.p81c7c5ce11744a17842ed24516e8bb2d-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p81c7c5ce11744a17842ed24516e8bb2d-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p81c7c5ce11744a17842ed24516e8bb2d-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p81c7c5ce11744a17842ed24516e8bb2d-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p81c7c5ce11744a17842ed24516e8bb2d-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p81c7c5ce11744a17842ed24516e8bb2d-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p81c7c5ce11744a17842ed24516e8bb2d-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p81c7c5ce11744a17842ed24516e8bb2d-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p81c7c5ce11744a17842ed24516e8bb2d-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+=======
+<<<<<<< HEAD
     <style __cid="cBzINZn" class="cBzINZn">.x-panel.p92e553c4a72d42abb19ecce9068dd7ff-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p92e553c4a72d42abb19ecce9068dd7ff-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p92e553c4a72d42abb19ecce9068dd7ff-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p92e553c4a72d42abb19ecce9068dd7ff-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p92e553c4a72d42abb19ecce9068dd7ff-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p92e553c4a72d42abb19ecce9068dd7ff-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p92e553c4a72d42abb19ecce9068dd7ff-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p92e553c4a72d42abb19ecce9068dd7ff-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p92e553c4a72d42abb19ecce9068dd7ff-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
 =======
 <<<<<<< HEAD
@@ -67,5 +74,6 @@
     <style __cid="cBzINZn" class="cBzINZn">.x-panel.p41439b0454534ec384359c5c1d3d9478-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p41439b0454534ec384359c5c1d3d9478-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p41439b0454534ec384359c5c1d3d9478-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p41439b0454534ec384359c5c1d3d9478-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p41439b0454534ec384359c5c1d3d9478-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p41439b0454534ec384359c5c1d3d9478-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p41439b0454534ec384359c5c1d3d9478-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p41439b0454534ec384359c5c1d3d9478-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p41439b0454534ec384359c5c1d3d9478-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
 >>>>>>> 4fbdc1085dc76683feaaa29c03af4a8faee6a537
 >>>>>>> 5274d3bd1b41831247343df1bad6e911732b5892
+>>>>>>> 61144648706a1c114fbe464cfef63b54a85b31b3
   </div> 
 </div>

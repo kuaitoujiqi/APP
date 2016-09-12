@@ -43,7 +43,7 @@
       <span xid="span4">债权转让</span></a> </div> </div> 
    <div class="x-panel-content" xid="content2">
     <div xid="div16" style="position:relative;top:10px;">
-     <div component="$UI/system/components/justep/list/list" class="x-list" limit="3" xid="list2" data="newsData">
+     <div component="$UI/system/components/justep/list/list" class="x-list" limit="50" xid="list2" data="newsData">
       <ul class="x-list-template" xid="listTemplateUl1" bind-click="detailClick">
        <li xid="li1" class="list-group-item x-flex   img_home">
         <div class="x-flex1" xid="div3">

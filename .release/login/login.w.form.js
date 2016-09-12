@@ -9,14 +9,14 @@ require('$model/UI2/system/components/justep/panel/child');
 require('$model/UI2/system/components/justep/window/window');
 require('$model/UI2/system/components/justep/panel/panel');
 var __parent1=require('$model/UI2/system/lib/base/modelBase'); 
-var __parent0=require('$model/UI2/kuaitou/login'); 
+var __parent0=require('$model/UI2/APP/login'); 
 var __result = __parent1._extend(__parent0).extend({
 	constructor:function(contextUrl){
 	this.__sysParam='true';
 	this.__contextUrl=contextUrl;
 	this.__id='';
-	this.__cid='cNveyAf';
-	this._flag_='5bae4bd5bf3be03f4aaad50658a60d8d';
+	this.__cid='cBRrUry';
+	this._flag_='3834dd7abc1cde1c2b5e2f578f504c1f';
 	this.callParent(contextUrl);
 }}); 
 return __result;});
