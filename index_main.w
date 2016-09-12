@@ -3,7 +3,7 @@
 <div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window" component="$UI/system/components/justep/window/window" design="device:m;">  
   <div component="$UI/system/components/justep/model/model" xid="model"><div component="$UI/system/components/justep/data/data" autoLoad="true" xid="newsData" idColumn="fID" onCustomRefresh="productDataCustomRefresh">
    <column label="id" name="fID" type="String" xid="xid1"></column>
-  <column label="标题" name="title" type="String" xid="xid2"></column>
+  <column label="标题" name="fTitle" type="String" xid="xid2"></column>
   <column label="年化利率" name="fRate" type="String" xid="xid3"></column>
   <column label="项目期限" name="fTime" type="String" xid="xid4"></column>
   <column label="可购余额" name="fMoney" type="String" xid="xid5"></column>
@@ -30,15 +30,16 @@
     <img alt="" xid="image5" id="image5" class="image-wall img1" bind-attr-src="$model.getImageUrl('./img/gongying.jpg')"></img></div> </div></div> 
         
         <div xid="div1"><div component="$UI/system/components/justep/row/row" class="x-row" xid="row1" style="background-color:white;">
-   <div class="x-col" xid="col1" style="padding-top:30px;padding-bottom:10px;text-align:center;"><img src="$UI/APP/img/index_03.jpg" alt="" xid="image1"></img>
-  <div xid="div2" style="padding-top:10px;"><span xid="span1"><![CDATA[安全保障]]></span></div></div>
-   <div class="x-col" xid="col2" style="text-align:center;padding-top:30px;padding-bottom:10px;"><img src="$UI/APP/img/index_05.jpg" alt="" xid="image2"></img>
+   <div class="x-col" xid="col1" style="padding-top:30px;padding-bottom:10px;text-align:center;" bind-click="safetyClick"><img src="$UI/APP/img/index_03.jpg" alt="" xid="image1"></img>
+  <div xid="div2" style="padding-top:10px;"><span xid="span1"><![CDATA[安全保障]]></span></div>
+  </div>
+   <div class="x-col" xid="col2" style="text-align:center;padding-top:30px;padding-bottom:10px;" bind-click="riskClick"><img src="$UI/APP/img/index_05.jpg" alt="" xid="image2"></img>
   <div xid="div3" style="padding-top:10px;">
    <span xid="span2"><![CDATA[风控体系]]></span></div></div>
    <div class="x-col" xid="col3" style="text-align:center;padding-top:30px;padding-bottom:10px;"><img src="$UI/APP/img/index_07.jpg" alt="" xid="image4"></img>
   <div xid="div4" style="padding-top:10px;">
    <span xid="span3"><![CDATA[网站公告]]></span></div></div>
-  <div class="x-col" xid="col4" style="text-align:center;padding-top:30px;padding-bottom:10px;"><img src="$UI/APP/img/index_09.jpg" alt="" xid="image6"></img>
+  <div class="x-col" xid="col4" style="text-align:center;padding-top:30px;padding-bottom:10px;" bind-click="loginClick"><img src="$UI/APP/img/index_09.jpg" alt="" xid="image6"></img>
   <div xid="div5" style="padding-top:10px;">
    <span xid="span4"><![CDATA[启动机器]]></span></div></div></div></div>
   <div xid="div6" style="margin-top:10px;background-color:white;">
@@ -58,7 +59,7 @@
        
        
        
-  <h5 bind-text='ref("title")' xid="h51" style="height:20px;"></h5><div component="$UI/system/components/justep/row/row" class="x-row" xid="row4">
+  <h5 bind-text=' ref("fTitle")' xid="h51" style="height:20px;"></h5><div component="$UI/system/components/justep/row/row" class="x-row" xid="row4">
    <div class="x-col x-col-33 x-col-center" xid="col8" style="text-align:center;">
     <span xid="span11" bind-text=' val("fRate")'></span></div> 
    <div class="x-col x-col-33 x-col-center" xid="col5" style="text-align:center;">

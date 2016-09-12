@@ -34,19 +34,23 @@ define(function(require) {
             }
         });	
 	};
-	//进入列表页
-	Model.prototype.listClick = function(event){
+	//进入安全保障
+	Model.prototype.safetyClick = function(event){
 		justep.Shell.showPage("safety");
 	};
 		
-	//进入内容页
+	//进入项目列表
 	Model.prototype.detailClick = function(event){
 		justep.Shell.showPage("list");
 	};	
 	
-	//24小时要闻
-	Model.prototype.importantBtnClick = function(event){
+	//进入风控体系
+	Model.prototype.riskClick = function(event){
 		justep.Shell.showPage("risk");
+	};	
+	//进入登录
+	Model.prototype.loginClick = function(event){
+		justep.Shell.showPage("login");
 	};	
 	
 	//下滑显示搜索
