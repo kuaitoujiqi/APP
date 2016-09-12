@@ -1,35 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cYNN77f" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cYNN77f" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/bootstrap/progress/progress,$model/UI2/system/components/justep/windowContainer/windowContainer,$model/UI2/system/components/bootstrap/carousel/carousel,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/button/buttonGroup,,">
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cYNN77f" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cYNN77f" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/bootstrap/progress/progress,$model/UI2/system/components/justep/windowContainer/windowContainer,$model/UI2/system/components/bootstrap/carousel/carousel,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/button/buttonGroup,,">
   <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">h4.cYNN77f, h5.cYNN77f, .h5.cYNN77f, .h6.cYNN77f{color: rgb(85, 85, 85)} .text-white.cYNN77f{color: rgb(255, 255, 255)} .text-success.cYNN77f{color: rgb(50, 189, 96)} .text-danger.cYNN77f{color: rgb(255, 119, 103)} .x-titlebar.cYNN77f{background: none} .x-titlebar.cYNN77f .x-titlebar-title.cYNN77f{padding: 5px 0} .x-titlebar.cYNN77f .x-titlebar-right.cYNN77f .btn.cYNN77f{padding-left: 0} .x-cards.cYNN77f{padding-top: 0px} .img5.cYNN77f{width: 48px; height: 48px} .btn.cYNN77f i.cYNN77f{font-size: 20px} .x-noborder.table.cYNN77f &gt; tbody.cYNN77f &gt; tr.cYNN77f &gt; td.cYNN77f{border: 0} .x-fill.table.cYNN77f &gt; tbody.cYNN77f &gt; tr.cYNN77f &gt; td.cYNN77f{padding: 0} .table-bordered.cYNN77f &gt; thead.cYNN77f &gt; tr.cYNN77f &gt; th.cYNN77f, .table-bordered.cYNN77f &gt; tbody.cYNN77f &gt; tr.cYNN77f &gt; th.cYNN77f, .table-bordered.cYNN77f &gt; tfoot.cYNN77f &gt; tr.cYNN77f &gt; th.cYNN77f, .table-bordered.cYNN77f &gt; thead.cYNN77f &gt; tr.cYNN77f &gt; td.cYNN77f, .table-bordered.cYNN77f &gt; tbody.cYNN77f &gt; tr.cYNN77f &gt; td.cYNN77f, .table-bordered.cYNN77f &gt; tfoot.cYNN77f &gt; tr.cYNN77f &gt; td.cYNN77f{border: 1px solid rgba(90, 90, 90, 0.05)} .iSale.cYNN77f td.cYNN77f{position: relative} .iSale.cYNN77f td.cYNN77f &gt; img.cYNN77f{width: 100%} .iSale.cYNN77f td.cYNN77f &gt; .text.cYNN77f{width: 100%; position: absolute; left: 0; bottom: 0} .iSale.cYNN77f td.cYNN77f &gt; .text.cYNN77f h5.cYNN77f:last-child{font-weight: bold} .x-tuniu.btn-group.cYNN77f{background-color: rgb(255, 255, 255)} .x-tuniu.btn-group.cYNN77f .btn.cYNN77f{border-top: 0} .x-tuniu.btn-group.cYNN77f .btn.cYNN77f span.cYNN77f{font-size: 12px; font-weight: normal} .x-tuniu.btn-group.cYNN77f .btn.cYNN77f:hover, .x-card.btn-group.cYNN77f .btn.active.cYNN77f{color: rgb(50, 189, 96); padding: 0; border-top: 0} .x-tuniu.panel.cYNN77f{margin-bottom: 10px} .x-tuniu.panel.cYNN77f &gt; .panel-heading.cYNN77f .panel-title.cYNN77f{color: rgb(51, 51, 51)} .x-tuniu.cYNN77f .panel-heading.cYNN77f, .x-tuniu.cYNN77f ul.cYNN77f{border-bottom: 0} .x-tuniu.cYNN77f .list-group-item.cYNN77f{border-radius: 0} .x-tuniu.cYNN77f .list-group-item.cYNN77f:last-child{border-bottom: 0} .x-tuniu.cYNN77f .x-nobarder.cYNN77f{border: 0} .iEnsure.cYNN77f{margin-top: 15px; padding-top: 15px; border-top: 1px solid rgba(90, 90, 90, 0.1)} .iEnsure.cYNN77f .badge.cYNN77f{display: block; width: 120px; line-height: 20px; margin: 0 auto; background-color: rgb(176, 186, 196); font-size: 14px; border-radius: 15px} .iEnsure.cYNN77f .btn-group.cYNN77f{width: 80%; margin: 0 auto} .iEnsure.cYNN77f .btn-group.cYNN77f .btn.cYNN77f{color: rgb(176, 186, 196)}</xhtml:style>  
   <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onLoad:modelLoad" __cid="cYNN77f" class="cYNN77f"/>  
   <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full cYNN77f" xid="pages" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0,&quot;swipe&quot;:false}" __cid="cYNN77f"> 
     <div class="x-contents-content active cYNN77f" xid="main" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cYNN77f"> 
       <div component="$model/UI2/system/components/justep/windowContainer/windowContainer" class="x-window-container cYNN77f" xid="windowContainer1" __component-context__="block" data-bind="component:{name:'$model/UI2/system/components/justep/windowContainer/windowContainer'}" data-config="{&quot;src&quot;:&quot;$model/UI2/APP/index_main.w&quot;}" __cid="cYNN77f">
-        <div class="main13 cUF7Nna" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cUF7Nna" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/bootstrap/progress/progress,$model/UI2/system/components/justep/windowContainer/windowContainer,$model/UI2/system/components/bootstrap/carousel/carousel,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/button/buttonGroup,">  
-          <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">h5.cUF7Nna, .h5.cUF7Nna{color: rgb(0, 0, 0); font-size: 16px} .text-danger.cUF7Nna{color: rgb(234, 65, 60)} .text-black.cUF7Nna{color: rgb(0, 0, 0)} .x-panel-top.cUF7Nna .x-titlebar.cUF7Nna{background-color: rgb(234, 65, 60)} .x-titlebar.cUF7Nna .x-titlebar-right.cUF7Nna .btn.cUF7Nna{padding-left: 30px} .img1.cUF7Nna{height: 200px} .img3.cUF7Nna{height: 60px} .img_new.cUF7Nna{width: 100px; height: 70px} .img_small.cUF7Nna{height: 15px} .img_cloud.cUF7Nna{height: 30px} .btn.cUF7Nna i.cUF7Nna{font-size: 20px} .div13.cUF7Nna{height: 10px; margin-bottom: 10px} .div13.cUF7Nna &gt; .x-row.cUF7Nna{float: left; width: 50%} .x-row.cUF7Nna + .x-row.cUF7Nna{padding-bottom: 10px; padding-top: 0px; margin-top: 0px} .progress.cUF7Nna{height: 5px} .x-col-center.cUF7Nna{text-align: center} .div13.cUF7Nna &gt; .x-row.cUF7Nna:nth-child(2){} .row3.cUF7Nna &gt; .x-col.cUF7Nna{padding: 0px} .carousel.cUF7Nna{margin-bottom: 10px} .row3.cUF7Nna &gt; .x-col.cUF7Nna &gt; .sp.cUF7Nna{margin-left: 10px} .x-wangyi.btn-group.cUF7Nna .btn.cUF7Nna{border-top: 0} .x-wangyi.btn-group.cUF7Nna .btn.cUF7Nna span.cUF7Nna{font-size: 12px; font-weight: normal} .x-wangyi.btn-group.cUF7Nna .btn.cUF7Nna:hover, .x-card.btn-group.cUF7Nna .btn.active.cUF7Nna{color: rgb(51, 122, 183); padding: 0; border-top: 0} .x-wangyi.panel.cUF7Nna{margin-bottom: 10px} .x-wangyi.panel.cUF7Nna &gt; .panel-heading.cUF7Nna .panel-title.cUF7Nna{color: rgb(51, 51, 51)} .x-wangyi.cUF7Nna .list-group-item.cUF7Nna{border-radius: 0} .x-wangyi.cUF7Nna .list-group-item.cUF7Nna:last-child{border-bottom: 0} .x-nomargin.cUF7Nna{margin-left: 0; margin-right: 0} .x-nopadding.cUF7Nna{padding-left: 0; padding-right: 0}</style>  
-          <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onLoad:modelLoad" __cid="cUF7Nna" class="cUF7Nna"></div>  
-          <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full x-card top-trans pd1f018c647f848859183d3daa1b67833-iosstatusbar cUF7Nna" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cUF7Nna">  
-            <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pb3f7f3ad4f654a5c8a4c77a0d90f4353-iosstatusbar cUF7Nna" xid="panel3" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cUF7Nna"> 
-              <style __cid="cUF7Nna" class="cUF7Nna">.x-panel.pb3f7f3ad4f654a5c8a4c77a0d90f4353-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.pb3f7f3ad4f654a5c8a4c77a0d90f4353-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.pb3f7f3ad4f654a5c8a4c77a0d90f4353-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pb3f7f3ad4f654a5c8a4c77a0d90f4353-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pb3f7f3ad4f654a5c8a4c77a0d90f4353-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.pb3f7f3ad4f654a5c8a4c77a0d90f4353-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pb3f7f3ad4f654a5c8a4c77a0d90f4353-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pb3f7f3ad4f654a5c8a4c77a0d90f4353-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pb3f7f3ad4f654a5c8a4c77a0d90f4353-iosstatusbar &gt;.x-panel-content {top: 0px;}</style> 
-            </div>  
-            <div class="x-panel-top cUF7Nna" xid="top4" style="background-color:white;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cUF7Nna"> 
-              <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cUF7Nna" xid="titleBar3" style="background-color:white;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" __cid="cUF7Nna"> 
-                <div class="x-titlebar-left cUF7Nna" xid="left2" __cid="cUF7Nna"/>  
-                <div class="x-titlebar-title cUF7Nna" xid="title3" __cid="cUF7Nna"/>  
-                <div class="x-titlebar-right  cUF7Nna" xid="right2" __cid="cUF7Nna"> 
-                  <div class="empty cUF7Nna" __cid="cUF7Nna"/>  
-                  <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cUF7Nna" xid="button8" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;启动机器&quot;}" __cid="cUF7Nna"> 
-                    <i xid="i12" __cid="cUF7Nna" class="cUF7Nna"/>  
-                    <span xid="span17" __cid="cUF7Nna" class="cUF7Nna">启动机器</span> 
-                  </a> 
-                </div> 
-              </div> 
-            </div>  
-            <div class="x-panel-content x-cards cUF7Nna" xid="content" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cUF7Nna"> 
+        <div xid="window" class="window cUF7Nna" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cUF7Nna" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/bootstrap/progress/progress,$model/UI2/system/components/justep/windowContainer/windowContainer,$model/UI2/system/components/bootstrap/carousel/carousel,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/button/buttonGroup,">  
+          <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">h5.cUF7Nna, .h5.cUF7Nna{color: rgb(0, 0, 0); font-size: 16px} .text-danger.cUF7Nna{color: rgb(234, 65, 60)} .text-black.cUF7Nna{color: rgb(0, 0, 0)} .x-panel-top.cUF7Nna .x-titlebar.cUF7Nna{background-color: rgb(234, 65, 60)} .x-titlebar.cUF7Nna .x-titlebar-right.cUF7Nna .btn.cUF7Nna{padding-left: 30px} .img1.cUF7Nna{height: 200px} .img3.cUF7Nna{height: 60px} .img_new.cUF7Nna{width: 100px; height: 70px} .img_small.cUF7Nna{height: 15px} .img_cloud.cUF7Nna{height: 30px} .x-col-center.cUF7Nna{text-align: center} .btn-default.cUF7Nna{padding: 0px; border: 0px} .col1.cUF7Nna{border-right: 1px solid rgb(221, 221, 221)} .x-panel-content.cUF7Nna{background-color: rgb(243, 241, 254)} .x-wangyi.btn-group.cUF7Nna{background-color: rgb(255, 255, 255)} .x-wangyi.btn-group.cUF7Nna .btn.cUF7Nna{border-top: 0} .x-wangyi.btn-group.cUF7Nna .btn.cUF7Nna span.cUF7Nna{font-size: 12px; font-weight: normal} .x-wangyi.btn-group.cUF7Nna .btn.cUF7Nna:hover, .x-card.btn-group.cUF7Nna .btn.active.cUF7Nna{color: rgb(51, 122, 183); padding: 0; border-top: 0} .x-wangyi.panel.cUF7Nna{margin-bottom: 10px} .x-wangyi.panel.cUF7Nna &gt; .panel-heading.cUF7Nna .panel-title.cUF7Nna{color: rgb(51, 51, 51)} .x-wangyi.cUF7Nna .list-group-item.cUF7Nna{border-radius: 0} .x-wangyi.cUF7Nna .list-group-item.cUF7Nna:last-child{border-bottom: 0} .x-nomargin.cUF7Nna{margin-left: 0; margin-right: 0} .x-nopadding.cUF7Nna{padding-left: 0; padding-right: 0}</style>  
+          <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cUF7Nna" class="cUF7Nna"></div>  
+          <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pe59e6a51e2734168b814a46f647372ca-iosstatusbar cUF7Nna" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cUF7Nna">  
+            <div class="x-panel-top cUF7Nna" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cUF7Nna"/>  
+            <div class="x-panel-content cUF7Nna" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cUF7Nna"> 
               <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full cUF7Nna" xid="contents3" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0,&quot;swipe&quot;:false,&quot;wrap&quot;:false}" __cid="cUF7Nna"> 
                 <div class="x-contents-content active cUF7Nna" xid="homeContent" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cUF7Nna"> 
-                  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p67b66cc1cd8c427ea250b812ad6f803a-iosstatusbar cUF7Nna" xid="panel6" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cUF7Nna"> 
+                  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p936165f731a045a09f7b5f1a3efe982c-iosstatusbar cUF7Nna" xid="panel6" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cUF7Nna"> 
                     <div class="x-panel-content cUF7Nna" xid="content22" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cUF7Nna"> 
                       <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full cUF7Nna" xid="contents4" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0,&quot;wrap&quot;:false}" __cid="cUF7Nna"> 
                         <div class="x-contents-content active cUF7Nna" xid="content20" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'},event:{touchmove:$model._callModelFn.bind($model, 'navContent1Touchmove'),touchstart:$model._callModelFn.bind($model, 'navContent1Touchstart')}" __cid="cUF7Nna"> 
@@ -50,23 +35,44 @@
                               </div> 
                             </div> 
                           </div>  
-                          <div xid="div13" class="div13 cUF7Nna" __cid="cUF7Nna"> 
+                          <div xid="div1" __cid="cUF7Nna" class="cUF7Nna"> 
                             <div component="$model/UI2/system/components/justep/row/row" class="x-row cUF7Nna" xid="row1" style="background-color:white;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cUF7Nna"> 
-                              <div class="x-col x-col-33 x-col-center cUF7Nna" xid="col1" __cid="cUF7Nna"> 
-                                <img src="@justepContextPath@/v_59903cd886e040d2b7c88788237c53adl_zh_CNs_d_m/kuaitou/img/index_03.png" alt="" xid="image2" __cid="cUF7Nna" class="cUF7Nna"/> 
+                              <div class="x-col cUF7Nna" xid="col1" style="padding-top:30px;padding-bottom:10px;text-align:center;" __cid="cUF7Nna"> 
+                                <img src="@justepContextPath@/v_cf12edc936d64562acf4bfe902c24937l_zh_CNs_d_m/APP/img/index_03.jpg" alt="" xid="image1" __cid="cUF7Nna" class="cUF7Nna"/>  
+                                <div xid="div2" style="padding-top:10px;" __cid="cUF7Nna" class="cUF7Nna"> 
+                                  <span xid="span1" __cid="cUF7Nna" class="cUF7Nna">安全保障</span> 
+                                </div> 
                               </div>  
-                              <div class="x-col cUF7Nna" xid="col2" __cid="cUF7Nna"> 
-                                <h5 xid="h52" __cid="cUF7Nna" class="cUF7Nna">资金安全</h5>  
-                                <span xid="span5" __cid="cUF7Nna" class="cUF7Nna">资金由新浪支付托管</span> 
+                              <div class="x-col cUF7Nna" xid="col2" style="text-align:center;padding-top:30px;padding-bottom:10px;" __cid="cUF7Nna"> 
+                                <img src="@justepContextPath@/v_961202d47d134a3ab24514bd28dbb330l_zh_CNs_d_m/APP/img/index_05.jpg" alt="" xid="image2" __cid="cUF7Nna" class="cUF7Nna"/>  
+                                <div xid="div3" style="padding-top:10px;" __cid="cUF7Nna" class="cUF7Nna"> 
+                                  <span xid="span2" __cid="cUF7Nna" class="cUF7Nna">风控体系</span> 
+                                </div> 
+                              </div>  
+                              <div class="x-col cUF7Nna" xid="col3" style="text-align:center;padding-top:30px;padding-bottom:10px;" __cid="cUF7Nna"> 
+                                <img src="@justepContextPath@/v_478a7a9acefd4cbd93bde07562fa7b94l_zh_CNs_d_m/APP/img/index_07.jpg" alt="" xid="image4" __cid="cUF7Nna" class="cUF7Nna"/>  
+                                <div xid="div4" style="padding-top:10px;" __cid="cUF7Nna" class="cUF7Nna"> 
+                                  <span xid="span3" __cid="cUF7Nna" class="cUF7Nna">网站公告</span> 
+                                </div> 
+                              </div>  
+                              <div class="x-col cUF7Nna" xid="col4" style="text-align:center;padding-top:30px;padding-bottom:10px;" __cid="cUF7Nna"> 
+                                <img src="@justepContextPath@/v_575a4f8a3dff40f8b898c6a451c6e564l_zh_CNs_d_m/APP/img/index_09.jpg" alt="" xid="image6" __cid="cUF7Nna" class="cUF7Nna"/>  
+                                <div xid="div5" style="padding-top:10px;" __cid="cUF7Nna" class="cUF7Nna"> 
+                                  <span xid="span4" __cid="cUF7Nna" class="cUF7Nna">启动机器</span> 
+                                </div> 
                               </div> 
-                            </div>  
-                            <div component="$model/UI2/system/components/justep/row/row" class="x-row cUF7Nna" xid="row2" style="background-color:white;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cUF7Nna"> 
-                              <div class="x-col x-col-33 cUF7Nna" xid="col5" __cid="cUF7Nna"> 
-                                <img src="@justepContextPath@/v_4f55b0c257d04c6cb94809161cf7731dl_zh_CNs_d_m/APP/img/index_03.png" alt="" xid="image4" __cid="cUF7Nna" class="cUF7Nna"/> 
+                            </div> 
+                          </div>  
+                          <div xid="div6" style="margin-top:10px;background-color:white;" __cid="cUF7Nna" class="cUF7Nna"> 
+                            <div component="$model/UI2/system/components/justep/row/row" class="x-row cUF7Nna" xid="row2" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cUF7Nna"> 
+                              <div class="x-col x-col-20 cUF7Nna" xid="col6" style="text-align:center;" __cid="cUF7Nna"> 
+                                <span xid="span6" __cid="cUF7Nna" class="cUF7Nna">项目列表</span> 
                               </div>  
-                              <div class="x-col cUF7Nna" xid="col6" __cid="cUF7Nna"> 
-                                <h5 xid="h53" __cid="cUF7Nna" class="cUF7Nna">了解快投机器</h5>  
-                                <span xid="span6" __cid="cUF7Nna" class="cUF7Nna">更专业的互联网金融理财平台</span> 
+                              <div class="x-col cUF7Nna" xid="col7" style="text-align:right;" __cid="cUF7Nna"> 
+                                <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cUF7Nna" xid="button1" style="background-color:white;color:#C0C0C0;height:24px;width:24px;font-size:18px;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-ios7-arrow-right&quot;}" __cid="cUF7Nna"> 
+                                  <i xid="i1" class="icon-ios7-arrow-right cUF7Nna" __cid="cUF7Nna"/>  
+                                  <span xid="span7" __cid="cUF7Nna" class="cUF7Nna"/> 
+                                </a> 
                               </div> 
                             </div> 
                           </div>  
@@ -74,17 +80,17 @@
                             <div component="$model/UI2/system/components/justep/list/list" class="x-list cUF7Nna" xid="list2" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;newsData&quot;,&quot;limit&quot;:3}" __cid="cUF7Nna"> 
                               <ul class="x-list-template hide cUF7Nna" xid="listTemplateUl1" __cid="cUF7Nna" data-bind="foreach:{data:$model.foreach_list2($element),afterRender:$model.foreach_afterRender_list2.bind($model,$element)},event:{click:$model._callModelFn.bind($model, 'detailClick')}"> 
                                 <li xid="li1" class="list-group-item x-flex   img_home cUF7Nna" __cid="cUF7Nna"> 
-                                  <div class="x-flex1 cUF7Nna" xid="div3" __cid="cUF7Nna"> 
+                                  <div class="x-flex1 cUF7Nna" xid="div7" __cid="cUF7Nna"> 
                                     <h5 xid="h51" __cid="cUF7Nna" class="cUF7Nna" data-bind="text:ref(&quot;title&quot;)"/>  
                                     <div component="$model/UI2/system/components/justep/row/row" class="x-row cUF7Nna" xid="row4" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cUF7Nna"> 
-                                      <div class="x-col x-col-33 x-col-center cUF7Nna" xid="col3" style="text-align:center;" __cid="cUF7Nna"> 
-                                        <span xid="span1" __cid="cUF7Nna" class="cUF7Nna" data-bind="text:val(&quot;fRate&quot;)"/> 
+                                      <div class="x-col x-col-33 x-col-center cUF7Nna" xid="col8" style="text-align:center;" __cid="cUF7Nna"> 
+                                        <span xid="span11" __cid="cUF7Nna" class="cUF7Nna" data-bind="text:val(&quot;fRate&quot;)"/> 
                                       </div>  
-                                      <div class="x-col x-col-33 x-col-center cUF7Nna" xid="col4" style="text-align:center;" __cid="cUF7Nna"> 
-                                        <span xid="span2" __cid="cUF7Nna" class="cUF7Nna" data-bind="text:val(&quot;fTime&quot;)"/> 
+                                      <div class="x-col x-col-33 x-col-center cUF7Nna" xid="col5" style="text-align:center;" __cid="cUF7Nna"> 
+                                        <span xid="span5" __cid="cUF7Nna" class="cUF7Nna" data-bind="text:val(&quot;fTime&quot;)"/> 
                                       </div>  
                                       <div class="x-col x-col-33 x-col-center cUF7Nna" xid="col10" style="text-align:center;" __cid="cUF7Nna"> 
-                                        <span xid="span3" __cid="cUF7Nna" class="cUF7Nna" data-bind="text:val(&quot;fMoney&quot;)"/> 
+                                        <span xid="span8" __cid="cUF7Nna" class="cUF7Nna" data-bind="text:val(&quot;fMoney&quot;)"/> 
                                       </div> 
                                     </div>  
                                     <div component="$model/UI2/system/components/justep/row/row" class="x-row cUF7Nna" xid="row5" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cUF7Nna"> 
@@ -92,10 +98,10 @@
                                         <span xid="span8" __cid="cUF7Nna" class="cUF7Nna">年化利率</span> 
                                       </div>  
                                       <div class="x-col x-col-center cUF7Nna" xid="col12" __cid="cUF7Nna"> 
-                                        <span xid="span4" __cid="cUF7Nna" class="cUF7Nna">项目期限</span> 
+                                        <span xid="span9" __cid="cUF7Nna" class="cUF7Nna">项目期限</span> 
                                       </div>  
                                       <div class="x-col x-col-center cUF7Nna" xid="col11" __cid="cUF7Nna"> 
-                                        <span xid="span7" __cid="cUF7Nna" class="cUF7Nna">可购余额</span> 
+                                        <span xid="span10" __cid="cUF7Nna" class="cUF7Nna">可购余额</span> 
                                       </div> 
                                     </div>  
                                     <div class="progress cUF7Nna" component="$model/UI2/system/components/bootstrap/progress/progress" xid="progress1" data-bind="component:{name:'$model/UI2/system/components/bootstrap/progress/progress'}" __cid="cUF7Nna"> 
@@ -122,7 +128,7 @@
                         </div> 
                       </div> 
                     </div>  
-                    <style __cid="cUF7Nna" class="cUF7Nna">.x-panel.p67b66cc1cd8c427ea250b812ad6f803a-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.p67b66cc1cd8c427ea250b812ad6f803a-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.p67b66cc1cd8c427ea250b812ad6f803a-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p67b66cc1cd8c427ea250b812ad6f803a-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p67b66cc1cd8c427ea250b812ad6f803a-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.p67b66cc1cd8c427ea250b812ad6f803a-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p67b66cc1cd8c427ea250b812ad6f803a-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p67b66cc1cd8c427ea250b812ad6f803a-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p67b66cc1cd8c427ea250b812ad6f803a-iosstatusbar &gt;.x-panel-content {top: 0px;}</style> 
+                    <style __cid="cUF7Nna" class="cUF7Nna">.x-panel.p936165f731a045a09f7b5f1a3efe982c-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.p936165f731a045a09f7b5f1a3efe982c-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.p936165f731a045a09f7b5f1a3efe982c-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p936165f731a045a09f7b5f1a3efe982c-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p936165f731a045a09f7b5f1a3efe982c-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.p936165f731a045a09f7b5f1a3efe982c-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p936165f731a045a09f7b5f1a3efe982c-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p936165f731a045a09f7b5f1a3efe982c-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p936165f731a045a09f7b5f1a3efe982c-iosstatusbar &gt;.x-panel-content {top: 0px;}</style> 
                   </div> 
                 </div>  
                 <div class="x-contents-content cUF7Nna" xid="listContent" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" data-events="onActive:contentActive" __cid="cUF7Nna"> 
@@ -137,26 +143,28 @@
               </div> 
             </div>  
             <div class="x-panel-bottom cUF7Nna" xid="bottom1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cUF7Nna"> 
-              <div component="$model/UI2/system/components/justep/button/buttonGroup" class="btn-group btn-group-justified x-card x-wangyi cUF7Nna" xid="buttonGroup3" data-bind="component:{name:'$model/UI2/system/components/justep/button/buttonGroup'}" data-config="{&quot;tabbed&quot;:true}" __cid="cUF7Nna"> 
-                <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-top active cUF7Nna" xid="button10" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-home&quot;,&quot;label&quot;:&quot;首    页&quot;,&quot;target&quot;:&quot;homeContent&quot;}" __cid="cUF7Nna"> 
-                  <i xid="i14" class="icon icon-home cUF7Nna" __cid="cUF7Nna"/>  
-                  <span xid="span30" __cid="cUF7Nna" class="cUF7Nna">首 页</span> 
-                </a>  
-                <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-top cUF7Nna" xid="button11" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-android-note&quot;,&quot;label&quot;:&quot;项目列表&quot;,&quot;target&quot;:&quot;listContent&quot;}" __cid="cUF7Nna"> 
-                  <i xid="i13" class="icon icon-android-note cUF7Nna" __cid="cUF7Nna"/>  
-                  <span xid="span29" __cid="cUF7Nna" class="cUF7Nna">项目列表</span> 
-                </a>  
-                <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-top cUF7Nna" xid="button12" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-social-twitter&quot;,&quot;label&quot;:&quot;我的机器&quot;,&quot;target&quot;:&quot;owerContent&quot;}" __cid="cUF7Nna"> 
-                  <i xid="i15" class="icon icon-social-twitter cUF7Nna" __cid="cUF7Nna"/>  
-                  <span xid="span28" __cid="cUF7Nna" class="cUF7Nna">我的机器</span> 
-                </a>  
-                <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-top cUF7Nna" xid="button9" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-more&quot;,&quot;label&quot;:&quot;更多&quot;,&quot;target&quot;:&quot;moreContent&quot;}" __cid="cUF7Nna"> 
-                  <i xid="i13" class="icon icon-more cUF7Nna" __cid="cUF7Nna"/>  
-                  <span xid="span28" __cid="cUF7Nna" class="cUF7Nna">更多</span> 
-                </a> 
+              <div class="x-panel-bottom cUF7Nna" xid="bottom2" __cid="cUF7Nna"> 
+                <div component="$model/UI2/system/components/justep/button/buttonGroup" class="btn-group btn-group-justified x-card x-wangyi cUF7Nna" xid="buttonGroup3" data-bind="component:{name:'$model/UI2/system/components/justep/button/buttonGroup'}" data-config="{&quot;tabbed&quot;:true}" __cid="cUF7Nna"> 
+                  <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-top active cUF7Nna" xid="button10" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-home&quot;,&quot;label&quot;:&quot;首    页&quot;,&quot;target&quot;:&quot;homeContent&quot;}" __cid="cUF7Nna"> 
+                    <i xid="i14" class="icon icon-home cUF7Nna" __cid="cUF7Nna"/>  
+                    <span xid="span30" __cid="cUF7Nna" class="cUF7Nna">首 页</span> 
+                  </a>  
+                  <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-top cUF7Nna" xid="button11" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-android-note&quot;,&quot;label&quot;:&quot;项目列表&quot;,&quot;target&quot;:&quot;listContent&quot;}" __cid="cUF7Nna"> 
+                    <i xid="i13" class="icon icon-android-note cUF7Nna" __cid="cUF7Nna"/>  
+                    <span xid="span29" __cid="cUF7Nna" class="cUF7Nna">项目列表</span> 
+                  </a>  
+                  <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-top cUF7Nna" xid="button12" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-social-twitter&quot;,&quot;label&quot;:&quot;我的机器&quot;,&quot;target&quot;:&quot;owerContent&quot;}" __cid="cUF7Nna"> 
+                    <i xid="i15" class="icon icon-social-twitter cUF7Nna" __cid="cUF7Nna"/>  
+                    <span xid="span28" __cid="cUF7Nna" class="cUF7Nna">我的机器</span> 
+                  </a>  
+                  <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-top cUF7Nna" xid="button9" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-more&quot;,&quot;label&quot;:&quot;更多&quot;,&quot;target&quot;:&quot;moreContent&quot;}" __cid="cUF7Nna"> 
+                    <i xid="i13" class="icon icon-more cUF7Nna" __cid="cUF7Nna"/>  
+                    <span xid="span28" __cid="cUF7Nna" class="cUF7Nna">更多</span> 
+                  </a> 
+                </div> 
               </div> 
             </div>  
-            <style __cid="cUF7Nna" class="cUF7Nna">.x-panel.pd1f018c647f848859183d3daa1b67833-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pd1f018c647f848859183d3daa1b67833-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pd1f018c647f848859183d3daa1b67833-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pd1f018c647f848859183d3daa1b67833-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pd1f018c647f848859183d3daa1b67833-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pd1f018c647f848859183d3daa1b67833-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pd1f018c647f848859183d3daa1b67833-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pd1f018c647f848859183d3daa1b67833-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pd1f018c647f848859183d3daa1b67833-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+            <style __cid="cUF7Nna" class="cUF7Nna">.x-panel.pe59e6a51e2734168b814a46f647372ca-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pe59e6a51e2734168b814a46f647372ca-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pe59e6a51e2734168b814a46f647372ca-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pe59e6a51e2734168b814a46f647372ca-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pe59e6a51e2734168b814a46f647372ca-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pe59e6a51e2734168b814a46f647372ca-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pe59e6a51e2734168b814a46f647372ca-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pe59e6a51e2734168b814a46f647372ca-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pe59e6a51e2734168b814a46f647372ca-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
           </div> 
         </div>
       </div> 

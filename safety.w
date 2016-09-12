@@ -20,28 +20,28 @@
           </div>
         </div> 
       </div>  
-    <div class="x-panel-content" xid="content1"><div xid="div1"><img src="$UI/kuaitou/img/safety_03.png" alt="" xid="image1"></img>
+    <div class="x-panel-content" xid="content1"><div xid="div1" style="margin-top:10px;"><img src="$UI/APP/img/safety_03.png" alt="" xid="image1"></img>
   </div>
   <div xid="div2">
-   <img src="$UI/kuaitou/img/safety_07.png" alt="" xid="image2" class="center-block"></img></div>
+   <img src="$UI/APP/img/safety_07.png" alt="" xid="image2" class="center-block"></img></div>
   <div xid="div4" class="safety_text">
    <span xid="span1"><![CDATA[风险准备机制是快投机制为保护平台全体投资人的共同权益而建立的风险保障机制。所有投资人在平台的投资行为均适用于风险准备金机制。风险准备金由快投机器提供建立，投资人无需为此支付任何费用。]]></span></div>
   <div xid="div5">
-   <img src="$UI/kuaitou/img/safety_10.png" alt="" xid="image5"></img></div>
+   <img src="$UI/APP/img/safety_10.png" alt="" xid="image5"></img></div>
   <div xid="div6">
-   <img src="$UI/kuaitou/img/safety_14.png" alt="" xid="image6" class="center-block"></img></div>
+   <img src="$UI/APP/img/safety_14.png" alt="" xid="image6" class="center-block"></img></div>
   <div xid="div7" class="safety_text">
    <span xid="span2"><![CDATA[快投机器实名认证连接公安部信息查询系统，银行卡绑定需与实名认证相符，投资提现同卡进出。]]></span></div>
   <div xid="div8">
-   <img src="$UI/kuaitou/img/safety_18.png" alt="" xid="image7" class="center-block"></img></div>
+   <img src="$UI/APP/img/safety_18.png" alt="" xid="image7" class="center-block"></img></div>
   <div xid="div9" class="safety_text">
    <span xid="span3"><![CDATA[在快投机器严密的监控，一旦你的账户资金发生异常，我们可以快速发现并处理。]]></span></div>
   <div xid="div10">
-   <img src="$UI/kuaitou/img/safety_22.png" alt="" xid="image8" class="center-block"></img></div>
+   <img src="$UI/APP/img/safety_22.png" alt="" xid="image8" class="center-block"></img></div>
   <div xid="div12">
-   <img src="$UI/kuaitou/img/safety_24.png" alt="" xid="image9"></img></div>
+   <img src="$UI/APP/img/safety_24.png" alt="" xid="image9"></img></div>
   <div xid="div13">
-   <img src="$UI/kuaitou/img/safety_28.png" alt="" xid="image10" class="center-block"></img></div>
+   <img src="$UI/APP/img/safety_28.png" alt="" xid="image10" class="center-block"></img></div>
   <div xid="div14" class="safety_text">
    <span xid="span5"><![CDATA[SSL（GlobalSign）专员24小时监控服务器安全，不让黑客威胁您的资金安全。]]></span>
   <div xid="div15"><span xid="span8"><![CDATA[保障在任何状况下您的账户资金的数据都不会消失。]]></span></div>

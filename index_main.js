@@ -36,7 +36,7 @@ define(function(require) {
 	};
 	//进入列表页
 	Model.prototype.listClick = function(event){
-		justep.Shell.showPage("searchList");
+		justep.Shell.showPage("safety");
 	};
 		
 	//进入内容页
@@ -46,7 +46,7 @@ define(function(require) {
 	
 	//24小时要闻
 	Model.prototype.importantBtnClick = function(event){
-		justep.Shell.showPage("important");
+		justep.Shell.showPage("risk");
 	};	
 	
 	//下滑显示搜索

@@ -1,3 +1,6 @@
+
+
+
 h5 ,.h5{ color:#000; font-size:16px;}
 
 .text-danger{ color:#ea413c;}
@@ -12,39 +15,24 @@ h5 ,.h5{ color:#000; font-size:16px;}
 .img_small{ height:15px;}
 .img_cloud{ height:30px;}
 
-.btn i{ font-size:20px;}
-.div13{
-	height:10px;
-	margin-bottom:10px;
-}
-.div13>.x-row{
-	float:left;
-	width:50%;
-}
-.x-row + .x-row{
-	padding-bottom:10px;
-	padding-top:0px;
-	margin-top:0px;
-}
+.
 .progress{
 	height:5px;
 }
 .x-col-center{
 	text-align:center;
-}
-.div13>.x-row:nth-child(2){
 	
-
 }
-.row3>.x-col{
+.btn-default{
 	padding:0px;
+	border:0px;
 }
-.carousel{
-	margin-bottom:10px;
+.col1{
+	border-right:1px solid #ddd;
 }
-.row3>.x-col>.sp{
-	margin-left:10px;
-
+.x-panel-content{
+	background-color:#f3f1fe;
+}
 /*页脚按钮组*/
 .x-wangyi.btn-group{ background-color:#fff;}
 .x-wangyi.btn-group .btn{ border-top:0;}
