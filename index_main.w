@@ -11,7 +11,6 @@
   <column label="借款总额" name="fTotal" type="String" xid="xid7"></column>
   <column label="进度条" name="fProgress" type="String" xid="xid8"></column></div></div> 
 <div component="$UI/system/components/justep/panel/panel" class="x-panel x-full" xid="panel1">
-   <div class="x-panel-top" xid="top1"></div>
    <div class="x-panel-content" xid="content1"><div component="$UI/system/components/justep/contents/contents" class="x-contents x-full" active="0" xid="contents3" wrap="false" swipe="false">
    <div class="x-contents-content" xid="homeContent">
     <div component="$UI/system/components/justep/panel/panel" class="x-panel x-full" xid="panel6">
@@ -50,36 +49,37 @@
      <a component="$UI/system/components/justep/button/button" class="btn btn-default" xid="button1" style="background-color:white;color:#C0C0C0;height:24px;width:24px;font-size:18px;" icon="icon-ios7-arrow-right">
       <i xid="i1" class="icon-ios7-arrow-right"></i>
       <span xid="span7"></span></a> </div> </div> </div>
-  <div xid="div16" style="position:relative;top:10px;">
+  <div xid="div16" style="position:relative;top:10px;margin-bottom:10px;">
    <div component="$UI/system/components/justep/list/list" class="x-list" data="newsData" limit="3" xid="list2">
     <ul class="x-list-template" xid="listTemplateUl1" bind-click="detailClick">
-     <li xid="li1" class="list-group-item x-flex   img_home">
+     <li xid="li1" class="list-group-item x-flex   img_home" style="margin-bottom:10px;">
       <div class="x-flex1" xid="div7">
-       <h5 bind-text='ref("title")' xid="h51"></h5>
-       <div component="$UI/system/components/justep/row/row" class="x-row" xid="row4">
-        <div class="x-col x-col-33 x-col-center" xid="col8" style="text-align:center;">
-         <span xid="span11" bind-text=' val("fRate")'></span></div> 
-        <div class="x-col x-col-33 x-col-center" xid="col5" style="text-align:center;">
-         <span xid="span5" bind-text=' val("fTime")'></span></div> 
-        <div class="x-col x-col-33 x-col-center" xid="col10" style="text-align:center;">
-         <span xid="span8" bind-text=' val("fMoney")'></span></div> </div> 
-       <div component="$UI/system/components/justep/row/row" class="x-row" xid="row5">
-        <div class="x-col x-col-center" xid="col13">
-         <span xid="span8">年化利率</span></div> 
-        <div class="x-col x-col-center" xid="col12">
-         <span xid="span9">项目期限</span></div> 
-        <div class="x-col x-col-center" xid="col11">
-         <span xid="span10">可购余额</span></div> </div> 
-       <div class="progress" component="$UI/system/components/bootstrap/progress/progress" xid="progress1">
-        <div class="progress-bar progress-bar-success" role="progressbar" xid="progressBar1" bind-text=' ref("fProgress")'>
-         <span xid="span9">0%</span></div> </div> 
-       <div component="$UI/system/components/justep/row/row" class="x-row" xid="row7">
-        <div class="x-col x-col-center" xid="col17">
-         <span xid="span10">按月付息  到期还本</span></div> 
-        <div class="x-col x-col-center" xid="col18">
-         <span xid="span11" bind-text=' val("fShang")'>上线时间</span></div> 
-        <div class="x-col x-col-center" xid="col19">
-         <span xid="span12" bind-text=' val("fTotal")'></span></div> </div> </div> </li> </ul> </div> </div></div> </div> </div> </div> </div> 
+       
+       
+       
+       
+  <h5 bind-text='ref("title")' xid="h51" style="height:20px;"></h5><div component="$UI/system/components/justep/row/row" class="x-row" xid="row4">
+   <div class="x-col x-col-33 x-col-center" xid="col8" style="text-align:center;">
+    <span xid="span11" bind-text=' val("fRate")'></span></div> 
+   <div class="x-col x-col-33 x-col-center" xid="col5" style="text-align:center;">
+    <span xid="span5" bind-text=' val("fTime")'></span></div> 
+   <div class="x-col x-col-33 x-col-center" xid="col10" style="text-align:center;">
+    <span xid="span8" bind-text=' val("fMoney")'></span></div> </div><div component="$UI/system/components/justep/row/row" class="x-row" xid="row5">
+   <div class="x-col x-col-center" xid="col13">
+    <span xid="span8">年化利率</span></div> 
+   <div class="x-col x-col-center" xid="col12">
+    <span xid="span9">项目期限</span></div> 
+   <div class="x-col x-col-center" xid="col11">
+    <span xid="span10">可购余额</span></div> </div><div class="progress" component="$UI/system/components/bootstrap/progress/progress" xid="progress1">
+   <div class="progress-bar progress-bar-success" role="progressbar" xid="progressBar1" bind-text=' ref("fProgress")'>
+    <span xid="span9">0%</span></div> </div><div component="$UI/system/components/justep/row/row" class="x-row" xid="row7">
+   <div class="x-col x-col-center" xid="col17">
+    <span xid="span10">按月付息  到期还本</span></div> 
+   <div class="x-col x-col-center" xid="col18">
+    <span xid="span11" bind-text=' val("fShang")'>上线时间</span></div> 
+   <div class="x-col x-col-center" xid="col19">
+    <span xid="span12" bind-text=' val("fTotal")'></span></div> </div>
+  </div> </li> </ul> </div> </div></div> </div> </div> </div> </div> 
    <div class="x-contents-content" xid="listContent" onActive="contentActive">
     <div component="$UI/system/components/justep/windowContainer/windowContainer" class="x-window-container" xid="windowContainer2" style="height:100%;width:100%;" src="./list.w" autoLoad="false"></div></div> 
    <div class="x-contents-content" xid="owerContent" onActive="contentActive">

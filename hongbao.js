@@ -9,12 +9,14 @@ define(function(require){
 		var hongbaoData = event.source;
         $.ajax({
             type: "GET",
-            url: require.toUrl('./json/hongbaoData.json'),
+//            url: require.toUrl('./json/hongbaoData.json'),
+            url: require.toUrl('https://m.kuaitoujiqi.com/app/usercenter/redpaper'),
             dataType: 'json',
             async: false,
             cache: false,
             success: function(data){
-            	hongbaoData.loadData(data);//将返回的数据加载到data组件
+            	console.log(data.data);
+            	hongbaoData.loadData(data.data.info);//将返回的数据加载到data组件
             },
             error: function(){
               throw justep.Error.create("加载数据失败");
