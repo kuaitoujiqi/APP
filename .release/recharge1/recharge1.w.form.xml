@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cEZFZry" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cEZFZry" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/button/buttonGroup,$model/UI2/system/components/justep/panel/panel,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.btn-group-justified.cEZFZry{border: 1px solid rgb(238, 238, 238)} .x-panel-content.cEZFZry{background-color: rgb(243, 241, 255)}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cEZFZry" class="cEZFZry"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full ped54549b17fc43f0b119b0d710c5f824-iosstatusbar cEZFZry" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cEZFZry"> 
+    <div class="x-panel-top cEZFZry" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cEZFZry"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cEZFZry" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;充值记录&quot;}" __cid="cEZFZry"> 
+        <div class="x-titlebar-left cEZFZry" __cid="cEZFZry"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cEZFZry" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cEZFZry"> 
+            <i class="icon-chevron-left cEZFZry" __cid="cEZFZry"/>  
+            <span __cid="cEZFZry" class="cEZFZry"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cEZFZry" __cid="cEZFZry">充值记录</div>  
+        <div class="x-titlebar-right  cEZFZry" __cid="cEZFZry">
+          <div class="empty cEZFZry" __cid="cEZFZry"/>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cEZFZry" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cEZFZry">
+      <div component="$model/UI2/system/components/justep/button/buttonGroup" class="btn-group x-card btn-group-justified cEZFZry" xid="buttonGroup1" style="background-color:white;" data-bind="component:{name:'$model/UI2/system/components/justep/button/buttonGroup'}" data-config="{&quot;tabbed&quot;:true}" __cid="cEZFZry"> 
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cEZFZry" xid="button1" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;投资&quot;}" __cid="cEZFZry"> 
+          <i xid="i1" __cid="cEZFZry" class="cEZFZry"/>  
+          <span xid="span1" __cid="cEZFZry" class="cEZFZry">投资</span>
+        </a>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cEZFZry" xid="button3" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;充值&quot;}" __cid="cEZFZry"> 
+          <i xid="i3" __cid="cEZFZry" class="cEZFZry"/>  
+          <span xid="span3" __cid="cEZFZry" class="cEZFZry">充值</span>
+        </a>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cEZFZry" xid="button4" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;提现&quot;}" __cid="cEZFZry"> 
+          <i xid="i4" __cid="cEZFZry" class="cEZFZry"/>  
+          <span xid="span4" __cid="cEZFZry" class="cEZFZry">提现</span>
+        </a> 
+      </div>  
+      <div xid="div1" style="text-align:center;margin-top:20px;" __cid="cEZFZry" class="cEZFZry"> 
+        <img src="$model/UI2/APP/img/ower_no.png" alt="" xid="image1" __cid="cEZFZry" class="cEZFZry"/>
+      </div>
+    </div>  
+    <style __cid="cEZFZry" class="cEZFZry">.x-panel.ped54549b17fc43f0b119b0d710c5f824-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.ped54549b17fc43f0b119b0d710c5f824-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.ped54549b17fc43f0b119b0d710c5f824-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.ped54549b17fc43f0b119b0d710c5f824-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.ped54549b17fc43f0b119b0d710c5f824-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.ped54549b17fc43f0b119b0d710c5f824-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.ped54549b17fc43f0b119b0d710c5f824-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.ped54549b17fc43f0b119b0d710c5f824-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.ped54549b17fc43f0b119b0d710c5f824-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>
