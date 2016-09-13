@@ -47,6 +47,14 @@ define(function(require) {
 	Model.prototype.detailClick = function(event){
 		justep.Shell.showPage("detail_project");
 	};
+	Model.prototype.transferBtnClick = function(event){
+		justep.Shell.showPage("transfer");
+	};
+	Model.prototype.listBtnClick = function(event){
+		justep.Shell.showPage("list");
+	};
+	
+	
 
 	
 	return Model;

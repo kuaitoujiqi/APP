@@ -56,6 +56,9 @@ define(function(require){
 				"plat":{
 					url : require.toUrl('./plat.w')
 				},
+				"transfer":{
+					url : require.toUrl('./transfer.w')
+				},
 				"gongying":{
 					url : require.toUrl('./gongying.w')
 				},

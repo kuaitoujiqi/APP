@@ -35,14 +35,14 @@
    <div class="x-contents-content" xid="listContent"><div component="$UI/system/components/justep/panel/panel" class="x-panel x-full" xid="panel2">
    <div class="x-panel-top" xid="top2" style="background-color:white;">
     <div component="$UI/system/components/justep/button/buttonGroup" class="btn-group x-card btn-group-justified" tabbed="true" xid="buttonGroup2">
-     <a component="$UI/system/components/justep/button/button" class="btn btn-default btn-icon-left" label="投资列表" xid="button3" style="background-color:white;font-size:17px;" icon="icon-compose">
+     <a component="$UI/system/components/justep/button/button" class="btn btn-default btn-icon-left button3" label="投资列表" xid="button3" style="background-color:white;font-size:17px;" icon="icon-compose" bind-click="listBtnClick">
       <i xid="i3" class="icon-compose"></i>
       <span xid="span3">投资列表</span></a> 
-     <a component="$UI/system/components/justep/button/button" class="btn btn-default btn-icon-left" label="债权转让" xid="button4" style="background-color:white;font-size:17px;" icon="icon-social-buffer-outline">
+     <a component="$UI/system/components/justep/button/button" class="btn btn-default btn-icon-left" label="债权转让" xid="button4" style="background-color:white;font-size:17px;" icon="icon-social-buffer-outline" bind-click="transferBtnClick">
       <i xid="i4" class="icon-social-buffer-outline"></i>
       <span xid="span4">债权转让</span></a> </div> </div> 
    <div class="x-panel-content" xid="content2">
-    <div xid="div16" style="position:relative;top:10px;">
+    <div xid="div16" style="position:relative;top:10px;background-color:white;">
      <div component="$UI/system/components/justep/list/list" class="x-list" limit="1000" xid="list2" data="newsData">
       <ul class="x-list-template" xid="listTemplateUl1" bind-click="detailClick">
        <li xid="li1" class="list-group-item x-flex   img_home">

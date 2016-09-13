@@ -113,7 +113,8 @@
        <div component="$UI/system/components/justep/row/row" class="x-row text_row" xid="row4">
         <div class="x-col" xid="col9" bind-text=' ref("fText11")'></div>
         <div class="x-col" xid="col10" bind-text='ref("fText22")'></div>
-        <div class="x-col" xid="col11" bind-text='ref("fText33")'></div></div> </li> </ul> </div> </div> </div></div>
+        <div class="x-col" xid="col11" bind-text='ref("fText33")'></div></div> 
+  </li> </ul> </div> </div> </div></div>
   <div xid="div18"><a component="$UI/system/components/justep/button/button" class="btn btn-warning" label="立即投资" xid="button4" style="width:100%;">
    <i xid="i4"></i>
    <span xid="span38">立即投资</span></a></div></div>
