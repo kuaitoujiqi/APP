@@ -16,7 +16,7 @@
     <div component="$UI/system/components/justep/panel/panel" class="x-panel x-full" xid="panel6">
      <div class="x-panel-content" xid="content22">
       <div component="$UI/system/components/justep/contents/contents" class="x-contents x-full" active="0" xid="contents4" wrap="false">
-       <div class="x-contents-content" xid="content20" bind-touchmove="navContent1Touchmove" bind-touchstart="navContent1Touchstart">
+       <div class="x-contents-content" xid="content20" bind-click="annouceClick">
         <div component="$UI/system/components/bootstrap/carousel/carousel" class="x-carousel carousel x-banner" xid="carousel2">
          <ol class="carousel-indicators" xid="ol2"></ol>
          <div class="x-contents carousel-inner" role="listbox" component="$UI/system/components/justep/contents/contents" active="0" slidable="true" wrap="true" swipe="true" xid="contents2">

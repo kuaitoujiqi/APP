@@ -71,8 +71,8 @@ define(function(require){
 				"safety":{
 					url : require.toUrl('./safety.w')
 				},
-				"annouce":{
-					url : require.toUrl('./annouce.w')
+				"announce":{
+					url : require.toUrl('./announce.w')
 				}								
 			}
 		});

@@ -52,6 +52,10 @@ define(function(require) {
 	Model.prototype.loginClick = function(event){
 		justep.Shell.showPage("login");
 	};	
+	//进入公告中心页面
+	Model.prototype.annouceClick = function(event){
+		justep.Shell.showPage("announce");
+	};	
 	
 	//下滑显示搜索
 	var startY;
