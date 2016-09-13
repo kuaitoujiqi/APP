@@ -3,20 +3,20 @@
   <div component="$UI/system/components/justep/model/model" xid="model" style="left:18px;top:83px;height:244px;"> 
   <div component="$UI/system/components/justep/data/data" autoLoad="true" xid="placeOneData" idColumn="fID" onCustomRefresh="placeOneDataCustomRefresh">
    <column label="id" name="fID" type="String" xid="default6"></column>
-   <column label="标题" name="fTitle" type="String" xid="xid6"></column>
-   <column label="图片" name="fImg" type="String" xid="xid7"></column></div>
+  <column label="标题" name="fTitle" type="String" xid="xid6"></column>
+  <column label="图片" name="fImg" type="String" xid="xid7"></column></div>
   <div component="$UI/system/components/justep/data/data" autoLoad="true" xid="placeTwoData" idColumn="fID" onCustomRefresh="placeTwoDataCustomRefresh">
    <column label="id" name="fID" type="String" xid="column2"></column>
-   <column label="父级ID" name="fOneID" type="String" xid="column3"></column>
-   <column label="标题" name="fTitle1" type="String" xid="column1"></column>
-   <column label="文本1" name="fText1" type="String" xid="xid1"></column>
-   <column label="标题1" name="fTitle2" type="String" xid="xid2"></column>
-   <column label="文本2" name="fText2" type="String" xid="xid3"></column>
-   <column label="标题2" name="fTitle3" type="String" xid="xid4"></column>
-   <column label="文本1" name="fText3" type="String" xid="xid5"></column>
-   <column label="文本11" name="fText11" type="String" xid="xid8"></column>
-   <column label="文本22" name="fText22" type="String" xid="xid9"></column>
-   <column label="文本33" name="fText33" type="String" xid="xid10"></column></div></div>  
+  <column label="父级ID" name="fOneID" type="String" xid="column3"></column>
+  <column label="标题" name="fTitle1" type="String" xid="column1"></column>
+  <column label="文本1" name="fText1" type="String" xid="xid1"></column>
+  <column label="标题1" name="fTitle2" type="String" xid="xid2"></column>
+  <column label="文本2" name="fText2" type="String" xid="xid3"></column>
+  <column label="标题2" name="fTitle3" type="String" xid="xid4"></column>
+  <column label="文本1" name="fText3" type="String" xid="xid5"></column>
+  <column label="文本11" name="fText11" type="String" xid="xid8"></column>
+  <column label="文本22" name="fText22" type="String" xid="xid9"></column>
+  <column label="文本33" name="fText33" type="String" xid="xid10"></column></div></div>  
   <div component="$UI/system/components/justep/panel/panel" 
     class="x-panel x-full" xid="panel1"> 
       <div class="x-panel-top" xid="top1"> 

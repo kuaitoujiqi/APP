@@ -11,10 +11,10 @@
   <column label="项目名称" name="fTitle" type="String" xid="xid7"></column>
   <column label="项目名称1" name="fTitle1" type="String" xid="xid8"></column>
   <column label="项目时间2" name="fTime1" type="String" xid="xid9"></column>
-  <column label="文本内容3" name="fText2" type="String" xid="xid10"></column>
+  <column label="文本内容3" name="fText1" type="String" xid="xid10"></column>
   <column label="项目名称2" name="fTitle2" type="String" xid="xid11"></column>
   <column label="项目时间2" name="fTime2" type="String" xid="xid12"></column>
-  <column label="文本内容3" name="fText3" type="String" xid="xid13"></column></div></div>  
+  <column label="文本内容3" name="fText2" type="String" xid="xid13"></column></div></div>  
   <div component="$UI/system/components/justep/panel/panel" 
     class="x-panel x-full" xid="panel1"> 
       <div class="x-panel-top" xid="top1"> 
@@ -48,15 +48,22 @@
       <ul xid="listTemplateUl2" class="x-list-template" bind-click="listClick">
        <li xid="li2" class="text-center x-block">
         <a xid="a2"></a>
-        <div xid="div8" bind-text=' ref("fTitle")' style="line-height:40px;text-align:left;" class="tit"></div>
-        <div xid="div9" bind-text=' ref("fText")' style="text-align:left;" class="tet"></div>
+        <div xid="div8" style="line-height:40px;text-align:left;"><div component="$UI/system/components/justep/row/row" class="x-row" xid="row3">
+   <div class="x-col" xid="col3" bind-text=' ref("fTitle")'></div>
+   <div class="x-col" xid="col5" bind-text=' ref("fTime")' style="text-align:right;"></div></div></div>
         
-  <div xid="div11"><div component="$UI/system/components/justep/row/row" class="x-row text_row" xid="row4">
-   <div class="x-col x-col-10" xid="col9"></div>
-   <div class="x-col" xid="col10" bind-text=' ref("fTitle2")'></div>
-   <div class="x-col" xid="col11" bind-text='ref("fTime2")'></div></div>
+        
+  <div xid="div9" bind-text=' ref("fText")' style="text-align:left;"></div><div xid="div11"><div component="$UI/system/components/justep/row/row" class="x-row text_row" xid="row4">
+   <div class="x-col" xid="col10" bind-text=' ref("fTitle1")' style="text-align:left;"></div>
+   <div class="x-col" xid="col11" bind-text=' ref("fTime1")' style="text-align:right;"></div></div>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row9">
-   <div class="x-col" xid="col22" bind-text=' ref("fText3")'></div>
+   <div class="x-col" xid="col22" bind-text=' ref("fText1")'></div>
+   </div></div>
+  <div xid="div1"><div component="$UI/system/components/justep/row/row" class="x-row" xid="row5">
+   <div class="x-col" xid="col7" bind-text='ref("fTitle2")' style="text-align:left;"></div>
+   <div class="x-col" xid="col8" bind-text='ref("fTime2")' style="text-align:right;"></div></div>
+  <div component="$UI/system/components/justep/row/row" class="x-row" xid="row6">
+   <div class="x-col" xid="col9" bind-text=' ref("fText2")'></div>
    </div></div></li> </ul> </div> </div> </div> </div></div>
   </div> 
 </div>
