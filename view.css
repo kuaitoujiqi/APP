@@ -1,4 +1,10 @@
-.x-panel-content{
-	padding:10px 0px;
-	background-color:#f3f1ff;
+p{
+	padding:10px 15px;
+	margin-bottom:0px;
+}
+.x-attachment-content{
+	border:0;
+}
+.form-control{
+	margin-top:10px;
 }

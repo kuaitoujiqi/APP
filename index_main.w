@@ -29,20 +29,25 @@
    <div class="x-contents-content" xid="content6">
     <img alt="" xid="image5" id="image5" class="image-wall img1" bind-attr-src="$model.getImageUrl('./img/gongying.jpg')"></img></div> </div></div> 
         
-        <div xid="div1"><div component="$UI/system/components/justep/row/row" class="x-row" xid="row1" style="background-color:white;">
-   <div class="x-col" xid="col1" style="padding-top:30px;padding-bottom:10px;text-align:center;" bind-click="safetyClick"><img src="$UI/APP/img/index_03.jpg" alt="" xid="image1"></img>
-  <div xid="div2" style="padding-top:10px;"><span xid="span1"><![CDATA[安全保障]]></span></div>
-  </div>
-   <div class="x-col" xid="col2" style="text-align:center;padding-top:30px;padding-bottom:10px;" bind-click="riskClick"><img src="$UI/APP/img/index_05.jpg" alt="" xid="image2"></img>
-  <div xid="div3" style="padding-top:10px;">
-   <span xid="span2"><![CDATA[风控体系]]></span></div></div>
-   <div class="x-col" xid="col3" style="text-align:center;padding-top:30px;padding-bottom:10px;"><img src="$UI/APP/img/index_07.jpg" alt="" xid="image4"></img>
-  <div xid="div4" style="padding-top:10px;">
-   <span xid="span3"><![CDATA[网站公告]]></span></div></div>
-  <div class="x-col" xid="col4" style="text-align:center;padding-top:30px;padding-bottom:10px;" bind-click="loginClick"><img src="$UI/APP/img/index_09.jpg" alt="" xid="image6"></img>
-  <div xid="div5" style="padding-top:10px;">
-   <span xid="span4"><![CDATA[启动机器]]></span></div></div></div></div>
-  <div xid="div6" style="margin-top:10px;background-color:white;">
+        <div xid="div1">
+   
+   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row1" style="background-color:white;">
+   <div class="x-col" xid="col1" style="padding-top:30px;padding-bottom:10px;text-align:center;" bind-click="safetyClick">
+    <img src="$UI/APP/img/index_03.jpg" alt="" xid="image1"></img>
+    <div xid="div2" style="padding-top:10px;">
+     <span xid="span1">安全保障</span></div> </div> 
+   <div class="x-col" xid="col2" style="text-align:center;padding-top:30px;padding-bottom:10px;" bind-click="riskClick">
+    <img src="$UI/APP/img/index_05.jpg" alt="" xid="image2"></img>
+    <div xid="div3" style="padding-top:10px;">
+     <span xid="span2">风控体系</span></div> </div> 
+   <div class="x-col" xid="col3" style="text-align:center;padding-top:30px;padding-bottom:10px;" bind-click="announceBtnClick">
+    <img src="$UI/APP/img/index_07.jpg" alt="" xid="image4"></img>
+    <div xid="div4" style="padding-top:10px;">
+     <span xid="span3">网站公告</span></div> </div> 
+   <div class="x-col" xid="col4" style="text-align:center;padding-top:30px;padding-bottom:10px;" bind-click="loginClick">
+    <img src="$UI/APP/img/index_09.jpg" alt="" xid="image6"></img>
+    <div xid="div5" style="padding-top:10px;">
+     <span xid="span4">启动机器</span></div> </div> </div></div><div xid="div6" style="margin-top:10px;background-color:white;">
    <div component="$UI/system/components/justep/row/row" class="x-row" xid="row2">
     <div class="x-col x-col-20" xid="col6" style="text-align:center;">
      <span xid="span6">项目列表</span></div> 

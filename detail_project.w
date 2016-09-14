@@ -19,14 +19,15 @@
   <column label="文本33" name="fText33" type="String" xid="xid10"></column></div>
   <div component="$UI/system/components/justep/data/data" autoLoad="true" xid="detailData" idColumn="fID" onCustomRefresh="detailDataCustomRefresh">
    <column label="ID" name="fID" type="String" xid="xid11"></column>
-   <column label="项目标题" name="fTitle" type="String" xid="xid12"></column>
-   <column label="年化利率" name="fRate" type="String" xid="xid13"></column>
-   <column label="期限" name="fTime" type="String" xid="xid14"></column>
-   <column label="可投金额" name="fTou" type="String" xid="xid15"></column>
-   <column label="借款总额" name="fTotal" type="String" xid="xid16"></column>
-   <column label="项目编号" name="fNum" type="String" xid="xid17"></column>
-   <column label="上线时间" name="fShang" type="String" xid="xid18"></column>
-   <column label="项目类型" name="fLei" type="String" xid="xid19"></column></div></div>  
+  <column label="项目标题" name="fTitle" type="String" xid="xid12"></column>
+  <column label="年化利率" name="fRate" type="String" xid="xid13"></column>
+  <column label="期限" name="fTime" type="String" xid="xid14"></column>
+  <column label="可投金额" name="fTou" type="String" xid="xid15"></column>
+  <column label="借款总额" name="fTotal" type="String" xid="xid16"></column>
+  <column label="项目编号" name="fNum" type="String" xid="xid17"></column>
+  <column label="上线时间" name="fShang" type="String" xid="xid18"></column>
+  <column label="项目类型" name="fLei" type="String" xid="xid19"></column>
+  <column label="状态" name="fStatus" type="String" xid="xid20"></column></div></div>  
   <div component="$UI/system/components/justep/panel/panel" 
     class="x-panel x-full" xid="panel1"> 
       <div class="x-panel-top" xid="top1"> 

@@ -71,7 +71,8 @@
           <div class="x-col x-col-center" xid="col18">
            <span xid="span11" bind-text=' ref("fShang")'></span></div> 
           <div class="x-col x-col-center" xid="col19">
-           <span xid="span12" bind-text=' ref("fTotal")'></span></div> </div> </div> </li> </ul> </div> </div> </div> </div></div>
+           <span xid="span12" bind-text=' ref("fTotal")'></span></div> </div> 
+  </div> </li> </ul> </div> </div> </div> </div></div>
   </div></div>
   </div> 
 </div>
