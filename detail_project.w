@@ -16,7 +16,17 @@
   <column label="文本1" name="fText3" type="String" xid="xid5"></column>
   <column label="文本11" name="fText11" type="String" xid="xid8"></column>
   <column label="文本22" name="fText22" type="String" xid="xid9"></column>
-  <column label="文本33" name="fText33" type="String" xid="xid10"></column></div></div>  
+  <column label="文本33" name="fText33" type="String" xid="xid10"></column></div>
+  <div component="$UI/system/components/justep/data/data" autoLoad="true" xid="detailData" idColumn="fID" onCustomRefresh="detailDataCustomRefresh">
+   <column label="ID" name="fID" type="String" xid="xid11"></column>
+   <column label="项目标题" name="fTitle" type="String" xid="xid12"></column>
+   <column label="年化利率" name="fRate" type="String" xid="xid13"></column>
+   <column label="期限" name="fTime" type="String" xid="xid14"></column>
+   <column label="可投金额" name="fTou" type="String" xid="xid15"></column>
+   <column label="借款总额" name="fTotal" type="String" xid="xid16"></column>
+   <column label="项目编号" name="fNum" type="String" xid="xid17"></column>
+   <column label="上线时间" name="fShang" type="String" xid="xid18"></column>
+   <column label="项目类型" name="fLei" type="String" xid="xid19"></column></div></div>  
   <div component="$UI/system/components/justep/panel/panel" 
     class="x-panel x-full" xid="panel1"> 
       <div class="x-panel-top" xid="top1"> 
@@ -36,14 +46,14 @@
         </div> 
       </div>  
     <div class="x-panel-content" xid="content1"><div xid="div1" style="background-color:#497BEA;color:#FFFFFF;">
-  <div component="$UI/system/components/justep/list/list" class="x-list" xid="list3">
+  <div component="$UI/system/components/justep/list/list" class="x-list" xid="list3" data="detailData">
    <ul class="x-list-template" xid="listTemplateUl3">
     <li xid="li3"><div component="$UI/system/components/justep/row/row" class="x-row" xid="row3">
    <div class="x-col" xid="col13">
-   <span xid="span3">1234</span></div></div>
+   <span xid="span1" bind-text='ref("fTitle")'></span></div></div>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row7">
    <div class="x-col" xid="col14" style="text-align:center;">
-    <span xid="span14" style="font-size:28px;">12%</span></div> </div>
+    <span xid="span2" bind-text='ref("fRate")'></span></div> </div>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row11">
    <div class="x-col" xid="col24" style="text-align:center;">
     <span xid="span15">年化收益率</span></div> </div>
@@ -52,11 +62,11 @@
     <span xid="span17">0%</span></div> </div>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row14">
    <div class="x-col" xid="col25" style="text-align:center;">
-    <span xid="span51">2</span></div> 
+    <span xid="span3" bind-text='ref("fTime")'></span></div> 
    <div class="x-col" xid="col26" style="text-align:center;">
-    <span xid="span52">8900</span>
+    <span xid="span52" bind-text='ref("fTou")'><![CDATA[]]></span>
     <span xid="span54">/</span>
-    <span xid="span53">100000</span></div> </div>
+    <span xid="span53" bind-text='ref("fTotal")'><![CDATA[]]></span></div> </div>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row15">
    <div class="x-col" xid="col34" style="text-align:center;">
     <span xid="span56">投资期限（月）</span></div> 
@@ -64,31 +74,25 @@
     <span xid="span58">可投金额</span>
     <span xid="span55">/</span>
     <span xid="span57">借款总额（元）</span></div> </div></li></ul> </div></div>
-  <div xid="div2" class="div2" style="background-color:white;"><div component="$UI/system/components/justep/list/list" class="x-list" xid="list4">
+  <div xid="div2" class="div2" style="background-color:white;"><div component="$UI/system/components/justep/list/list" class="x-list" xid="list4" data="detailData">
    <ul class="x-list-template" xid="listTemplateUl4">
     <li xid="li4"><div component="$UI/system/components/justep/row/row" class="x-row" xid="row16">
    <div class="x-col x-col-10" xid="col37" style="text-align:center;">
     <span xid="span60">项目编号：</span></div> 
    <div class="x-col" xid="col36" style="text-align:right;">
-    <span xid="span59">MFY2016</span></div> 
+    <span xid="span59" bind-text='ref("fNum")'><![CDATA[]]></span></div> 
    <div class="x-col x-col-10" xid="col35"></div></div>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row17">
    <div class="x-col x-col-10" xid="col40" style="text-align:center;">
     <span xid="span66">上线时间：</span></div> 
    <div class="x-col" xid="col39" style="text-align:right;">
-    <span xid="span68">2016</span>
-    <span xid="span67">年</span>
-    <span xid="span63">08</span>
-    <span xid="span62">月</span>
-    <span xid="span65">25</span>
-    <span xid="span64">日</span>
-    <span xid="span61" class="time">09:00</span></div> 
+    <span xid="span61" class="time" bind-text='ref("fShang")'><![CDATA[]]></span></div> 
    <div class="x-col x-col-10" xid="col38"></div></div>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row18">
    <div class="x-col x-col-10" xid="col42" style="text-align:center;">
     <span xid="span70">项目类型：</span></div> 
    <div class="x-col" xid="col43" style="text-align:right;">
-    <span xid="span69" style="width:62px;">供应链金融/核心企业担保</span></div> 
+    <span xid="span69" style="width:62px;" bind-text='ref("fLei")'><![CDATA[]]></span></div> 
    <div class="x-col x-col-10" xid="col41"></div></div></li></ul> </div></div>
   <div xid="div3" style="background-color:white;"><div component="$UI/system/components/bootstrap/row/row" class="row" xid="row1">
    <div class="col col-xs-12 panel col-pane" xid="col1" style="height:100%; overflow: auto;">
