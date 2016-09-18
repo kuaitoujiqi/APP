@@ -59,6 +59,9 @@ define(function(require){
 				"transfer":{
 					url : require.toUrl('./transfer.w')
 				},
+				"transfer_detail":{
+					url : require.toUrl('./transfer_detail.w')
+				},
 				"gongying":{
 					url : require.toUrl('./gongying.w')
 				},

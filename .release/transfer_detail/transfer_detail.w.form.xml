@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window c36ZzIv" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="c36ZzIv" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/bootstrap/progress/progress,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/bootstrap/row/row,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">null</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="c36ZzIv" class="c36ZzIv"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p725aca619cf2457cbb5bc4f35c655254-iosstatusbar c36ZzIv" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="c36ZzIv"> 
+    <div class="x-panel-top c36ZzIv" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="c36ZzIv"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar c36ZzIv" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;项目详情&quot;}" __cid="c36ZzIv"> 
+        <div class="x-titlebar-left c36ZzIv" __cid="c36ZzIv"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon c36ZzIv" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="c36ZzIv"> 
+            <i class="icon-chevron-left c36ZzIv" __cid="c36ZzIv"/>  
+            <span __cid="c36ZzIv" class="c36ZzIv"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title c36ZzIv" __cid="c36ZzIv">项目详情</div>  
+        <div class="x-titlebar-right  c36ZzIv" __cid="c36ZzIv">
+          <div class="empty c36ZzIv" __cid="c36ZzIv"/>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content c36ZzIv" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="c36ZzIv">
+      <div class="x-panel-content c36ZzIv" xid="content2" __cid="c36ZzIv"> 
+        <div xid="div1" style="background-color:#497BEA;color:#FFFFFF;" __cid="c36ZzIv" class="c36ZzIv"> 
+          <div component="$model/UI2/system/components/justep/list/list" class="x-list c36ZzIv" xid="list3" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;transferDetailData&quot;}" __cid="c36ZzIv"> 
+            <ul class="x-list-template hide c36ZzIv" xid="listTemplateUl3" bind-foreach="{data:$model.foreach_list3($element),afterRender:$model.foreach_afterRender_list3.bind($model,$element)}" __cid="c36ZzIv"> 
+              <li xid="li3" __cid="c36ZzIv" class="c36ZzIv"> 
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row c36ZzIv" xid="row3" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c36ZzIv"> 
+                  <div class="x-col c36ZzIv" xid="col13" __cid="c36ZzIv"> 
+                    <span xid="span1" bind-text="ref(&quot;fTitle&quot;)" __cid="c36ZzIv" class="c36ZzIv"/>
+                  </div> 
+                </div>  
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row c36ZzIv" xid="row7" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c36ZzIv"> 
+                  <div class="x-col c36ZzIv" xid="col14" style="text-align:center;" __cid="c36ZzIv"> 
+                    <span xid="span2" bind-text="ref(&quot;fRate&quot;)" __cid="c36ZzIv" class="c36ZzIv"/>
+                  </div> 
+                </div>  
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row c36ZzIv" xid="row11" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c36ZzIv"> 
+                  <div class="x-col c36ZzIv" xid="col24" style="text-align:center;" __cid="c36ZzIv"> 
+                    <span xid="span15" __cid="c36ZzIv" class="c36ZzIv">年化收益率</span>
+                  </div> 
+                </div>  
+                <div class="progress c36ZzIv" component="$model/UI2/system/components/bootstrap/progress/progress" xid="progress2" data-bind="component:{name:'$model/UI2/system/components/bootstrap/progress/progress'}" __cid="c36ZzIv"> 
+                  <div class="progress-bar progress-bar-success c36ZzIv" role="progressbar" xid="progressBar2" __cid="c36ZzIv"> 
+                    <span xid="span17" __cid="c36ZzIv" class="c36ZzIv">0%</span>
+                  </div> 
+                </div>  
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row c36ZzIv" xid="row14" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c36ZzIv"> 
+                  <div class="x-col c36ZzIv" xid="col25" style="text-align:center;" __cid="c36ZzIv"> 
+                    <span xid="span3" bind-text="ref(&quot;fTime&quot;)" __cid="c36ZzIv" class="c36ZzIv"/>
+                  </div>  
+                  <div class="x-col c36ZzIv" xid="col26" style="text-align:center;" __cid="c36ZzIv"> 
+                    <span xid="span52" bind-text="ref(&quot;fTou&quot;)" __cid="c36ZzIv" class="c36ZzIv"/>  
+                    <span xid="span54" __cid="c36ZzIv" class="c36ZzIv">/</span>  
+                    <span xid="span53" bind-text="ref(&quot;fTotal&quot;)" __cid="c36ZzIv" class="c36ZzIv"/>
+                  </div> 
+                </div>  
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row c36ZzIv" xid="row15" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c36ZzIv"> 
+                  <div class="x-col c36ZzIv" xid="col34" style="text-align:center;" __cid="c36ZzIv"> 
+                    <span xid="span56" __cid="c36ZzIv" class="c36ZzIv">还款日期</span>
+                  </div>  
+                  <div class="x-col c36ZzIv" xid="col33" style="text-align:center;" __cid="c36ZzIv"> 
+                    <span xid="span58" bind-text="ref(&quot;fTransfer&quot;)" __cid="c36ZzIv" class="c36ZzIv">转让金额</span>  
+                    <span xid="span55" __cid="c36ZzIv" class="c36ZzIv">/</span>  
+                    <span xid="span57" bind-text="ref(&quot;fOriginal&quot;)" __cid="c36ZzIv" class="c36ZzIv">原始价格（元）</span>
+                  </div> 
+                </div> 
+              </li> 
+            </ul> 
+          </div> 
+        </div>  
+        <div xid="div2" class="div2 c36ZzIv" style="background-color:white;" __cid="c36ZzIv"> 
+          <div component="$model/UI2/system/components/justep/list/list" class="x-list c36ZzIv" xid="list4" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;transferDetailData&quot;}" __cid="c36ZzIv"> 
+            <ul class="x-list-template hide c36ZzIv" xid="listTemplateUl4" bind-foreach="{data:$model.foreach_list4($element),afterRender:$model.foreach_afterRender_list4.bind($model,$element)}" __cid="c36ZzIv"> 
+              <li xid="li4" __cid="c36ZzIv" class="c36ZzIv"> 
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row c36ZzIv" xid="row16" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c36ZzIv"> 
+                  <div class="x-col x-col-10 c36ZzIv" xid="col37" style="text-align:center;" __cid="c36ZzIv"> 
+                    <span xid="span60" __cid="c36ZzIv" class="c36ZzIv">项目编号：</span>
+                  </div>  
+                  <div class="x-col c36ZzIv" xid="col36" style="text-align:right;" __cid="c36ZzIv"> 
+                    <span xid="span59" bind-text="ref(&quot;fNum&quot;)" __cid="c36ZzIv" class="c36ZzIv"/>
+                  </div>  
+                  <div class="x-col x-col-10 c36ZzIv" xid="col35" __cid="c36ZzIv"/>
+                </div>  
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row c36ZzIv" xid="row17" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c36ZzIv"> 
+                  <div class="x-col x-col-10 c36ZzIv" xid="col40" style="text-align:center;" __cid="c36ZzIv"> 
+                    <span xid="span66" __cid="c36ZzIv" class="c36ZzIv">上线时间：</span>
+                  </div>  
+                  <div class="x-col c36ZzIv" xid="col39" style="text-align:right;" __cid="c36ZzIv"> 
+                    <span xid="span61" class="time c36ZzIv" bind-text="ref(&quot;fShang&quot;)" __cid="c36ZzIv"/>
+                  </div>  
+                  <div class="x-col x-col-10 c36ZzIv" xid="col38" __cid="c36ZzIv"/>
+                </div>  
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row c36ZzIv" xid="row18" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c36ZzIv"> 
+                  <div class="x-col x-col-10 c36ZzIv" xid="col42" style="text-align:center;" __cid="c36ZzIv"> 
+                    <span xid="span70" __cid="c36ZzIv" class="c36ZzIv">项目类型：</span>
+                  </div>  
+                  <div class="x-col c36ZzIv" xid="col43" style="text-align:right;" __cid="c36ZzIv"> 
+                    <span xid="span69" style="width:62px;" bind-text="ref(&quot;fLei&quot;)" __cid="c36ZzIv" class="c36ZzIv"/>
+                  </div>  
+                  <div class="x-col x-col-10 c36ZzIv" xid="col41" __cid="c36ZzIv"/>
+                </div> 
+              </li> 
+            </ul> 
+          </div> 
+        </div>  
+        <div xid="div3" style="background-color:white;" __cid="c36ZzIv" class="c36ZzIv"> 
+          <div component="$model/UI2/system/components/bootstrap/row/row" class="row c36ZzIv" xid="row1" data-bind="component:{name:'$model/UI2/system/components/bootstrap/row/row'}" __cid="c36ZzIv"> 
+            <div class="col col-xs-12 panel col-pane c36ZzIv" xid="col1" style="height:100%; overflow: auto;" __cid="c36ZzIv"> 
+              <div component="$model/UI2/system/components/justep/list/list" class="x-list c36ZzIv" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;transferOneData&quot;}" __cid="c36ZzIv"> 
+                <ul xid="listTemplateUl1" class="x-list-template hide c36ZzIv" bind-foreach="{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}" __cid="c36ZzIv"> 
+                  <li xid="li1" class="text-center panel-body c36ZzIv" bind-css="{'x-active':val('fID')==data.val('fID')}" __cid="c36ZzIv"> 
+                    <div class="panel-heading c36ZzIv" xid="div5" __cid="c36ZzIv"> 
+                      <a xid="a1" __cid="c36ZzIv" class="c36ZzIv"/>  
+                      <div bind-text="ref('fTitle')" xid="div4" __cid="c36ZzIv" class="c36ZzIv"/>
+                    </div> 
+                  </li> 
+                </ul> 
+              </div> 
+            </div> 
+          </div>  
+          <div component="$model/UI2/system/components/bootstrap/row/row" class="row c36ZzIv" xid="row2" data-bind="component:{name:'$model/UI2/system/components/bootstrap/row/row'}" __cid="c36ZzIv"> 
+            <div class="col col-xs-12 c36ZzIv" xid="col4" style="height:100%; overflow: auto;" __cid="c36ZzIv"> 
+              <div component="$model/UI2/system/components/justep/list/list" class="x-list panel-body c36ZzIv" xid="list2" style="width:100%;" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;transferTwoData&quot;,&quot;filter&quot;:&quot;$row.val(\&quot;fOneID\&quot;)==$model.comp('transferOneData').val(\&quot;fID\&quot;)&quot;}" __cid="c36ZzIv"> 
+                <ul xid="listTemplateUl2" class="x-list-template hide c36ZzIv" bind-click="listClick" bind-foreach="{data:$model.foreach_list2($element),afterRender:$model.foreach_afterRender_list2.bind($model,$element)}" __cid="c36ZzIv"> 
+                  <li xid="li2" class="text-center x-block c36ZzIv" __cid="c36ZzIv"> 
+                    <a xid="a2" __cid="c36ZzIv" class="c36ZzIv"/>  
+                    <div xid="div8" bind-text="ref(&quot;fTitle&quot;)" style="line-height:40px;text-align:left;" class="tit c36ZzIv" __cid="c36ZzIv"/>  
+                    <div xid="div9" style="text-align:left;" class="tex c36ZzIv" __cid="c36ZzIv">
+                      <span xid="span4" bind-text="ref(&quot;text&quot;)" __cid="c36ZzIv" class="c36ZzIv"/>  
+                      <img src="" alt="" xid="image1" bind-attr-src=" ref(&quot;fImg&quot;)" __cid="c36ZzIv" class="c36ZzIv"/>
+                    </div>  
+                    <div xid="div13" bind-text=" ref(&quot;fTitle1&quot;)" style="line-height:40px;text-align:left;" class="tit c36ZzIv" __cid="c36ZzIv"/>  
+                    <div xid="div14" style="text-align:left;" class="tet c36ZzIv" __cid="c36ZzIv">
+                      <span xid="span5" bind-text="ref(&quot;fText1&quot;)" __cid="c36ZzIv" class="c36ZzIv"/>  
+                      <img src="" alt="" xid="image2" bind-attr-src=" ref(&quot;fImg1&quot;)" __cid="c36ZzIv" class="c36ZzIv"/>
+                    </div>  
+                    <div xid="div16" bind-text="ref(&quot;fTitle2&quot;)" style="line-height:40px;text-align:left;" class="tit c36ZzIv" __cid="c36ZzIv"/>  
+                    <div xid="div17" style="text-align:left;" class="tet c36ZzIv" __cid="c36ZzIv">
+                      <span xid="span6" bind-text="ref(&quot;fText2&quot;)" __cid="c36ZzIv" class="c36ZzIv"/>  
+                      <img src="" alt="" xid="image3" bind-attr-src=" ref(&quot;fImg2&quot;)" __cid="c36ZzIv" class="c36ZzIv"/>
+                    </div>  
+                    <div component="$model/UI2/system/components/justep/row/row" class="x-row text_row c36ZzIv" xid="row4" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c36ZzIv"> 
+                      <div class="x-col c36ZzIv" xid="col9" bind-text=" ref(&quot;fUse&quot;)" __cid="c36ZzIv"/>  
+                      <div class="x-col c36ZzIv" xid="col10" bind-text="ref(&quot;fTime&quot;)" __cid="c36ZzIv"/>  
+                      <div class="x-col c36ZzIv" xid="col11" bind-text=" ref(&quot;fMoney&quot;)" __cid="c36ZzIv"/>
+                    </div> 
+                  </li> 
+                </ul> 
+              </div> 
+            </div> 
+          </div> 
+        </div>  
+        <div xid="div18" __cid="c36ZzIv" class="c36ZzIv"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-warning c36ZzIv" xid="button4" style="width:100%;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;立即投资&quot;}" __cid="c36ZzIv"> 
+            <i xid="i4" __cid="c36ZzIv" class="c36ZzIv"/>  
+            <span xid="span38" __cid="c36ZzIv" class="c36ZzIv">立即投资</span>
+          </a> 
+        </div> 
+      </div>
+    </div>  
+    <style __cid="c36ZzIv" class="c36ZzIv">.x-panel.p725aca619cf2457cbb5bc4f35c655254-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p725aca619cf2457cbb5bc4f35c655254-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p725aca619cf2457cbb5bc4f35c655254-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p725aca619cf2457cbb5bc4f35c655254-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p725aca619cf2457cbb5bc4f35c655254-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p725aca619cf2457cbb5bc4f35c655254-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p725aca619cf2457cbb5bc4f35c655254-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p725aca619cf2457cbb5bc4f35c655254-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p725aca619cf2457cbb5bc4f35c655254-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>
