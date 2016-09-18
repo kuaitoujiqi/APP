@@ -9,12 +9,14 @@ define(function(require){
 		var transferData = event.source;
         $.ajax({
             type: "GET",
-            url: require.toUrl('./json/transferData.json'),
+//            url: require.toUrl('./json/transferData.json'),
+            url: require.toUrl('https://m.kuaitoujiqi.com/app/welcome/transfer_list'),
             dataType: 'json',
             async: false,//使用同步方式，目前data组件有同步依赖
             cache: false,
             success: function(data){
-            transferData.loadData(data);//将返回的数据加载到data组件
+            	console.log(data);
+            transferData.loadData(data.data);//将返回的数据加载到data组件
             },
             error: function(){
               throw justep.Error.create("加载数据失败");
