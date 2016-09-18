@@ -64,11 +64,16 @@
            <span xid="span9">0%</span></div> </div> 
          <div component="$UI/system/components/justep/row/row" class="x-row" xid="row7">
           
-          <div class="x-col x-col-center" xid="col18">
-           <span xid="span11" bind-text=' '><![CDATA[还本日期：]]></span>
-  <span xid="span10" bind-text='ref("fTime")'></span></div> 
-          <div class="x-col x-col-center" xid="col19" style="text-align:right;">
-           <span xid="span12" bind-text=' '><![CDATA[预期收益：]]></span>
-  <span xid="span13" bind-text='ref("fShou")'></span></div> </div> </div> </li> </ul> </div> </div> </div> </div></div>
+          <div class="x-col x-col-10 x-col-center" xid="col18">
+           <span xid="span11">还本日期：</span>
+  </div> 
+          <div class="x-col x-col-center" xid="col19" style="text-align:left;">
+           <span xid="span15" bind-text='val("fTime")'></span></div> 
+  
+  <div class="x-col x-col-center" xid="col1" style="text-align:right;">
+   <span xid="span12" bind-text=" ">预期收益：</span></div><div class="x-col x-col-10 x-col-center" xid="col2">
+  <span xid="span13" bind-text='ref("fShou")'></span></div>
+  </div> 
+  </div> </li> </ul> </div> </div> </div> </div></div>
   </div> 
 </div>
