@@ -8,3 +8,7 @@
     color: #35b3e4;
     border-bottom: 3px solid #497bea;
 }
+
+.list-group-item{
+	margin-bottom:10px;
+}

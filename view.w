@@ -16,7 +16,7 @@
   
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row1">
    <div class="x-col" xid="col1"></div>
-   <div class="x-col x-col-80" xid="col2"><a component="$UI/system/components/justep/button/button" class="btn btn-default btn-block" label="提交我的意见" xid="submitBtn">
+   <div class="x-col x-col-80" xid="col2"><a component="$UI/system/components/justep/button/button" class="btn btn-default btn-block" label="提交我的意见" xid="submitBtn" bind-click="submitClick">
    <i xid="i2"></i>
    <span xid="span5">提交我的意见</span></a></div>
    <div class="x-col" xid="col3"></div></div></div>

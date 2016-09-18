@@ -36,7 +36,7 @@
     <i xid="i4" class="icon-social-buffer-outline"></i>
     <span xid="span4">债权转让</span></a> </div></div> 
    <div class="x-panel-content" xid="content2">
-    <div xid="div16" style="position:relative;top:10px;background-color:white;">
+    <div xid="div16" style="position:relative;top:10px;" class="div16">
      <div component="$UI/system/components/justep/list/list" class="x-list" limit="1000" xid="list2" data="transferData">
       <ul class="x-list-template" xid="listTemplateUl1" bind-click="detailClick">
        <li xid="li1" class="list-group-item x-flex   img_home">

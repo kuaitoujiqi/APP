@@ -5,9 +5,8 @@ define(function(require){
 	var Model = function(){
 		this.callParent();
 	};
-	Model.prototype.transferDataCustomRefresh = function(event){
-		var transferData = event.source;
-        $.ajax({
+	Model.prototype.transferBtnClick = function(event){
+    	$.ajax({
             type: "GET",
             url: require.toUrl('./json/transferData.json'),
             dataType: 'json',
