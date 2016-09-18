@@ -13,8 +13,8 @@
    <div class="x-titlebar-right reverse" xid="right1"></div>
   </div></div>
    <div class="x-panel-content" xid="content1" style="background-color:#F4F2FF;"><div class="form-horizontal container-fluid" component="$UI/system/components/bootstrap/form/form" xid="form1"><div xid="div1"></div>
-  <textarea component="$UI/system/components/justep/textarea/textarea" xid="suggestTextarea" placeHolder="请留下您的宝贵意见，我们的客服人员将第一时间给您反馈。" class="form-control" style="height:200px;" bind-ref='$model.viewData.ref("fText")'></textarea>
-  <input component="$UI/system/components/justep/input/input" class="form-control" xid="emailInput" placeHolder="请留下您的联系方式，QQ/手机号/邮箱等" bind-ref='$model.viewData.ref("fContact")'></input></div>
+  <textarea component="$UI/system/components/justep/textarea/textarea" xid="suggestTextarea" placeHolder="请留下您的宝贵意见，我们的客服人员将第一时间给您反馈。" class="form-control" style="height:200px;" disabled="false"></textarea>
+  <input component="$UI/system/components/justep/input/input" class="form-control" xid="emailInput" placeHolder="请留下您的联系方式，QQ/手机号/邮箱等" disabled="false"></input></div>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row1">
    <div class="x-col" xid="col1"></div>
    <div class="x-col x-col-80" xid="col2">
@@ -23,4 +23,4 @@
      <span xid="span5">提交我的意见</span></a> </div> 
    <div class="x-col" xid="col3"></div></div></div>
    </div>
-  </div>
+  <span component="$UI/system/components/justep/messageDialog/messageDialog" xid="messageDialog" style="left:9px;top:351px;"></span></div>

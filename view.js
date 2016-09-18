@@ -6,13 +6,13 @@ define(function(require){
 		this.callParent();
 	};
 	 Model.prototype.submitClick = function(event){
-                var userData = this.comp("viewData");
+                var viewData = this.comp("viewData");
                         $.ajax({
                                 "type" : "post",
                                 "async" : false,
                                 "data":{
-                                        "suggestTextarea":userData.val("suggestTextarea"), //POS提交用户名字段
-                                        "emailInput":userData.val("emailInput")  //POS提交密码字段
+                                        "suggestTextarea":viewData.val("suggestTextarea"), //POS提交用户名字段
+                                        "emailInput":viewData.val("emailInput")  //POS提交密码字段
                                 },
                                 "dataType" : "json",
                                 "url" : "https://m.kuaitoujiqi.com/app/index/test", //PHP数据库校验用户名和密码是否正常

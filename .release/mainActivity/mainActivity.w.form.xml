@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cnQFFFr" class="cnQFFFr" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/bootstrap/form/form,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/messageDialog/messageDialog,$model/UI2/system/components/justep/textarea/textarea,">  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model1" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cnQFFFr" class="cnQFFFr"></div>  
+  <span component="$model/UI2/system/components/justep/messageDialog/messageDialog" xid="messageDialog" style="left:9px;top:351px;" data-bind="component:{name:'$model/UI2/system/components/justep/messageDialog/messageDialog'}" data-config="{&quot;type&quot;:&quot;OK&quot;}" __cid="cnQFFFr" class="cnQFFFr">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal-overlay cnQFFFr" __cid="cnQFFFr"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal cnQFFFr" __cid="cnQFFFr">
+      <xhtml:div class="x-modal-inner cnQFFFr" __cid="cnQFFFr">
+        <xhtml:div class="x-modal-title cnQFFFr" __cid="cnQFFFr"></xhtml:div>
+        <xhtml:div class="x-modal-text cnQFFFr" __cid="cnQFFFr"></xhtml:div>
+        <xhtml:input class="x-modal-prompt-input cnQFFFr" type="text" __cid="cnQFFFr"/>
+      </xhtml:div>
+      <xhtml:div class="x-modal-buttons cnQFFFr" __cid="cnQFFFr">
+        <xhtml:a class="x-modal-button x-modal-button-bold OK cnQFFFr" value="ok" __cid="cnQFFFr">确定</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold Yes cnQFFFr" value="yes" __cid="cnQFFFr">是</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold No cnQFFFr" value="no" __cid="cnQFFFr">否</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold Cancel cnQFFFr" value="cancel" __cid="cnQFFFr">取消</xhtml:a>
+      </xhtml:div>
+    </xhtml:div>
+  </span>
+  <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full cnQFFFr" xid="contents1" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0}" __cid="cnQFFFr"> 
+    <div class="x-contents-content active cnQFFFr" xid="content1" style="background-image: url($model/UI2/APP/img/loginbg4.jpg);" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cnQFFFr">
+      <div class="form-vertical cnQFFFr" component="$model/UI2/system/components/bootstrap/form/form" xid="form1" data-bind="component:{name:'$model/UI2/system/components/bootstrap/form/form'}" __cid="cnQFFFr">
+        <div xid="div12" class="form-group cnQFFFr" style="margin-right:auto;margin-left:auto;width:95%;" __cid="cnQFFFr"> 
+          <textarea component="$model/UI2/system/components/justep/textarea/textarea" xid="suggestTextarea" class="form-control cnQFFFr" style="height:200px;" data-bind="component:{ref:userData.ref(&quot;username&quot;),name:'$model/UI2/system/components/justep/textarea/textarea'}" data-config="{&quot;disabled&quot;:false,&quot;placeHolder&quot;:&quot;请留下您的宝贵意见，我们的客服人员将第一时间给您反馈。&quot;}" __cid="cnQFFFr"/>
+        </div>
+        <div xid="div13" class="form-group cnQFFFr" style="margin-right:auto;margin-left:auto;width:95%;" __cid="cnQFFFr"> 
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control cnQFFFr" xid="emailInput" data-bind="component:{ref:$model.userData.ref(&quot;userpass&quot;),name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;disabled&quot;:false,&quot;placeHolder&quot;:&quot;请留下您的联系方式，QQ/手机号/邮箱等&quot;}" __cid="cnQFFFr"/>
+        </div>
+      </div>
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row cnQFFFr" xid="row4" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cnQFFFr"> 
+        <div class="x-col cnQFFFr" xid="col10" style="text-align:center;" __cid="cnQFFFr">
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-success btn-block cnQFFFr" xid="button1" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:btnCheckUserLogin" data-config="{&quot;label&quot;:&quot;登录系统&quot;}" __cid="cnQFFFr"> 
+            <i xid="i1" __cid="cnQFFFr" class="cnQFFFr"/>  
+            <span xid="span1" __cid="cnQFFFr" class="cnQFFFr">登录系统</span>
+          </a>
+        </div> 
+      </div>  
+      <div xid="div3" style="margin:50px 20px 50px 20px;height:50px;text-align:center;" __cid="cnQFFFr" class="cnQFFFr">
+        <span xid="span2" __cid="cnQFFFr" class="cnQFFFr">© Biyao</span> 
+      </div> 
+    </div>
+  </div> 
+</div>

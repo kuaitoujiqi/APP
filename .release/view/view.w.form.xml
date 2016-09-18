@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cZV3Ar2" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cZV3Ar2" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/textarea/textarea,$model/UI2/system/components/justep/panel/panel,">
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cZV3Ar2" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cZV3Ar2" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/bootstrap/form/form,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/textarea/textarea,$model/UI2/system/components/justep/messageDialog/messageDialog,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,">
   <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">p.cZV3Ar2{padding: 10px 15px; margin-bottom: 0px} .x-attachment-content.cZV3Ar2{border: 0} .form-control.cZV3Ar2{margin-top: 10px}</xhtml:style>  
   <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cZV3Ar2" class="cZV3Ar2"/>  
-<<<<<<< HEAD
-  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p51a97754966d458a86da2dca5420d919-iosstatusbar cZV3Ar2" xid="panel1" style="background-color:#F2F2F2;" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cZV3Ar2"> 
-=======
-  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pb2865094a0fd46e89e644f13fe238f84-iosstatusbar cZV3Ar2" xid="panel1" style="background-color:#F2F2F2;" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cZV3Ar2"> 
->>>>>>> 815cedd1b66db4655f6d0fa848b5d692d6038bc1
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pffe0388517f94133bc4083e8a6b7f660-iosstatusbar cZV3Ar2" xid="panel1" style="background-color:#F2F2F2;" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cZV3Ar2"> 
     <div class="x-panel-top cZV3Ar2" xid="top1" style="background-color:#497BEA;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cZV3Ar2">
       <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cZV3Ar2" xid="titleBar1" style="background-color:#497BEA;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" __cid="cZV3Ar2"> 
         <div class="x-titlebar-left cZV3Ar2" xid="left1" __cid="cZV3Ar2">
@@ -25,24 +21,38 @@
       </div>
     </div>  
     <div class="x-panel-content cZV3Ar2" xid="content1" style="background-color:#F4F2FF;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cZV3Ar2">
-      <div xid="div1" __cid="cZV3Ar2" class="cZV3Ar2"/>  
-      <textarea component="$model/UI2/system/components/justep/textarea/textarea" xid="suggestTextarea" class="form-control cZV3Ar2" style="height:200px;" data-bind="component:{name:'$model/UI2/system/components/justep/textarea/textarea'}" data-config="{&quot;placeHolder&quot;:&quot;请留下您的宝贵意见，我们的客服人员将第一时间给您反馈。&quot;}" __cid="cZV3Ar2"/>  
-      <input component="$model/UI2/system/components/justep/input/input" class="form-control cZV3Ar2" xid="emailInput" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;请留下您的联系方式，QQ/手机号/邮箱等&quot;}" __cid="cZV3Ar2"/>  
+      <div class="form-horizontal container-fluid cZV3Ar2" component="$model/UI2/system/components/bootstrap/form/form" xid="form1" data-bind="component:{name:'$model/UI2/system/components/bootstrap/form/form'}" __cid="cZV3Ar2">
+        <div xid="div1" __cid="cZV3Ar2" class="cZV3Ar2"/>  
+        <textarea component="$model/UI2/system/components/justep/textarea/textarea" xid="suggestTextarea" class="form-control cZV3Ar2" style="height:200px;" data-bind="component:{name:'$model/UI2/system/components/justep/textarea/textarea'}" data-config="{&quot;disabled&quot;:false,&quot;placeHolder&quot;:&quot;请留下您的宝贵意见，我们的客服人员将第一时间给您反馈。&quot;}" __cid="cZV3Ar2"/>  
+        <input component="$model/UI2/system/components/justep/input/input" class="form-control cZV3Ar2" xid="emailInput" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;disabled&quot;:false,&quot;placeHolder&quot;:&quot;请留下您的联系方式，QQ/手机号/邮箱等&quot;}" __cid="cZV3Ar2"/>
+      </div>  
       <div component="$model/UI2/system/components/justep/row/row" class="x-row cZV3Ar2" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cZV3Ar2"> 
         <div class="x-col cZV3Ar2" xid="col1" __cid="cZV3Ar2"/>  
-        <div class="x-col x-col-80 cZV3Ar2" xid="col2" __cid="cZV3Ar2">
-          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-block cZV3Ar2" xid="submitBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;提交我的意见&quot;}" __cid="cZV3Ar2"> 
+        <div class="x-col x-col-80 cZV3Ar2" xid="col2" __cid="cZV3Ar2"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-block cZV3Ar2" xid="submitBtn" bind-click="submitClick" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;提交我的意见&quot;}" __cid="cZV3Ar2"> 
             <i xid="i2" __cid="cZV3Ar2" class="cZV3Ar2"/>  
             <span xid="span5" __cid="cZV3Ar2" class="cZV3Ar2">提交我的意见</span>
-          </a>
+          </a> 
         </div>  
         <div class="x-col cZV3Ar2" xid="col3" __cid="cZV3Ar2"/>
       </div>
     </div>  
-<<<<<<< HEAD
-    <style __cid="cZV3Ar2" class="cZV3Ar2">.x-panel.p51a97754966d458a86da2dca5420d919-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p51a97754966d458a86da2dca5420d919-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p51a97754966d458a86da2dca5420d919-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p51a97754966d458a86da2dca5420d919-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p51a97754966d458a86da2dca5420d919-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p51a97754966d458a86da2dca5420d919-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p51a97754966d458a86da2dca5420d919-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p51a97754966d458a86da2dca5420d919-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p51a97754966d458a86da2dca5420d919-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
-=======
-    <style __cid="cZV3Ar2" class="cZV3Ar2">.x-panel.pb2865094a0fd46e89e644f13fe238f84-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pb2865094a0fd46e89e644f13fe238f84-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pb2865094a0fd46e89e644f13fe238f84-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pb2865094a0fd46e89e644f13fe238f84-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pb2865094a0fd46e89e644f13fe238f84-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pb2865094a0fd46e89e644f13fe238f84-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pb2865094a0fd46e89e644f13fe238f84-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pb2865094a0fd46e89e644f13fe238f84-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pb2865094a0fd46e89e644f13fe238f84-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
->>>>>>> 815cedd1b66db4655f6d0fa848b5d692d6038bc1
-  </div>
+    <style __cid="cZV3Ar2" class="cZV3Ar2">.x-panel.pffe0388517f94133bc4083e8a6b7f660-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pffe0388517f94133bc4083e8a6b7f660-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pffe0388517f94133bc4083e8a6b7f660-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pffe0388517f94133bc4083e8a6b7f660-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pffe0388517f94133bc4083e8a6b7f660-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pffe0388517f94133bc4083e8a6b7f660-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pffe0388517f94133bc4083e8a6b7f660-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pffe0388517f94133bc4083e8a6b7f660-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pffe0388517f94133bc4083e8a6b7f660-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div>  
+  <span component="$model/UI2/system/components/justep/messageDialog/messageDialog" xid="messageDialog" style="left:9px;top:351px;" data-bind="component:{name:'$model/UI2/system/components/justep/messageDialog/messageDialog'}" data-config="{&quot;type&quot;:&quot;OK&quot;}" __cid="cZV3Ar2" class="cZV3Ar2">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal-overlay cZV3Ar2" __cid="cZV3Ar2"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal cZV3Ar2" __cid="cZV3Ar2">
+      <xhtml:div class="x-modal-inner cZV3Ar2" __cid="cZV3Ar2">
+        <xhtml:div class="x-modal-title cZV3Ar2" __cid="cZV3Ar2"></xhtml:div>
+        <xhtml:div class="x-modal-text cZV3Ar2" __cid="cZV3Ar2"></xhtml:div>
+        <xhtml:input class="x-modal-prompt-input cZV3Ar2" type="text" __cid="cZV3Ar2"/>
+      </xhtml:div>
+      <xhtml:div class="x-modal-buttons cZV3Ar2" __cid="cZV3Ar2">
+        <xhtml:a class="x-modal-button x-modal-button-bold OK cZV3Ar2" value="ok" __cid="cZV3Ar2">确定</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold Yes cZV3Ar2" value="yes" __cid="cZV3Ar2">是</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold No cZV3Ar2" value="no" __cid="cZV3Ar2">否</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold Cancel cZV3Ar2" value="cancel" __cid="cZV3Ar2">取消</xhtml:a>
+      </xhtml:div>
+    </xhtml:div>
+  </span>
 </div>
