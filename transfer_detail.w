@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <div xmlns="http://www.w3.org/1999/xhtml" component="$UI/system/components/justep/window/window" design="device:m;" xid="window" class="window">  
   <div component="$UI/system/components/justep/model/model" xid="model" style="left:18px;top:83px;height:244px;"> 
-  <div component="$UI/system/components/justep/data/data" autoLoad="true" xid="transferDetailData" idColumn="fID"><column label="ID" name="fID" type="String" xid="xid14"></column>
+  <div component="$UI/system/components/justep/data/data" autoLoad="true" xid="transferDetailData" idColumn="fID" onCustomRefresh="detailDataCustomRefresh"><column label="ID" name="fID" type="String" xid="xid14"></column>
   <column label="项目名称" name="fTitle" type="String" xid="xid15"></column>
   <column label="利率" name="fRate" type="String" xid="xid16"></column>
   <column label="还款日期" name="fTime" type="String" xid="xid17"></column>
@@ -10,9 +10,9 @@
   <column label="项目编号" name="fNum" type="String" xid="xid20"></column>
   <column label="上线时间" name="fShang" type="String" xid="xid21"></column>
   <column label="项目类型" name="fLei" type="String" xid="xid22"></column></div>
-  <div component="$UI/system/components/justep/data/data" autoLoad="true" xid="transferOneData" idColumn="fID"><column label="ID" name="fID" type="String" xid="xid1"></column>
+  <div component="$UI/system/components/justep/data/data" autoLoad="true" xid="transferOneData" idColumn="fID" onCustomRefresh="transferOneDataCustomRefresh"><column label="ID" name="fID" type="String" xid="xid1"></column>
   <column label="名称" name="fTitle" type="String" xid="xid2"></column></div>
-  <div component="$UI/system/components/justep/data/data" autoLoad="true" xid="transferTwoData" idColumn="fID"><column label="ID" name="fID" type="String" xid="xid3"></column>
+  <div component="$UI/system/components/justep/data/data" autoLoad="true" xid="transferTwoData" idColumn="fID" onCustomRefresh="transferTwoDataCustomRefresh"><column label="ID" name="fID" type="String" xid="xid3"></column>
   <column label="父级ID" name="fOneID" type="String" xid="xid4"></column>
   <column label="项目描述" name="fTitle" type="String" xid="xid5"></column>
   <column label="文字" name="fText" type="String" xid="xid6"></column>

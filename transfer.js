@@ -27,6 +27,18 @@ define(function(require){
 	Model.prototype.listBtnClick = function(event){
 		justep.Shell.showPage("list");
 	};
+	Model.prototype.detailClick = function(event){
+		var data = this.comp("transferData");
+		justep.Shell.showPage("transfer_detail",{
+			data:{"ID" : data.getValue("fID")}
+		});
+	};
+	Model.prototype.transferBtnClick = function(event){
+		justep.Shell.showPage("transfer");
+	};
+	Model.prototype.listBtnClick = function(event){
+		justep.Shell.showPage("list");
+	};
 
 	return Model;
 });
