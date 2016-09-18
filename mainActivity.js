@@ -11,12 +11,12 @@ define(function(require){
 
         
         Model.prototype.btnCheckUserLogin = function(event){
-                var userData = this.comp("userData");
+                var viewData = this.comp("viewData");
                 //用户名和密码为空提示
-                if ( $.trim(userData.val("username")) === "" || $.trim(userData.val("userpass")) === "") {
+                if ( $.trim(viewData.val("text")) === "" || $.trim(viewData.val("contact")) === "") {
                         this.comp("messageDialog").show({
                                 "title" : "温馨提示",
-                                "message" : "请输入用户名或密码"
+                                "message" : "请输入反馈意见和联系方式"
                         });
                 }
                 else
@@ -27,8 +27,8 @@ define(function(require){
                                 "type" : "post",
                                 "async" : false,
                                 "data":{
-                                        "username":userData.val("username"), //POS提交用户名字段
-                                        "userpass":userData.val("userpass")  //POS提交密码字段
+                                        "text":viewData.val("text"), //POS提交用户名字段
+                                        "contact":viewData.val("contact")  //POS提交密码字段
                                 },
                                 "dataType" : "json",
                                 "url" : "https://m.kuaitoujiqi.com/app/index/test", //PHP数据库校验用户名和密码是否正常

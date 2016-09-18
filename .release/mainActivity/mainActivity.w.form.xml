@@ -25,7 +25,7 @@
           <textarea component="$model/UI2/system/components/justep/textarea/textarea" xid="suggestTextarea" class="form-control cnQFFFr" style="height:200px;" data-bind="component:{ref:userData.ref(&quot;username&quot;),name:'$model/UI2/system/components/justep/textarea/textarea'}" data-config="{&quot;disabled&quot;:false,&quot;placeHolder&quot;:&quot;请留下您的宝贵意见，我们的客服人员将第一时间给您反馈。&quot;}" __cid="cnQFFFr"/>
         </div>
         <div xid="div13" class="form-group cnQFFFr" style="margin-right:auto;margin-left:auto;width:95%;" __cid="cnQFFFr"> 
-          <input component="$model/UI2/system/components/justep/input/input" class="form-control cnQFFFr" xid="emailInput" data-bind="component:{ref:$model.userData.ref(&quot;userpass&quot;),name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;disabled&quot;:false,&quot;placeHolder&quot;:&quot;请留下您的联系方式，QQ/手机号/邮箱等&quot;}" __cid="cnQFFFr"/>
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control cnQFFFr" xid="emailInput" data-bind="component:{ref:userData.ref(&quot;userpass&quot;),name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;disabled&quot;:false,&quot;placeHolder&quot;:&quot;请留下您的联系方式，QQ/手机号/邮箱等&quot;}" __cid="cnQFFFr"/>
         </div>
       </div>
       <div component="$model/UI2/system/components/justep/row/row" class="x-row cnQFFFr" xid="row4" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cnQFFFr"> 
@@ -35,9 +35,6 @@
             <span xid="span1" __cid="cnQFFFr" class="cnQFFFr">登录系统</span>
           </a>
         </div> 
-      </div>  
-      <div xid="div3" style="margin:50px 20px 50px 20px;height:50px;text-align:center;" __cid="cnQFFFr" class="cnQFFFr">
-        <span xid="span2" __cid="cnQFFFr" class="cnQFFFr">© Biyao</span> 
       </div> 
     </div>
   </div> 

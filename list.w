@@ -63,8 +63,8 @@
           <div class="x-col x-col-center" xid="col17" style="text-align:center;">
            <span xid="span10">按月付息  到期还本</span></div> 
           <div class="x-col x-col-center" xid="col18" style="text-align:center;">
-           <span xid="span11" bind-text=' ref("fShang")'></span></div> 
-          
+   <span xid="span14"><![CDATA[上线时间：]]></span>
+  <span xid="span11" bind-text=' ref("fShang")'></span></div><div class="x-col" xid="col1"><span xid="span13"><![CDATA[]]></span></div>
   <div class="x-col x-col-center" xid="col19" style="text-align:center;">
    <span xid="span12" bind-text=' ref("fTotal")'></span></div></div> 
   </div> </li> </ul> </div> </div> </div> </div></div>

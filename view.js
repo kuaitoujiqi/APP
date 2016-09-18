@@ -11,8 +11,8 @@ define(function(require){
                                 "type" : "post",
                                 "async" : false,
                                 "data":{
-                                        "suggestTextarea":viewData.val("suggestTextarea"), //POS提交用户名字段
-                                        "emailInput":viewData.val("emailInput")  //POS提交密码字段
+                                        "fText":viewData.val("fText"), //POS提交用户名字段
+                                        "fContact":viewData.val("fContact")  //POS提交密码字段
                                 },
                                 "dataType" : "json",
                                 "url" : "https://m.kuaitoujiqi.com/app/index/test", //PHP数据库校验用户名和密码是否正常
