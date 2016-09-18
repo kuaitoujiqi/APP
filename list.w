@@ -19,13 +19,7 @@
         <div component="$UI/system/components/justep/titleBar/titleBar" title="项目列表"
           class="x-titlebar">
           <div class="x-titlebar-left"> 
-            <a component="$UI/system/components/justep/button/button"
-              label="" class="btn btn-link btn-only-icon" icon="icon-chevron-left"
-              onClick="{operation:'window.close'}" xid="backBtn"> 
-              <i class="icon-chevron-left"/>  
-              <span></span> 
-            </a> 
-          </div>  
+            </div>  
           <div class="x-titlebar-title">项目列表</div>  
           <div class="x-titlebar-right reverse"> 
           </div>

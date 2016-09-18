@@ -71,6 +71,10 @@ define(function(require){
 				"infore":{
 					url : require.toUrl('./infore.w')
 				},
+				"security_center":{
+					url : require.toUrl('./security_center.w')
+				},
+				
 				"view":{
 					url : require.toUrl('./view.w')
 				},

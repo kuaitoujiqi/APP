@@ -4,3 +4,7 @@
 .x-panel-content{
 	background-color:#f3f1fe;
 }
+.x-card.btn-group .btn.active {
+    color: #35b3e4;
+    border-bottom: 3px solid #497bea;
+}

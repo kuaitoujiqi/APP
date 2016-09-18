@@ -33,6 +33,11 @@ define(function(require){
 	};
 	Model.prototype.hongbaoBtnClick = function(event){
 		justep.Shell.showPage("hongbao");
+		safeCenterBtnClick
+	};
+	Model.prototype.safeCenterBtnClickBtnClick = function(event){
+		justep.Shell.showPage("security_center");
+		safeCenterBtnClick
 	};
 	Model.prototype.contentActive = function(event){
 		var windowContainer = event.source.getContent(event.source.getActiveXid()).$domNode.children();
