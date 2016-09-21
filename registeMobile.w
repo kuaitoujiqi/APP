@@ -9,7 +9,7 @@
     <!--       <filter name="userfilter" xid="filter2"><![CDATA[fID=:user]]></filter></div>  -->  
    
    <div component="$UI/system/components/justep/data/baasData" autoLoad="false"
-      xid="testData" queryAction="queryNetease_user" tableName="netease_user" url="/justep/netease"
+      xid="testData" queryAction="queryRegist_user" tableName="netease_user" url="/justep/netease"
       idColumn="fID" saveAction="saveNetease_user" autoNew="false" directDelete="true"> 
       <filter name="filter0" xid="neteaseFilter1"><![CDATA[fID=:usera]]></filter>  
       <column label="ID" name="fID" type="String" xid="default1"></column>
@@ -17,21 +17,23 @@
   <column label="姓名" name="fName" type="String" xid="default3"></column>
   <column label="密码" name="passwd" type="String" xid="default4"></column>
   <column label="电话" name="fPhoneNumber" type="String" xid="default5"></column>
-  <column label="地址" name="fAddress" type="String" xid="default11"></column></div>
+  <column label="地址" name="fAddress" type="String" xid="default11"></column>
+  <column label="fUser" name="fUser" type="String" xid="default13"></column></div>
   
   
   
    <div component="$UI/system/components/justep/data/baasData" autoLoad="false"
-      xid="userData" queryAction="queryNetease_user" tableName="netease_user" url="/justep/netease"
+      xid="userData" queryAction="queryRegist_user" tableName="netease_user" url="/justep/netease"
       idColumn="fID" saveAction="saveNetease_user" autoNew="false"> 
       <!--   <column label="密码" name="passwd" type="String" xid="default17"></column> -->  
       <filter name="filter0" xid="filter5"><![CDATA[fID=:usera]]></filter>  
-      <column label="ID" name="fID" type="String" xid="default6"></column>
-  <column label="QQ;weibo;weixin;sim" name="fType" type="String" xid="default7"></column>
-  <column label="姓名" name="fName" type="String" xid="default8"></column>
-  <column label="密码" name="passwd" type="String" xid="default9"></column>
-  <column label="电话" name="fPhoneNumber" type="String" xid="default10"></column>
-  <column label="地址" name="fAddress" type="String" xid="default12"></column></div>
+      <column label="ID" name="fID" type="String" xid="default14"></column>
+  <column label="QQ;weibo;weixin;sim" name="fType" type="String" xid="default15"></column>
+  <column label="姓名" name="fName" type="String" xid="default16"></column>
+  <column label="密码" name="passwd" type="String" xid="default17"></column>
+  <column label="电话" name="fPhoneNumber" type="String" xid="default18"></column>
+  <column label="地址" name="fAddress" type="String" xid="default19"></column>
+  <column label="fUser" name="fUser" type="String" xid="default20"></column></div>
   
   </div>  
   <div component="$UI/system/components/justep/popOver/popOver" class="x-popOver"
@@ -57,7 +59,7 @@
    <div class="input-group" xid="div16">
     <span class="input-group-addon" xid="span6" style="background-color:white;">
      <i class="icon-android-contact" xid="i5"></i></span> 
-    <input component="$UI/system/components/justep/input/input" class="form-control x-inputText" xid="input1" bind-value="'用户名为4-26个字符组成'"></input></div> 
+    <input component="$UI/system/components/justep/input/input" class="form-control x-inputText" xid="input1" bind-value="'用户名为4-26个字符组成'" max="js:new Date()" bind-ref='$model.userData.ref("fPhoneNumber")'></input></div> 
   <div class="input-group" xid="div20">
    <span class="input-group-addon" xid="span11" style="background-color:white;">
     <i class="icon-calculator" xid="i8"></i></span> 
@@ -79,11 +81,11 @@
   <div class="input-group" xid="div27">
    <span class="input-group-addon" xid="span18" style="background-color:white;">
     <i class="icon-locked" xid="i14"></i></span> 
-   <input component="$UI/system/components/justep/input/input" class="form-control x-inputText" xid="input10" bind-value="'请输入您的密码'"></input></div>
+   <input component="$UI/system/components/justep/input/input" class="form-control x-inputText" xid="input10" bind-value="'请输入您的密码'" bind-ref='$model.userData.ref("passwd")'></input></div>
   <div class="input-group" xid="div29">
    <span class="input-group-addon" xid="span20" style="background-color:white;">
     <i class="icon-locked" xid="i16"></i></span> 
-   <input component="$UI/system/components/justep/input/input" class="form-control x-inputText" xid="input12" bind-value="'请再次输入您的密码'"></input></div></div>
+   <input component="$UI/system/components/justep/input/input" class="form-control x-inputText" xid="input12" bind-value="'请再次输入您的密码'" bind-ref='$model.userData.ref("passwd")'></input></div></div>
   </div> 
       </div> 
     <div xid="div30" style="height:200;"></div>

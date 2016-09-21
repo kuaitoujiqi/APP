@@ -9,12 +9,18 @@ define(function(require) {
 		this._deviceType = "pc"; // pc || wx || app
 		this._userID = justep.UUID.createUUID();
 		this._userDefaultName = "新用户";
-		this._fPhoneNumber = "15010263286";
+		this._fPhoneNumber = "";
 		this._userPasswd = "123456";
+		this._fType = "手机";
 		this._userDefaultAddress = "北京市";
+		this._user="thcl6138";
+		
 	};
+	
 
+	//获取手机验证码
 	Model.prototype.sendsmsButton = function(event) {
+		
 		if (!navigator.mobsms) {
 			justep.Util.hint("请安装最新版本(含插件)体验！");
 			return;
@@ -37,6 +43,7 @@ define(function(require) {
 	};
 
 	Model.prototype.modelLoad = function(event) {
+		
 		var self = this;
 		var comp = this.comp("sendsmsbutton");
 		Timmer.apply(comp, [ 60, "免费获取验证码", "重新发送" ]);
@@ -60,7 +67,6 @@ define(function(require) {
 				verify : function(appinfo) {
 					alert("无法验证，只支持x5app");
 				}
-
 			};
 		}
 		;
@@ -69,12 +75,8 @@ define(function(require) {
 		this.loadUserData();
 	};
 
-	// 依据 verify 返回值决定向Baas 保存用户。
-	// 使用的是第一种方式。更安全的要求参见第二种方式
-	// 第二种方式: http://wiki.mob.com/smssdk-service-verify/
 	Model.prototype.verifyButton = function(event) {
 		var self = this;
-
 		var phoneInput = this.comp("phonenumber").val();
 		var verifyCode = this.comp("verifyCode").val();
 		var reg = /^0?1[3|4|5|7|8][0-9]\d{8}$/;
@@ -122,11 +124,11 @@ define(function(require) {
 			}, success, fail);
 		} else {
 			justep.Util.hint("验证码有误！")
-		}
-		;
+		};
 	};
 
 	Model.prototype.loadUserData = function() {
+		
 		var userData = this.comp("userData");
 		if (!userData.loaded) {
 			userData.refreshData();
@@ -134,11 +136,13 @@ define(function(require) {
 			if (userData.getCount() === 0) {
 				this.comp("userData").newData({
 					index : 0,
-					
 					defaultValues : [ {
 						"fID" : this._userID,
 						"passwd" : "",
+						"fUser":"",
+						
 						"fName" : this._userDefaultName,
+						"fType" : this._fType,
 						"fPhoneNumber" : this._fPhoneNumber,
 						"fAddress" : this._userDefaultAddress
 					} ]
@@ -151,7 +155,8 @@ define(function(require) {
 		navigator.mobsms.verify(args, success, error);
 	};
 
-	function Timmer(loopSecond, titile1, title2, lisentner) { // todo
+	function Timmer(loopSecond, titile1, title2, lisentner) {
+	
 		// 还要检查一个结果返回变量。
 		this.loopSecond = loopSecond;
 		this.waittime = loopSecond;
@@ -175,43 +180,6 @@ define(function(require) {
 			}
 		}
 
-	}
-	;
-
-	Model.prototype.dbTestClick = function(event) {
-		var self = this;
-		var testData = this.comp("testData");
-		testData.refreshData();
-		testData.newData({
-			index : 0,
-			defaultValues : [ {
-				"fID" : justep.UUID.createUUID(),
-				"fType" : "ISM",
-				"passwd" : "",
-				"fName" : "test",
-				"fPhoneNumber" : "123456789",
-				"fAddress" : "test add"
-			} ]
-		});
-
-		function onsuccess(info, phoneInput) { // for test
-			if (info.result == -1) {
-				self._userID = phoneInput;
-				var userData = self.comp('testData');
-				userData.setValue("fID", phoneInput);
-
-				var reslut = userData.saveData();
-
-			} else
-				justep.Util.hint("验证失败：" + JSON.stringify(info), {
-					"type" : "danger"
-				});
-		}
-		;
-
-		onsuccess({
-			result : -1
-		}, "18501978580");
 	};
 
 	return Model;

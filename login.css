@@ -1,7 +1,7 @@
 .text-black{ color:#000;}
-.text-danger{ color:#337ab7;}
+.text-danger{ color:#ea413c;}
 
-.x-titlebar{ background-color:#337ab7;}
+.x-titlebar{ background-color:#ea413c; font-size:16px;}
 .panel-heading{ border-color:#efefef;}
 
 .img3{ width:50px; height:50px;}
@@ -13,4 +13,14 @@
 .input-group .form-control{ border:0; border-radius:0; color:#999;}
 .input-group .form-control:focus{ box-shadow:none; border-color:#efefef;}
 
-
+.list-group-item{
+	border:0px;
+	padding:0px;
+}
+.div14{
+	border-top:1px solid #ddd;
+	margin-top:10px;
+}
+.btnxin{
+	background-color:#
+}
