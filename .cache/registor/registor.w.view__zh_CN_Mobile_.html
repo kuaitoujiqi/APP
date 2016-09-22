@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cvymuym" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cvymuym" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/controlGroup/controlGroup,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/baasData,$model/UI2/system/components/justep/labelEdit/labelEdit,$model/UI2/system/components/justep/panel/panel,">  
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cvymuym" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cvymuym" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/bootstrap/form/form,$model/UI2/system/components/justep/input/password,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">  
   <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cvymuym" class="cvymuym"/>  
-  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pfc47d0fc9e3e48808e76a66d6c408f3a-iosstatusbar cvymuym" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cvymuym"> 
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p2124e058e90244e8a859e183df003632-iosstatusbar cvymuym" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cvymuym"> 
     <div class="x-panel-top cvymuym" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cvymuym"> 
       <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cvymuym" xid="titleBar1" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;注册页面&quot;}" __cid="cvymuym"> 
         <div class="x-titlebar-left cvymuym" xid="left1" __cid="cvymuym"> 
@@ -18,42 +18,77 @@
       </div> 
     </div>  
     <div class="x-panel-content cvymuym" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cvymuym"> 
-      <div component="$model/UI2/system/components/justep/controlGroup/controlGroup" class="x-control-group cvymuym" xid="controlGroup1" data-bind="component:{name:'$model/UI2/system/components/justep/controlGroup/controlGroup'}" data-config="{&quot;title&quot;:&quot;title&quot;}" __cid="cvymuym"> 
-        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cvymuym" xid="labelEdit1" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cvymuym"> 
-          <label class="x-label cvymuym" xid="label1" __cid="cvymuym" data-bind="text:$model.regData.label(&quot;name&quot;)"/>  
-          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cvymuym" xid="userName" data-bind="component:{ref:$model.userData.ref(&quot;username&quot;),name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;用户名为4-26个字符组成&quot;}" __cid="cvymuym"/> 
+      <div class="form-vertical cvymuym" component="$model/UI2/system/components/bootstrap/form/form" xid="form1" data-bind="component:{name:'$model/UI2/system/components/bootstrap/form/form'}" __cid="cvymuym"> 
+        <div xid="div12" class="form-group cvymuym" style="margin-right:auto;margin-left:auto;width:95%;" __cid="cvymuym"> 
+          <label xid="label4" class="sr-only cvymuym" __cid="cvymuym">用户名</label>  
+          <div xid="div14" class="input-group cvymuym" __cid="cvymuym"> 
+            <div xid="div15" class="input-group-addon cvymuym" __cid="cvymuym"> 
+              <span class="glyphicon glyphicon-user cvymuym" xid="span2" __cid="cvymuym"/> 
+            </div>  
+            <input component="$model/UI2/system/components/justep/input/input" class="form-control cvymuym" xid="username" data-bind="component:{ref:$model.userData.ref(&quot;username&quot;),name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;请输入用户名&quot;}" __cid="cvymuym"/> 
+          </div> 
         </div>  
-        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cvymuym" xid="labelEdit5" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cvymuym"> 
-          <label class="x-label cvymuym" xid="label5" __cid="cvymuym" data-bind="text:$model.regData.label(&quot;name&quot;)"/>  
-          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cvymuym" xid="phonenumber" data-bind="component:{ref:$model.userData.ref(&quot;telphone&quot;),name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;手机号&quot;}" __cid="cvymuym"/> 
+        <div xid="formGroup1" class="form-group cvymuym" style="margin-right:auto;margin-left:auto;width:95%;" __cid="cvymuym"> 
+          <label xid="col1" class="sr-only cvymuym" __cid="cvymuym">用户名</label>  
+          <div xid="col2" class="input-group cvymuym" __cid="cvymuym"> 
+            <div xid="div1" class="input-group-addon cvymuym" __cid="cvymuym"> 
+              <span class="glyphicon glyphicon-user cvymuym" xid="span4" __cid="cvymuym"/> 
+            </div>  
+            <input component="$model/UI2/system/components/justep/input/input" class="form-control cvymuym" xid="phonenumber" data-bind="component:{ref:$model.userData.ref(&quot;Sphone&quot;),name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;手机号&quot;}" __cid="cvymuym"/> 
+          </div> 
         </div>  
-        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cvymuym" xid="labelEdit4" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cvymuym"> 
-          <label class="x-label cvymuym" xid="label4" __cid="cvymuym" data-bind="text:$model.regData.label(&quot;email&quot;)"/>  
-          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cvymuym" xid="verifyCode" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;验证码&quot;}" __cid="cvymuym"/>  
-          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-primary center-block cvymuym" xid="regBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:sendsmsButton" data-config="{&quot;label&quot;:&quot;获取验证码&quot;}" __cid="cvymuym"> 
+        <div xid="formGroup3" class="form-group cvymuym" style="margin-right:auto;margin-left:auto;width:95%;" __cid="cvymuym"> 
+          <label xid="col5" class="sr-only cvymuym" __cid="cvymuym">用户名</label>  
+          <div xid="col6" class="input-group cvymuym" __cid="cvymuym"> 
+            <div xid="div3" class="input-group-addon cvymuym" __cid="cvymuym"> 
+              <span class="glyphicon glyphicon-user cvymuym" xid="span6" __cid="cvymuym"/> 
+            </div>  
+            <input component="$model/UI2/system/components/justep/input/input" class="form-control cvymuym" xid="code" style="width:70%;" data-bind="component:{ref:$model.userData.ref(&quot;Scode&quot;),name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;验证码&quot;}" __cid="cvymuym"/>  
+            <input component="$model/UI2/system/components/justep/input/input" class="form-control cvymuym" xid="input10" style="width:30%;" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" __cid="cvymuym"/> 
+          </div> 
+        </div>  
+        <div xid="formGroup4" class="form-group cvymuym" style="margin-right:auto;margin-left:auto;width:95%;" __cid="cvymuym"> 
+          <label xid="col7" class="sr-only cvymuym" __cid="cvymuym">用户名</label>  
+          <div xid="col8" class="input-group cvymuym" __cid="cvymuym"> 
+            <div xid="div4" class="input-group-addon cvymuym" __cid="cvymuym"> 
+              <span class="glyphicon glyphicon-user cvymuym" xid="span7" __cid="cvymuym"/> 
+            </div>  
+            <input component="$model/UI2/system/components/justep/input/input" class="form-control cvymuym" xid="codephone" style="width:70%;" data-bind="component:{ref:$model.userData.ref(&quot;ScodePhone&quot;),name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;format&quot;:&quot;0,000.00&quot;,&quot;max&quot;:&quot;js:new Date()&quot;,&quot;placeHolder&quot;:&quot;手机验证码&quot;}" __cid="cvymuym"/>  
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cvymuym" xid="button4" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:btnDuanxin" data-config="{&quot;label&quot;:&quot;获取短信验证码&quot;}" __cid="cvymuym"> 
+              <i xid="i3" __cid="cvymuym" class="cvymuym"/>  
+              <span xid="span12" __cid="cvymuym" class="cvymuym">获取短信验证码</span> 
+            </a> 
+          </div> 
+        </div>  
+        <div xid="div13" class="form-group cvymuym" style="margin-right:auto;margin-left:auto;width:95%;" __cid="cvymuym"> 
+          <label xid="label5" class="sr-only cvymuym" __cid="cvymuym">密码</label>  
+          <div xid="div16" class="input-group cvymuym" __cid="cvymuym"> 
+            <div xid="div17" class="input-group-addon cvymuym" __cid="cvymuym"> 
+              <span class="glyphicon glyphicon-edit cvymuym" xid="span3" __cid="cvymuym"/> 
+            </div>  
+            <input component="$model/UI2/system/components/justep/input/password" class="form-control cvymuym" xid="password" type="password" data-bind="component:{ref:userData.ref('userpass'),name:'$model/UI2/system/components/justep/input/password'}" data-config="{&quot;placeHolder&quot;:&quot;请输入密码&quot;}" __cid="cvymuym"/> 
+          </div> 
+        </div>  
+        <div xid="formGroup6" class="form-group cvymuym" style="margin-right:auto;margin-left:auto;width:95%;" __cid="cvymuym"> 
+          <label xid="col11" class="sr-only cvymuym" __cid="cvymuym">密码</label>  
+          <div xid="col12" class="input-group cvymuym" __cid="cvymuym"> 
+            <div xid="div6" class="input-group-addon cvymuym" __cid="cvymuym"> 
+              <span class="glyphicon glyphicon-edit cvymuym" xid="span10" __cid="cvymuym"/> 
+            </div>  
+            <input component="$model/UI2/system/components/justep/input/password" class="form-control cvymuym" xid="password2" type="password" data-bind="component:{ref:userData.ref('userpass'),name:'$model/UI2/system/components/justep/input/password'}" data-config="{&quot;placeHolder&quot;:&quot;请再次输入密码&quot;}" __cid="cvymuym"/> 
+          </div> 
+        </div> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row cvymuym" xid="row4" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cvymuym"> 
+        <div class="x-col cvymuym" xid="col10" style="text-align:center;" __cid="cvymuym"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-success btn-block cvymuym" xid="button3" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:btnCheckUserLogin" data-config="{&quot;label&quot;:&quot;注册&quot;}" __cid="cvymuym"> 
             <i xid="i1" __cid="cvymuym" class="cvymuym"/>  
-            <span xid="span2" __cid="cvymuym" class="cvymuym">获取验证码</span> 
+            <span xid="span11" __cid="cvymuym" class="cvymuym">注册</span> 
           </a> 
-        </div>  
-        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cvymuym" xid="labelEdit7" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cvymuym"> 
-          <label class="x-label cvymuym" xid="label7" __cid="cvymuym" data-bind="text:$model.regData.label(&quot;name&quot;)"/>  
-          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cvymuym" xid="repasscode" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;手机验证码&quot;}" __cid="cvymuym"/> 
-        </div>  
-        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cvymuym" xid="labelEdit2" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cvymuym"> 
-          <label class="x-label cvymuym" xid="label2" __cid="cvymuym" data-bind="text:$model.regData.label(&quot;pwd&quot;)"/>  
-          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cvymuym" xid="password" data-bind="component:{ref:$model.userData.ref(&quot;mima&quot;),name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;请输入密码&quot;}" __cid="cvymuym"/> 
-        </div>  
-        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cvymuym" xid="labelEdit3" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cvymuym"> 
-          <label class="x-label cvymuym" xid="label3" __cid="cvymuym" data-bind="text:$model.regData.label(&quot;repwd&quot;)"/>  
-          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cvymuym" xid="repassword" data-bind="component:{ref:$model.userData.ref(&quot;mima_in&quot;),name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;确认密码&quot;}" __cid="cvymuym"/> 
-        </div>  
-        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-primary center-block cvymuym" xid="button2" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:verifyButton" data-config="{&quot;label&quot;:&quot;注册&quot;}" __cid="cvymuym"> 
-          <i xid="i3" __cid="cvymuym" class="cvymuym"/>  
-          <span xid="span3" __cid="cvymuym" class="cvymuym">注册</span> 
-        </a> 
+        </div> 
       </div> 
     </div>  
     <div class="x-panel-bottom cvymuym" xid="bottom1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cvymuym"/>  
-    <style __cid="cvymuym" class="cvymuym">.x-panel.pfc47d0fc9e3e48808e76a66d6c408f3a-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pfc47d0fc9e3e48808e76a66d6c408f3a-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pfc47d0fc9e3e48808e76a66d6c408f3a-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pfc47d0fc9e3e48808e76a66d6c408f3a-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pfc47d0fc9e3e48808e76a66d6c408f3a-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pfc47d0fc9e3e48808e76a66d6c408f3a-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pfc47d0fc9e3e48808e76a66d6c408f3a-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pfc47d0fc9e3e48808e76a66d6c408f3a-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pfc47d0fc9e3e48808e76a66d6c408f3a-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+    <style __cid="cvymuym" class="cvymuym">.x-panel.p2124e058e90244e8a859e183df003632-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p2124e058e90244e8a859e183df003632-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p2124e058e90244e8a859e183df003632-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p2124e058e90244e8a859e183df003632-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p2124e058e90244e8a859e183df003632-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p2124e058e90244e8a859e183df003632-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p2124e058e90244e8a859e183df003632-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p2124e058e90244e8a859e183df003632-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p2124e058e90244e8a859e183df003632-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
   </div> 
 </div>

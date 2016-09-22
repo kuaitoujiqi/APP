@@ -2,18 +2,12 @@
 
 <div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window" component="$UI/system/components/justep/window/window"
   design="device:m;">  
-  <div component="$UI/system/components/justep/model/model" xid="model" style="height:auto;top:247px;left:121px;"><div component="$UI/system/components/justep/data/baasData" autoLoad="true" xid="registorData" queryAction="queryRegistor" saveAction="saveRegistor" url="/app/app" tableName="registor"><column label="username" name="username" type="String" xid="default1"></column>
-  <column label="telphone" name="telphone" type="String" xid="default2"></column>
-  <column label="code" name="code" type="Integer" xid="default3"></column>
-  <column label="code_tel" name="code_tel" type="Integer" xid="default4"></column>
-  <column label="mima" name="mima" type="Integer" xid="default5"></column>
-  <column label="mima_in" name="mima_in" type="Integer" xid="default6"></column></div>
-  <div component="$UI/system/components/justep/data/baasData" autoLoad="true" xid="userData" queryAction="queryRegistor" saveAction="saveRegistor" url="/app/app" tableName="registor"><column label="username" name="username" type="String" xid="default7"></column>
-  <column label="telphone" name="telphone" type="String" xid="default8"></column>
-  <column label="code" name="code" type="Integer" xid="default9"></column>
-  <column label="code_tel" name="code_tel" type="Integer" xid="default10"></column>
-  <column label="mima" name="mima" type="Integer" xid="default11"></column>
-  <column label="mima_in" name="mima_in" type="Integer" xid="default12"></column></div></div>  
+  <div component="$UI/system/components/justep/model/model" xid="model" style="height:auto;top:247px;left:121px;"><div component="$UI/system/components/justep/data/data" autoLoad="false" xid="userData" idColumn="username" autoNew="true">
+   <column label="username" name="username" type="String" xid="default1"></column>
+  <column label="userpass" name="userpass" type="String" xid="default2"></column>
+  <column label="Sname" name="Sphone" type="String" xid="default3"></column>
+  <column label="Sarea" name="Scode" type="String" xid="default4"></column>
+  <column label="Sbrand" name="ScodePhone" type="String" xid="default5"></column></div></div>  
   <div component="$UI/system/components/justep/panel/panel" class="x-panel x-full"
     xid="panel1"> 
     <div class="x-panel-top" xid="top1">
@@ -27,39 +21,54 @@
       </div>
     </div>  
     <div class="x-panel-content" xid="content1">
-      <div component="$UI/system/components/justep/controlGroup/controlGroup"
-        class="x-control-group" title="title" xid="controlGroup1">  
-        <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30"
-          xid="labelEdit1"> 
-          <label class="x-label" xid="label1" bind-text='$model.regData.label("name")'/>  
-          <input component="$UI/system/components/justep/input/input" class="form-control x-edit"
-            xid="userName" placeHolder="用户名为4-26个字符组成" bind-ref='$model.userData.ref("username")'/>
-        </div>  
-        <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30" xid="labelEdit5">
-   <label class="x-label" xid="label5" bind-text='$model.regData.label("name")'></label>
-   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="phonenumber" placeHolder="手机号" bind-ref='$model.userData.ref("telphone")'></input></div><div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30" xid="labelEdit4">
-   <label class="x-label" xid="label4" bind-text='$model.regData.label("email")'></label>
-   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="verifyCode" placeHolder="验证码"></input><a component="$UI/system/components/justep/button/button" class="btn btn-primary center-block" label="获取验证码" xid="regBtn" onClick="sendsmsButton">
-   <i xid="i1"></i>
-   <span xid="span2">获取验证码</span></a></div><div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30" xid="labelEdit7">
-   <label class="x-label" xid="label7" bind-text='$model.regData.label("name")'></label>
-   <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="repasscode" placeHolder="手机验证码"></input></div><div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30"
-          xid="labelEdit2"> 
-          <label class="x-label" xid="label2" bind-text='$model.regData.label("pwd")'/>  
-          <input component="$UI/system/components/justep/input/input" class="form-control x-edit"
-            xid="password" placeHolder="请输入密码" bind-ref='$model.userData.ref("mima")'/>
-        </div>
-      <div component="$UI/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30" xid="labelEdit3"> 
-        <label class="x-label" xid="label3" bind-text='$model.regData.label("repwd")'/>  
-        <input component="$UI/system/components/justep/input/input" class="form-control x-edit" xid="repassword" placeHolder="确认密码" bind-ref='$model.userData.ref("mima_in")'/>
-      </div>
+      <div class="form-vertical" component="$UI/system/components/bootstrap/form/form" xid="form1">
+   <div xid="div12" class="form-group" style="margin-right:auto;margin-left:auto;width:95%;">
+    <label xid="label4" class="sr-only">用户名</label>
+    <div xid="div14" class="input-group">
+     <div xid="div15" class="input-group-addon">
+      <span class="glyphicon glyphicon-user" xid="span2"></span></div> 
+     <input component="$UI/system/components/justep/input/input" class="form-control" xid="username" placeHolder="请输入用户名" bind-ref='$model.userData.ref("username")'></input></div> </div> 
+   <div xid="formGroup1" class="form-group" style="margin-right:auto;margin-left:auto;width:95%;">
+   <label xid="col1" class="sr-only">用户名</label>
+   <div xid="col2" class="input-group">
+    <div xid="div1" class="input-group-addon">
+     <span class="glyphicon glyphicon-user" xid="span4"></span></div> 
+    <input component="$UI/system/components/justep/input/input" class="form-control" xid="phonenumber" placeHolder="手机号" bind-ref='$model.userData.ref("Sphone")'></input></div> </div>
   
-  <a component="$UI/system/components/justep/button/button" class="btn btn-primary center-block" label="注册" xid="button2" onClick="verifyButton">
+  
+  <div xid="formGroup3" class="form-group" style="margin-right:auto;margin-left:auto;width:95%;">
+   <label xid="col5" class="sr-only">用户名</label>
+   <div xid="col6" class="input-group">
+    <div xid="div3" class="input-group-addon">
+     <span class="glyphicon glyphicon-user" xid="span6"></span></div> 
+    <input component="$UI/system/components/justep/input/input" class="form-control" xid="code" placeHolder="验证码" bind-ref='$model.userData.ref("Scode")' style="width:70%;"></input>
+  <input component="$UI/system/components/justep/input/input" class="form-control" xid="input10" style="width:30%;"></input></div> </div>
+  <div xid="formGroup4" class="form-group" style="margin-right:auto;margin-left:auto;width:95%;">
+   <label xid="col7" class="sr-only">用户名</label>
+   <div xid="col8" class="input-group">
+    <div xid="div4" class="input-group-addon">
+     <span class="glyphicon glyphicon-user" xid="span7"></span></div> 
+    <input component="$UI/system/components/justep/input/input" class="form-control" xid="codephone" bind-ref='$model.userData.ref("ScodePhone")' placeHolder="手机验证码" format="0,000.00" max="js:new Date()" style="width:70%;"></input>
+  <a component="$UI/system/components/justep/button/button" class="btn btn-default" label="获取短信验证码" xid="button4" onClick="btnDuanxin">
    <i xid="i3"></i>
-   <span xid="span3">注册</span></a></div>  
-        
-      
-    </div>  
+   <span xid="span12">获取短信验证码</span></a></div> </div>
+  <div xid="div13" class="form-group" style="margin-right:auto;margin-left:auto;width:95%;">
+   <label xid="label5" class="sr-only">密码</label>
+   <div xid="div16" class="input-group">
+    <div xid="div17" class="input-group-addon">
+     <span class="glyphicon glyphicon-edit" xid="span3"></span></div> 
+    <input component="$UI/system/components/justep/input/password" class="form-control" xid="password" placeHolder="请输入密码" bind-ref="userData.ref('userpass')"></input></div> </div>
+  <div xid="formGroup6" class="form-group" style="margin-right:auto;margin-left:auto;width:95%;">
+   <label xid="col11" class="sr-only">密码</label>
+   <div xid="col12" class="input-group">
+    <div xid="div6" class="input-group-addon">
+     <span class="glyphicon glyphicon-edit" xid="span10"></span></div> 
+    <input component="$UI/system/components/justep/input/password" class="form-control" xid="password2" placeHolder="请再次输入密码" bind-ref="userData.ref('userpass')"></input></div> </div></div>
+  <div component="$UI/system/components/justep/row/row" class="x-row" xid="row4">
+   <div class="x-col" xid="col10" style="text-align:center;">
+    <a component="$UI/system/components/justep/button/button" class="btn btn-success btn-block" label="注册" xid="button3" onClick="btnCheckUserLogin">
+     <i xid="i1"></i>
+     <span xid="span11">注册</span></a> </div> </div></div>  
     <div class="x-panel-bottom" xid="bottom1"/>
   </div>
 </div>
