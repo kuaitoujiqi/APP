@@ -42,7 +42,7 @@
     <div xid="div3" class="input-group-addon">
      <span class="glyphicon glyphicon-user" xid="span6"></span></div> 
     <input component="$UI/system/components/justep/input/input" class="form-control" xid="code" placeHolder="验证码" bind-ref='$model.userData.ref("Scode")' style="width:70%;"></input>
-  <input component="$UI/system/components/justep/input/input" class="form-control" xid="input10" style="width:30%;"></input></div> </div>
+  <div xid="div2"><img src="" alt="" xid="image1"></img></div></div> </div>
   <div xid="formGroup4" class="form-group" style="margin-right:auto;margin-left:auto;width:95%;">
    <label xid="col7" class="sr-only">用户名</label>
    <div xid="col8" class="input-group">

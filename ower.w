@@ -101,9 +101,9 @@
     <div class="x-col x-col-67 fr" xid="col40">
      <span xid="span19">安全中心</span></div> 
     <div class="x-col" xid="col39">
-      </div> <a component="$UI/system/components/justep/button/button" class="btn btn-primary" xid="button4" icon="icon-ios7-arrow-right" style="background-color:white;color:#C0C0C0;width:18px;" bind-click="safeCenterBtnClick">
-      <i xid="i5" class="icon-ios7-arrow-right"></i>
-      <span xid="span18"></span></a></div> </div>
+      <a component="$UI/system/components/justep/button/button" class="btn btn-primary" xid="button1" icon="icon-ios7-arrow-right" style="background-color:white;color:#C0C0C0;width:18px;" bind-click="safeCenterBtnClick">
+   <i xid="i1" class="icon-ios7-arrow-right"></i>
+   <span xid="span1"></span></a></div> </div> </div>
   <div xid="div8" style="background-color:#FFFFFF;">
    <div component="$UI/system/components/justep/row/row" class="x-row" xid="row17">
     <div class="x-col x-col-10" xid="col45" style="text-align:center;">
@@ -120,7 +120,7 @@
     <div class="x-col x-col-67 fr" xid="col49">
      <span xid="span24">银行卡管理</span></div> 
     <div class="x-col" xid="col50">
-     <a component="$UI/system/components/justep/button/button" class="btn btn-primary" xid="button6" icon="icon-ios7-arrow-right" style="background-color:white;color:#C0C0C0;width:18px;" bind-click="platBtnClick">
+     <a component="$UI/system/components/justep/button/button" class="btn btn-primary" xid="button6" icon="icon-ios7-arrow-right" style="background-color:white;color:#C0C0C0;width:18px;" bind-click="cardBtnClick">
       <i xid="i7" class="icon-ios7-arrow-right"></i>
       <span xid="span23"></span></a> </div> </div> </div></div>
   </div> 

@@ -44,13 +44,13 @@
          <h5 bind-text='ref("fTitle")' xid="h51"></h5>
          <div component="$UI/system/components/justep/row/row" class="x-row" xid="row4">
           <div class="x-col x-col-33 x-col-center" xid="col3" style="text-align:center;">
-           <span xid="span1" bind-text='ref("fRate")'></span>
+           <span xid="span1" bind-text='ref("fRate")' style="font-size:24px;color:#FF0000;"></span>
   <span xid="span14"><![CDATA[%]]></span></div> 
           <div class="x-col x-col-33 x-col-center" xid="col4" style="text-align:center;">
-           <span xid="span2" bind-text='ref("fMoney")'></span>
+           <span xid="span2" bind-text='ref("fMoney")' style="font-size:24px;"></span>
   <span xid="span16"><![CDATA[元]]></span></div> 
           <div class="x-col x-col-33 x-col-center" xid="col10" style="text-align:center;">
-           <span xid="span5" bind-text='ref("fJia")'></span>
+           <span xid="span5" bind-text='ref("fJia")' style="font-size:24px;"></span>
   <span xid="span17"><![CDATA[元]]></span></div> </div> 
          <div component="$UI/system/components/justep/row/row" class="x-row" xid="row5">
           <div class="x-col x-col-center" xid="col13" style="text-align:center;">
@@ -62,18 +62,14 @@
          <div class="progress" component="$UI/system/components/bootstrap/progress/progress" xid="progress1">
           <div class="progress-bar progress-bar-success" role="progressbar" xid="progressBar1">
            <span xid="span9">0%</span></div> </div> 
-         <div component="$UI/system/components/justep/row/row" class="x-row" xid="row7">
-          
-          <div class="x-col x-col-10 x-col-center" xid="col18">
-           <span xid="span11">还本日期：</span>
-  </div> 
-          <div class="x-col x-col-center" xid="col19" style="text-align:left;">
-           <span xid="span15" bind-text='val("fTime")'></span></div> 
-  
-  <div class="x-col x-col-center" xid="col1" style="text-align:right;">
-   <span xid="span12" bind-text=" ">预期收益：</span></div><div class="x-col x-col-10 x-col-center" xid="col2">
-  <span xid="span13" bind-text='ref("fShou")'></span></div>
-  </div> 
-  </div> </li> </ul> </div> </div> </div> </div></div>
+         <div component="$UI/system/components/justep/row/row" class="x-row" xid="row1">
+   
+   <div class="x-col x-col-center" xid="col2" style="text-align:left;">
+    <span xid="span10"><![CDATA[还本日期：]]></span>
+    <span xid="span20" bind-text='ref("fTime")'></span></div> 
+   <div class="x-col x-col-center" xid="col19" style="text-align:right;">
+    <span xid="span18"><![CDATA[预期收益：]]></span>
+    <span xid="span19" bind-text='val("fShou")'></span>
+  <span xid="span21"><![CDATA[元]]></span></div> </div></div> </li> </ul> </div> </div> </div> </div></div>
   </div> 
 </div>

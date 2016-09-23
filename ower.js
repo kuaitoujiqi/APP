@@ -28,6 +28,9 @@ define(function(require){
 	Model.prototype.platBtnClick = function(event){
 		justep.Shell.showPage("account");
 	};
+	Model.prototype.cardBtnClick = function(event){
+		window.location.href='https://pay.sina.com.cn/zjtg/website/view/debit_card.html?ft=4eaa3c98-5bb4-4d97-9d2a-f9c7602ee5d0';
+	};
 	Model.prototype.investBtnClick = function(event){
 		justep.Shell.showPage("invest1");
 	};

@@ -44,11 +44,14 @@
          <h5 bind-text='ref("fTitle")' xid="h51"></h5>
          <div component="$UI/system/components/justep/row/row" class="x-row" xid="row4">
           <div class="x-col x-col-33 x-col-center" xid="col3" style="text-align:center;">
-           <span xid="span1" bind-text='ref("fRate")'></span></div> 
+           <span xid="span1" bind-text='ref("fRate")' style="font-size:24px;color:#FF0000;"></span>
+  <span xid="span15"><![CDATA[%]]></span></div> 
           <div class="x-col x-col-33 x-col-center" xid="col4" style="text-align:center;">
-           <span xid="span2" bind-text=' ref("fTime")'></span></div> 
+           <span xid="span2" bind-text=' ref("fTime")' style="font-size:24px;"></span>
+  <span xid="span16"><![CDATA[个月]]></span></div> 
           <div class="x-col x-col-33 x-col-center" xid="col10" style="text-align:center;">
-           <span xid="span5" bind-text=' ref("fMoney")'></span></div> </div> 
+           <span xid="span5" bind-text=' ref("fMoney")' style="font-size:24px;"></span>
+  <span xid="span17"><![CDATA[元]]></span></div> </div> 
          <div component="$UI/system/components/justep/row/row" class="x-row" xid="row5">
           <div class="x-col x-col-center" xid="col13" style="text-align:center;">
            <span xid="span8">年化利率</span></div> 
@@ -64,9 +67,10 @@
            <span xid="span10">按月付息  到期还本</span></div> 
           <div class="x-col x-col-center" xid="col18" style="text-align:center;">
    <span xid="span14"><![CDATA[上线时间：]]></span>
-  <span xid="span11" bind-text=' ref("fShang")'></span></div><div class="x-col" xid="col1"><span xid="span13"><![CDATA[]]></span></div>
-  <div class="x-col x-col-center" xid="col19" style="text-align:center;">
-   <span xid="span12" bind-text=' ref("fTotal")'></span></div></div> 
+  <span xid="span11" bind-text=' ref("fShang")'></span></div><div class="x-col x-col-center" xid="col19" style="text-align:center;">
+   <span xid="span13"><![CDATA[借款总额：]]></span>
+  <span xid="span12" bind-text='val("fTotal")'></span>
+  <span xid="span18"><![CDATA[元]]></span></div></div> 
   </div> </li> </ul> </div> </div> </div> </div></div>
   </div></div>
   </div> 

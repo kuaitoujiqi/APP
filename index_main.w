@@ -66,11 +66,13 @@
        
   <h5 bind-text=' ref("fTitle")' xid="h51" style="height:20px;"></h5><div component="$UI/system/components/justep/row/row" class="x-row" xid="row4">
    <div class="x-col x-col-33 x-col-center" xid="col8" style="text-align:center;">
-    <span xid="span11" bind-text=' val("fRate")'></span></div> 
+    <span xid="span11" bind-text=' val("fRate")' style="font-size:24px;color:#FF0000;"></span></div> 
    <div class="x-col x-col-33 x-col-center" xid="col5" style="text-align:center;">
-    <span xid="span5" bind-text=' val("fTime")'></span></div> 
+    <span xid="span5" bind-text='ref("fTime")' style="font-size:24px;"></span>
+  <span xid="span19"><![CDATA[个月]]></span></div> 
    <div class="x-col x-col-33 x-col-center" xid="col10" style="text-align:center;">
-    <span xid="span8" bind-text=' val("fMoney")'></span></div> </div><div component="$UI/system/components/justep/row/row" class="x-row" xid="row5">
+    <span xid="span8" bind-text='ref("fMoney")'></span>
+  <span xid="span20"><![CDATA[元]]></span></div> </div><div component="$UI/system/components/justep/row/row" class="x-row" xid="row5">
    <div class="x-col x-col-center" xid="col13">
     <span xid="span8">年化利率</span></div> 
    <div class="x-col x-col-center" xid="col12">
@@ -82,9 +84,12 @@
    <div class="x-col x-col-center" xid="col17">
     <span xid="span10">按月付息  到期还本</span></div> 
    <div class="x-col x-col-center" xid="col18">
-    <span xid="span11" bind-text=' val("fShang")'>上线时间</span></div> 
+    <span xid="span16"><![CDATA[上线时间：]]></span>
+  <span xid="span18" bind-text=' val("fShang")'>上线时间</span></div> 
    <div class="x-col x-col-center" xid="col19">
-    <span xid="span12" bind-text=' val("fTotal")'></span></div> </div>
+    <span xid="span17"><![CDATA[借款总额：]]></span>
+  <span xid="span12" bind-text='ref("fTotal")'></span>
+  <span xid="span13"><![CDATA[元]]></span></div> </div>
   </div> </li> </ul> </div> </div>
   </div> </div> </div> </div> </div> 
    <div class="x-contents-content" xid="listContent" onActive="contentActive">
