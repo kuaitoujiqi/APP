@@ -22,6 +22,6 @@ var __result = __parent1._extend(__parent0).extend({
 	this.__cid='cZV3Ar2';
 	this._flag_='a6caecaa7e0d944680b6c6356899f345';
 	this.callParent(contextUrl);
- var __Data__ = require("$UI/system/components/justep/data/data");new __Data__(this,{"autoLoad":true,"confirmDelete":true,"confirmRefresh":true,"defCols":{"contact":{"define":"contact","label":"联系方式","name":"contact","relation":"contact","type":"String"},"fID":{"define":"fID","label":"id","name":"fID","relation":"fID","type":"String"},"text":{"define":"text","label":"wenben","name":"text","relation":"text","type":"String"}},"directDelete":false,"events":{},"idColumn":"fID","limit":20,"xid":"viewData"});
+ var __Data__ = require("$UI/system/components/justep/data/data");new __Data__(this,{"autoLoad":false,"autoNew":true,"confirmDelete":true,"confirmRefresh":true,"defCols":{"contact":{"define":"contact","label":"Sbrand","name":"contact","relation":"contact","type":"String"},"text":{"define":"text","label":"Sarea","name":"text","relation":"text","type":"String"}},"directDelete":false,"events":{},"idColumn":"text","limit":20,"xid":"userData"});
 }}); 
 return __result;});

@@ -5,6 +5,10 @@ define(function(require){
 	var Model = function(){
 		this.callParent();
 	};
+	Model.prototype.getImageUrl = function(url){
+		return require.toUrl(url);
+	};
+	
 	Model.prototype.detailDataCustomRefresh = function(event){
 		var detailData = event.source;
          var pid = this.params.data.ID;

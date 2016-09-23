@@ -69,14 +69,23 @@ define(function(require){
                                 "type" : "post",
                                 "async" : false,
                                 "data":{
+<<<<<<< HEAD
                                         "nickname":userData.val("username"), //POS提交用户名字段
                                         "password":userData.val("userpass"),  //POS提交密码字段
                                         "mobile":userData.val("Spnone")
+=======
+                                        "username":userData.val("username"), //POS提交用户名字段
+                                        "userpass":userData.val("userpass"),  //POS提交密码字段
+                                        "Sphone":userData.val("Sphone"),
+                                        "Scode":userData.val("Scode"),
+                                        "ScodePhone":userData.val("ScodePhone"),
+>>>>>>> 454fffeb924fe15b0b60c18d25316f002efc61b1
                                 },
                                 "dataType" : "json",
                                 "url" : "https://m.kuaitoujiqi.com/app/welcome/regesiter", //PHP数据库校验用户名和密码是否正常
                                 "success" : function(data) {
                                         if(data['code']==200){          //php返回200，代表后端程序成功返回查询结果
+<<<<<<< HEAD
                                           alert('注册成功');     
                                         } else if(data['code']==401) //返回400，代表数据库查询不到记录，用户名或密码
                                         {
@@ -92,6 +101,15 @@ define(function(require){
                                            alert('密码格式不正确');
                         
                                       } 
+=======
+                                                localStorage.setItem('username',data['data']['username']);  //登录成功存储用户名到html localStorage
+                                                localStorage.setItem('shopname',data['data']['shopname']);  //登录成功存储中文名称到html localStorage
+                                                localStorage.setItem('Sphone',data['data']['Sphone']);
+                                                localStorage.setItem('Scode',data['data']['Scode']);
+                                                localStorage.setItem('ScodePhone',data['data']['ScodePhone']);
+                                                window.location.href="./index.w";   //登录成功，跳转到APP首页
+                                        }
+>>>>>>> 454fffeb924fe15b0b60c18d25316f002efc61b1
                                         else if(data['code']==400) //返回400，代表数据库查询不到记录，用户名或密码
                                         {
                                              alert('注册失败');

@@ -8,9 +8,9 @@ define(function(require){
 		this.callParent();
 	};
 	  Model.prototype.submitButton = function(event){
-                var userData = this.comp("viewData");
+                var userData = this.comp("userData");
                 //用户名和密码为空提示
-                if ( $.trim(viewData.val("text")) === "" || $.trim(viewData.val("contact")) === "") {
+                if ( $.trim(userData.val("text")) === "" || $.trim(userData.val("contact")) === "") {
                         this.comp("messageDialog").show({
                                 "title" : "温馨提示",
                                 "message" : "请输入内容和联系方式"
@@ -24,8 +24,8 @@ define(function(require){
                                 "type" : "post",
                                 "async" : false,
                                 "data":{
-                                        "text":viewData.val("text"), //POS提交用户名字段
-                                        "contact":viewData.val("contact"),  //POS提交密码字段
+                                        "text":userData.val("text"), //POS提交用户名字段
+                                        "contact":userData.val("contact"),  //POS提交密码字段
                                 },
                                 "dataType" : "json",
                                 "url" : "http://localhost:8080/checkuserLogin.php", //PHP数据库校验用户名和密码是否正常
