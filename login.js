@@ -1,48 +1,60 @@
-define(function(require) {
-	var $ = require("jquery");
-	var justep = require("$UI/system/lib/justep");
-	
-	var Model = function() {
-		this.callParent();
-	};
 
-	// 进入注册页 
-	Model.prototype.registeredClick = function(event) {
-		var demo = $(event.target).attr("url");
-		justep.Shell.showPage(app);
-	};
+define(function(require){
+        var $ = require("jquery");
+        var justep = require("$UI/system/lib/justep");
+        require("$UI/system/lib/cordova/cordova");
+//        require("$UI/blshopApp/JS/Chart.js");
+        require("cordova!org.apache.cordova.device");
+        
+        var Model = function(){
+                this.callParent();
+        };
 
+        
+        Model.prototype.btnCheckUserLogin = function(event){
+                var userData = this.comp("userData");
+                //用户名和密码为空提示
+                if ( $.trim(userData.val("username")) === "" || $.trim(userData.val("userpass")) === "") {
+                        this.comp("messageDialog").show({
+                                "title" : "温馨提示",
+                                "message" : "请输入用户名或密码"
+                        });
+                }
+                else
+                {
+                        var self = this;
+                        //ajax校验用户名和密码
+                        $.ajax({
+                                "type" : "post",
+                                "async" : false,
+                                "data":{
+                                        "username":userData.val("username"), //POS提交用户名字段
+                                        "userpass":userData.val("userpass")  //POS提交密码字段
+                                },
+                                "dataType" : "json",
+                                "url" : "http://localhost:8080/checkuserLogin.php", //PHP数据库校验用户名和密码是否正常
+                                "success" : function(data) {
+                                        if(data['code']==200){          //php返回200，代表后端程序成功返回查询结果
+                                                localStorage.setItem('username',data['data']['username']);  //登录成功存储用户名到html localStorage
+                                                localStorage.setItem('shopname',data['data']['shopname']);  //登录成功存储中文名称到html localStorage
+                                                window.location.href="./index.w";   //登录成功，跳转到APP首页
+                                        }
+                                        else if(data['code']==400) //返回400，代表数据库查询不到记录，用户名或密码
+                                        {
+                                                self.comp("messageDialog").show({
+                                                "title" : "温馨提示",
+                                                "message" : "输入的用户名或密码不正确"
+                                });
+                                        }        
+                                },
+                                "error": function(){
+                                                alert("数据传输失败！");
+                                        }
+                                
+                        });
+                }
 
-	Model.prototype.loginIsmBtn = function(event) {
-		var phoneInput = this.comp("nameInput").val();
-		var passwordInput = this.comp("passwordInput").val();
+        };
 
-		var userData = this.comp("baasData1");
-		userData.clear();
-		userData.filters.setVar("userPhone", phoneInput);
-		userData.filters.setVar("password", passwordInput);
-		userData.refreshData();
-		if (userData.count()> 0) {
-			justep.Util.hint("登录成功");
-			justep.Shell.userName.set(phoneInput);
-			localStorage.removeItem("userUUID");
-
-			var user = {};
-			user.userid = phoneInput;
-			user.accountType = "ISM";
-			user.name = phoneInput || "NONAME";
-			localStorage.setItem("userUUID", JSON.stringify(user));
-
-			setTimeout(function() {
-				justep.Shell.closePage();
-			}, 3000);
-		} else {
-			justep.Util.hint("用户名或密码有误！", {
-				"type" : "danger"
-			});
-		}
-
-	};
-
-	return Model;
+        return Model;
 });

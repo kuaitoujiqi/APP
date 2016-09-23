@@ -70,7 +70,9 @@ define(function(require){
                                 "data":{
                                         "username":userData.val("username"), //POS提交用户名字段
                                         "userpass":userData.val("userpass"),  //POS提交密码字段
-                                        "Spnone":userData.val("Spnone")
+                                        "Sphone":userData.val("Sphone"),
+                                        "Scode":userData.val("Scode"),
+                                        "ScodePhone":userData.val("ScodePhone"),
                                 },
                                 "dataType" : "json",
                                 "url" : "http://localhost:8080/checkuserLogin.php", //PHP数据库校验用户名和密码是否正常
@@ -79,6 +81,8 @@ define(function(require){
                                                 localStorage.setItem('username',data['data']['username']);  //登录成功存储用户名到html localStorage
                                                 localStorage.setItem('shopname',data['data']['shopname']);  //登录成功存储中文名称到html localStorage
                                                 localStorage.setItem('Sphone',data['data']['Sphone']);
+                                                localStorage.setItem('Scode',data['data']['Scode']);
+                                                localStorage.setItem('ScodePhone',data['data']['ScodePhone']);
                                                 window.location.href="./index.w";   //登录成功，跳转到APP首页
                                         }
                                         else if(data['code']==400) //返回400，代表数据库查询不到记录，用户名或密码

@@ -3,18 +3,15 @@
 <div xmlns="http://www.w3.org/1999/xhtml" class="main13" component="$UI/system/components/justep/window/window"
   design="device:mobile;" xid="window">  
   <div component="$UI/system/components/justep/model/model" xid="model" style="height:auto;left:84px;top:1px;"> 
-    <div component="$UI/system/components/justep/data/baasData" autoLoad="false"
-      xid="baasData1" saveAction="saveNetease_user" queryAction="queryNetease_user"
-      tableName="netease_user" url="/app/app" idColumn="fID"> 
-      <column label="ID" name="fID" type="String" xid="default1"></column>
-  <column label="QQ;weibo;weixin;sim" name="fType" type="String" xid="default2"></column>
-  <column label="姓名" name="fName" type="String" xid="default3"></column>
-  <column label="密码" name="passwd" type="String" xid="default4"></column>
-  <column label="电话" name="fPhoneNumber" type="String" xid="default5"></column>
-  <column label="地址" name="fAddress" type="String" xid="default6"></column>
-  <column label="fUser" name="fUser" type="String" xid="default7"></column></div>  
     <!--   <div component="$UI/system/components/justep/data/baasData" autoLoad="false" xid="myPlatformData"></div> --> 
-  </div>  
+  <div component="$UI/system/components/justep/data/data" autoLoad="false" xid="userData" idColumn="username" autoNew="true">
+   <column label="username" name="username" type="String" xid="default1"></column>
+   <column label="userpass" name="userpass" type="String" xid="default2"></column>
+   <column label="Sname" name="Sname" type="String" xid="default3"></column>
+   <column label="Sarea" name="Sarea" type="String" xid="default4"></column>
+   <column label="Sbrand" name="Sbrand" type="String" xid="default5"></column>
+   <column label="Spower" name="Spower" type="String" xid="default6"></column>
+   <column label="Sdepartment" name="Sdepartment" type="String" xid="default7"></column></div></div>  
   <div component="$UI/system/components/justep/panel/panel" class="x-panel x-full x-card x-has-iosstatusbar"
     xid="panel2"> 
     <div class="x-panel-top" xid="top1"> 
@@ -34,8 +31,8 @@
     <div class="x-panel-content  x-cards panel-body" xid="content1" style="background-color:#F3F1FF;"> 
       <div xid="div12" style="text-align:center;margin-top:40px;margin-bottom:20px;"><img src="$UI/APP/img/infore_03.png" alt="" xid="image1"></img></div>
   <div xid="div1" class="list-group">
-   <div class="list-group-item" xid="div9">
-    <div class="input-group" xid="div7">
+   <div class="list-group-item  list_border" xid="div9">
+    <div class="input-group  list_border" xid="div7">
      <span class="input-group-addon" xid="span2">
       <i class="icon-ios7-contact" xid="i5"></i></span> 
      <input component="$UI/system/components/justep/input/input" class="form-control x-inputText" xid="nameInput" placeHolder="用户名/手机号"></input></div> </div> 
@@ -44,7 +41,7 @@
      <span class="input-group-addon" xid="span3">
       <i class="icon-unlocked" xid="i3"></i></span> 
      <input component="$UI/system/components/justep/input/input" class="form-control x-inputText" xid="passwordInput" placeHolder="密码"></input></div> </div> </div>
-  <a component="$UI/system/components/justep/button/button" class="btn x-black btn-only-label btn-block" label="登录" xid="loginIsmBtn" onClick="loginIsmBtn" style="background-color:blue;">
+  <a component="$UI/system/components/justep/button/button" class="btn x-black btn-only-label btn-block" label="登录" xid="loginIsmBtn" onClick="btnCheckUserLogin" style="background-color:blue;">
    <i xid="i4"></i>
    <span xid="span4">登录</span></a>
   <div class="list-group" xid="listGroup1" style="background-color:black;">
