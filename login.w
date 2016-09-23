@@ -35,12 +35,12 @@
     <div class="input-group  list_border" xid="div7">
      <span class="input-group-addon" xid="span2">
       <i class="icon-ios7-contact" xid="i5"></i></span> 
-     <input component="$UI/system/components/justep/input/input" class="form-control x-inputText" xid="nameInput" placeHolder="用户名/手机号"></input></div> </div> 
+     <input component="$UI/system/components/justep/input/input" class="form-control x-inputText" xid="nameInput" placeHolder="用户名/手机号" bind-ref='$model.userData.ref("username")'></input></div> </div> 
    <div class="list-group-item" xid="div6">
     <div class="input-group" xid="div8">
      <span class="input-group-addon" xid="span3">
       <i class="icon-unlocked" xid="i3"></i></span> 
-     <input component="$UI/system/components/justep/input/input" class="form-control x-inputText" xid="passwordInput" placeHolder="密码"></input></div> </div> </div>
+     <input component="$UI/system/components/justep/input/input" class="form-control x-inputText" xid="passwordInput" placeHolder="密码" bind-ref='$model.userData.ref("userpass")'></input></div> </div> </div>
   <a component="$UI/system/components/justep/button/button" class="btn x-black btn-only-label btn-block" label="登录" xid="loginIsmBtn" onClick="btnCheckUserLogin" style="background-color:blue;">
    <i xid="i4"></i>
    <span xid="span4">登录</span></a>
