@@ -36,7 +36,7 @@ define(function(require){
                                 "success" : function(data) {
                                         if(data['code']==200){          //php返回200，代表后端程序成功返回查询结果
                                                 localStorage.setItem('username',data['data']['username']);  //登录成功存储用户名到html localStorage
-                                                localStorage.setItem('shopname',data['data']['shopname']);  //登录成功存储中文名称到html localStorage
+                                                localStorage.setItem('userid',data['data']['userid']);  //登录成功存储中文名称到html localStorage
                                                 window.location.href="./index.w";   //登录成功，跳转到APP首页
                                         }
                                         else if(data['code']==400) //返回400，代表数据库查询不到记录，用户名或密码
