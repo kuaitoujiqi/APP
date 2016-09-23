@@ -17,6 +17,7 @@ define(function(require){
                         userData.applyUpdates();
                         justep.Util.hint("用户信息保存成功");
                 };
+                console.log(userData.val("Sphone"));
                 $.ajax({
                 "url" : "/takeout",
                 "type" : "post",
@@ -25,19 +26,19 @@ define(function(require){
                         "Sphone":userData.val("Sphone")
                                 },
                                 "dataType" : "json",
-                                "url" : "http://localhost:8080/checkuserLogin.php", //PHP数据库校验用户名和密码是否正常
+                                "url" : "https://m.kuaitoujiqi.com/app/welcome/sendmessage", //PHP数据库校验用户名和密码是否正常
                                 "success" : function(data) {
                                         if(data['code']==200){          //php返回200，代表后端程序成功返回查询结果
+                                               alert('验证码发送成功，请注意查收');
+                                               localStorage.setItem('Sphone',data['data']['Sphone']);
                                                
-                                                localStorage.setItem('Sphone',data['data']['Sphone']);
-                                               
-                                        }
+                                        } else if(data['code']==401) //返回400，代表数据库查询不到记录，用户名或密码
+                                        {
+                                        	alert('格式不正确')
+                                        }    
                                         else if(data['code']==400) //返回400，代表数据库查询不到记录，用户名或密码
                                         {
-                                                self.comp("messageDialog").show({
-                                                "title" : "温馨提示",
-                                                "message" : "输入的用户名或密码不正确"
-                                });
+                                        	alert('发送失败，请稍后再试')
                                         }        
                                 },
                                 "error": function(){
@@ -68,25 +69,33 @@ define(function(require){
                                 "type" : "post",
                                 "async" : false,
                                 "data":{
-                                        "username":userData.val("username"), //POS提交用户名字段
-                                        "userpass":userData.val("userpass"),  //POS提交密码字段
-                                        "Spnone":userData.val("Spnone")
+                                        "nickname":userData.val("username"), //POS提交用户名字段
+                                        "password":userData.val("userpass"),  //POS提交密码字段
+                                        "mobile":userData.val("Spnone")
                                 },
                                 "dataType" : "json",
-                                "url" : "http://localhost:8080/checkuserLogin.php", //PHP数据库校验用户名和密码是否正常
+                                "url" : "https://m.kuaitoujiqi.com/app/welcome/regesiter", //PHP数据库校验用户名和密码是否正常
                                 "success" : function(data) {
                                         if(data['code']==200){          //php返回200，代表后端程序成功返回查询结果
-                                                localStorage.setItem('username',data['data']['username']);  //登录成功存储用户名到html localStorage
-                                                localStorage.setItem('shopname',data['data']['shopname']);  //登录成功存储中文名称到html localStorage
-                                                localStorage.setItem('Sphone',data['data']['Sphone']);
-                                                window.location.href="./index.w";   //登录成功，跳转到APP首页
-                                        }
+                                          alert('注册成功');     
+                                        } else if(data['code']==401) //返回400，代表数据库查询不到记录，用户名或密码
+                                        {
+                                            alert('用户名格式不正确');
+                         
+                                       }  
+                                        else if(data['code']==402) //返回400，代表数据库查询不到记录，用户名或密码
+                                        {
+                                            alert('手机格式不正确');
+                         
+                                       } else if(data['code']==403) //返回400，代表数据库查询不到记录，用户名或密码
+                                       {
+                                           alert('密码格式不正确');
+                        
+                                      } 
                                         else if(data['code']==400) //返回400，代表数据库查询不到记录，用户名或密码
                                         {
-                                                self.comp("messageDialog").show({
-                                                "title" : "温馨提示",
-                                                "message" : "输入的用户名或密码不正确"
-                                });
+                                             alert('注册失败');
+                          
                                         }        
                                 },
                                 "error": function(){
