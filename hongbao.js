@@ -7,11 +7,16 @@ define(function(require){
 	};
 	Model.prototype.hongbaoDataCustomRefresh = function(event){
 		var hongbaoData = event.source;
+		var uid = localStorage.getItem('uid');
+		console.log(uid);
         $.ajax({
-            type: "GET",
+            type: "POST",
 //            url: require.toUrl('./json/hongbaoData.json'),
             url: require.toUrl('https://m.kuaitoujiqi.com/app/usercenter/redpaper'),
             dataType: 'json',
+            data:{
+                "uid":uid,
+        },
             async: false,
             cache: false,
             success: function(data){
