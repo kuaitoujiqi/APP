@@ -5,6 +5,7 @@ require('$model/UI2/system/components/justep/button/button');
 require('$model/UI2/system/components/justep/input/input');
 require('$model/UI2/system/components/justep/titleBar/titleBar');
 require('$model/UI2/system/components/justep/panel/child');
+require('$model/UI2/system/components/justep/data/data');
 require('$model/UI2/system/components/justep/window/window');
 require('$model/UI2/system/components/justep/panel/panel');
 var __parent1=require('$model/UI2/system/lib/base/modelBase'); 
@@ -17,5 +18,6 @@ var __result = __parent1._extend(__parent0).extend({
 	this.__cid='cyMbqmi';
 	this._flag_='bb66e0dbb5dfe993a7aeccb1013cd46a';
 	this.callParent(contextUrl);
+ var __Data__ = require("$UI/system/components/justep/data/data");new __Data__(this,{"autoLoad":false,"autoNew":true,"confirmDelete":true,"confirmRefresh":true,"defCols":{"money":{"define":"money","label":"qian1","name":"money","relation":"money","type":"String"},"username":{"define":"username","label":"username","name":"username","relation":"username","type":"String"}},"directDelete":false,"events":{},"idColumn":"username","limit":20,"xid":"userData"});
 }}); 
 return __result;});
