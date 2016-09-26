@@ -11,8 +11,8 @@ define(function(require){
 	
 	Model.prototype.detailDataCustomRefresh = function(event){
 		var detailData = event.source;
-         var pid = this.params.data.ID;
-        $.ajax({
+         /*var pid = this.params.data.ID;
+       $.ajax({
             type: "POST",
             url: require.toUrl('./json/detailData.json'),
 //            url: require.toUrl('https://m.kuaitoujiqi.com/app/product/bulk_standard'),
@@ -23,6 +23,18 @@ define(function(require){
             success: function(data){
 //            	console.log(data.data);
             detailData.loadData(data);//将返回的数据加载到data组件
+            },
+            error: function(){
+              throw justep.Error.create("加载数据失败");
+            }*/
+             $.ajax({
+            type: "GET",
+            url: require.toUrl('./json/transferDetailData.json'),
+            dataType: 'json',
+            async: false,
+            cache: false,
+            success: function(data){
+            	 detailData.loadData(data);//将返回的数据加载到data组件
             },
             error: function(){
               throw justep.Error.create("加载数据失败");
@@ -60,7 +72,7 @@ define(function(require){
 	//加载目的地二级
 	Model.prototype.transferTwoDataCustomRefresh = function(event){
 		var transferTwoData = event.source;
-		var pid = this.params.data.ID;
+		/*var pid = this.params.data.ID;
         $.ajax({
             type: "POST",
 //            url: require.toUrl('./json/placeTwoData.json'),
@@ -74,6 +86,18 @@ define(function(require){
             	console.log(data.data.presult);
               transferTwoData.loadData(data.data.presult);//到data组件
 //               placeTwoData.loadData(data);
+            },
+            error: function(){
+              throw justep.Error.create("加载数据失败");
+            }*/
+             $.ajax({
+            type: "GET",
+            url: require.toUrl('./json/transferTwoData.json'),
+            dataType: 'json',
+            async: false,
+            cache: false,
+            success: function(data){
+            	transferTwoData.loadData(data);//将返回的数据加载到data组件
             },
             error: function(){
               throw justep.Error.create("加载数据失败");

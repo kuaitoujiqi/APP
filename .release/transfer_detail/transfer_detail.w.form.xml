@@ -4,10 +4,14 @@
   <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.panel-body.c36ZzIv{float: left; width: 33%}</xhtml:style>  
   <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="c36ZzIv" class="c36ZzIv"></div>  
 <<<<<<< HEAD
+<<<<<<< HEAD
   <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p62ebbe21eb4f4316a773150f93fc32b5-iosstatusbar c36ZzIv" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="c36ZzIv"> 
 =======
   <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pe02f8282cbea42cf90a9d45761e8ff6b-iosstatusbar c36ZzIv" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="c36ZzIv"> 
 >>>>>>> 932981f8969b8a441773c206dd215d10fb446178
+=======
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p0a07d5d739cf4e6a8f544b4f27cd16d9-iosstatusbar c36ZzIv" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="c36ZzIv"> 
+>>>>>>> 8eba84476933390593da025f33ccd8a89b4aa5c4
     <div class="x-panel-top c36ZzIv" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="c36ZzIv"> 
       <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar c36ZzIv" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;项目详情&quot;}" __cid="c36ZzIv"> 
         <div class="x-titlebar-left c36ZzIv" __cid="c36ZzIv"> 
@@ -154,9 +158,13 @@
       </div>
     </div>  
 <<<<<<< HEAD
+<<<<<<< HEAD
     <style __cid="c36ZzIv" class="c36ZzIv">.x-panel.p62ebbe21eb4f4316a773150f93fc32b5-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p62ebbe21eb4f4316a773150f93fc32b5-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p62ebbe21eb4f4316a773150f93fc32b5-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p62ebbe21eb4f4316a773150f93fc32b5-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p62ebbe21eb4f4316a773150f93fc32b5-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p62ebbe21eb4f4316a773150f93fc32b5-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p62ebbe21eb4f4316a773150f93fc32b5-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p62ebbe21eb4f4316a773150f93fc32b5-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p62ebbe21eb4f4316a773150f93fc32b5-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
 =======
     <style __cid="c36ZzIv" class="c36ZzIv">.x-panel.pe02f8282cbea42cf90a9d45761e8ff6b-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pe02f8282cbea42cf90a9d45761e8ff6b-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pe02f8282cbea42cf90a9d45761e8ff6b-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pe02f8282cbea42cf90a9d45761e8ff6b-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pe02f8282cbea42cf90a9d45761e8ff6b-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pe02f8282cbea42cf90a9d45761e8ff6b-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pe02f8282cbea42cf90a9d45761e8ff6b-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pe02f8282cbea42cf90a9d45761e8ff6b-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pe02f8282cbea42cf90a9d45761e8ff6b-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
 >>>>>>> 932981f8969b8a441773c206dd215d10fb446178
+=======
+    <style __cid="c36ZzIv" class="c36ZzIv">.x-panel.p0a07d5d739cf4e6a8f544b4f27cd16d9-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p0a07d5d739cf4e6a8f544b4f27cd16d9-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p0a07d5d739cf4e6a8f544b4f27cd16d9-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p0a07d5d739cf4e6a8f544b4f27cd16d9-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p0a07d5d739cf4e6a8f544b4f27cd16d9-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p0a07d5d739cf4e6a8f544b4f27cd16d9-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p0a07d5d739cf4e6a8f544b4f27cd16d9-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p0a07d5d739cf4e6a8f544b4f27cd16d9-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p0a07d5d739cf4e6a8f544b4f27cd16d9-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+>>>>>>> 8eba84476933390593da025f33ccd8a89b4aa5c4
   </div> 
 </div>
