@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cyMbqmi" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cyMbqmi" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">  
+  <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">.div1.cyMbqmi{border: 1px soldi rgb(250, 235, 204); background-color: rgb(252, 248, 227); line-height: 40px; border-radius: 5px}</style>  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cyMbqmi" class="cyMbqmi"/>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pb1a0f9e863cb414d81515913711e5530-iosstatusbar cyMbqmi" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cyMbqmi"> 
+    <div class="x-panel-top cyMbqmi" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cyMbqmi"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cyMbqmi" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;标题&quot;}" __cid="cyMbqmi"> 
+        <div class="x-titlebar-left cyMbqmi" __cid="cyMbqmi"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cyMbqmi" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cyMbqmi"> 
+            <i class="icon-chevron-left cyMbqmi" __cid="cyMbqmi"/>  
+            <span __cid="cyMbqmi" class="cyMbqmi"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cyMbqmi" __cid="cyMbqmi">标题</div>  
+        <div class="x-titlebar-right  cyMbqmi" __cid="cyMbqmi"> 
+          <div class="empty cyMbqmi" __cid="cyMbqmi"/> 
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cyMbqmi" xid="content1" style="margin-top:40px;margin-right:20px;margin-left:20px;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cyMbqmi"> 
+      <div xid="div1" class="div1 cyMbqmi" style="padding-left:20px;margin-bottom:20px;" __cid="cyMbqmi"> 
+        <span xid="span3" style="font-size:14px;color:#808000;" __cid="cyMbqmi" class="cyMbqmi">注:单笔提现最大为5万，每日提现上限为50万！</span> 
+      </div>  
+      <div xid="div14" class="input-group cyMbqmi" __cid="cyMbqmi"> 
+        <div xid="div15" class="input-group-addon cyMbqmi" style="background-color:#EEEEEE;" __cid="cyMbqmi"> 
+          <span class="glyphicon glyphicon glyphicon-yen cyMbqmi" xid="span1" __cid="cyMbqmi"/> 
+        </div>  
+        <input component="$model/UI2/system/components/justep/input/input" class="form-control cyMbqmi" xid="money" data-bind="component:{ref:$model.userData.ref(&quot;money&quot;),name:'$model/UI2/system/components/justep/input/input'}" __cid="cyMbqmi"/> 
+      </div>  
+      <div xid="div3" style="margin-top:10px;" __cid="cyMbqmi" class="cyMbqmi"> 
+        <span xid="span4" __cid="cyMbqmi" class="cyMbqmi">¥1.50 由平台支付</span> 
+      </div>  
+      <div xid="div2" style="margin-top:20px;" __cid="cyMbqmi" class="cyMbqmi"> 
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-block cyMbqmi" xid="button1" style="background-color:green;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'},event:{click:$model._callModelFn.bind($model, 'rechargeCustomRefresh')}" data-config="{&quot;label&quot;:&quot;提现&quot;}" __cid="cyMbqmi"> 
+          <i xid="i1" __cid="cyMbqmi" class="cyMbqmi"/>  
+          <span xid="span2" __cid="cyMbqmi" class="cyMbqmi">提现</span> 
+        </a> 
+      </div> 
+    </div>  
+    <style __cid="cyMbqmi" class="cyMbqmi">.x-panel.pb1a0f9e863cb414d81515913711e5530-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pb1a0f9e863cb414d81515913711e5530-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pb1a0f9e863cb414d81515913711e5530-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pb1a0f9e863cb414d81515913711e5530-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pb1a0f9e863cb414d81515913711e5530-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pb1a0f9e863cb414d81515913711e5530-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pb1a0f9e863cb414d81515913711e5530-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pb1a0f9e863cb414d81515913711e5530-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pb1a0f9e863cb414d81515913711e5530-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+  </div> 
+</div>
