@@ -10,40 +10,45 @@ define(function(require){
 	};
 	  Model.prototype.rechargeCustomRefresh = function(event) {
                 var userData = this.comp("userData");
-                var params = {
-                        "userData" : userData.toJson(true)
-                };
-                var success = function(resultData) {
-                        userData.applyUpdates();
-                        justep.Util.hint("用户信息保存成功");
-                };
-                $.ajax({
-                "url" : "/takeout",
-                "type" : "post",
-                "async" : false,
-                 "data":{
-                        "money":userData.val("money")
-                                },
-                                "dataType" : "json",
-                                "url" : "https://m.kuaitoujiqi.com/app/welcome/sendmessage", //PHP数据库校验用户名和密码是否正常
-                                "success" : function(data) {
-                                	
-                                        if(data['code']==200){          //php返回200，代表后端程序成功返回查询结果
-                                               alert('提交成功！');
-                                                key = data.data;
-//                                               localStorage.setItem('Sphone',data['data']['Sphone']);
-                                               
-                                        } else if(data['code']==401) //返回400，代表数据库查询不到记录，用户名或密码
-                                        {
-                                        	alert('提交失败！')
-                                        }    
-                                           
-                                },
-                                "error": function(){
-                                                alert("数据传输失败！");
-                                        }
-                                
-                        });
+                var money = userData.val("money");
+                console.log(money);
+                var uid = localStorage.getItem('uid');
+//                var money = userData.val("money");
+               window.location.href='http://www.kuaitoujiqi.com:8080/app/usercenter/form_withdraw?uid='+uid+'&&money='+money;
+//                var params = {
+//                        "userData" : userData.toJson(true)
+//                };
+//                var success = function(resultData) {
+//                        userData.applyUpdates();
+//                        justep.Util.hint("用户信息保存成功");
+//                };
+//                $.ajax({
+//                "url" : "/takeout",
+//                "type" : "post",
+//                "async" : false,
+//                 "data":{
+//                        "money":userData.val("money")
+//                                },
+//                                "dataType" : "json",
+//                                "url" : "https://m.kuaitoujiqi.com/app/welcome/sendmessage", //PHP数据库校验用户名和密码是否正常
+//                                "success" : function(data) {
+//                                	
+//                                        if(data['code']==200){          //php返回200，代表后端程序成功返回查询结果
+//                                               alert('提交成功！');
+//                                                key = data.data;
+////                                               localStorage.setItem('Sphone',data['data']['Sphone']);
+//                                               
+//                                        } else if(data['code']==401) //返回400，代表数据库查询不到记录，用户名或密码
+//                                        {
+//                                        	alert('提交失败！')
+//                                        }    
+//                                           
+//                                },
+//                                "error": function(){
+//                                                alert("数据传输失败！");
+//                                        }
+//                                
+//                        });
                 };
                 
                 
