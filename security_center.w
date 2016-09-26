@@ -24,7 +24,7 @@
   <div xid="div2" style="background-color:white;"><div component="$UI/system/components/justep/row/row" class="x-row" xid="row1">
    <div class="x-col" xid="col1" style="text-align:center;"><span xid="span1"><![CDATA[实名认证]]></span></div>
    <div class="x-col" xid="col2" style="text-align:center;"><span xid="span2"><![CDATA[未认证]]></span></div>
-   <div class="x-col" xid="col3" style="text-align:center;"><a component="$UI/system/components/justep/button/button" class="btn btn-default" xid="button1" icon="icon-ios7-arrow-right" style="background-color:white;color:#C0C0C0;height:22px;width:22px;">
+   <div class="x-col" xid="col3" style="text-align:center;"><a component="$UI/system/components/justep/button/button" class="btn btn-default" xid="button1" icon="icon-ios7-arrow-right" style="background-color:white;color:#C0C0C0;height:22px;width:22px;" onClick="btnNameClick">
    <i xid="i1" class="icon-ios7-arrow-right"></i>
    <span xid="span13"></span></a></div></div>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row2">

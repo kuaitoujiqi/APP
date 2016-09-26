@@ -14,6 +14,9 @@ define(function(require){
 				"list":{
 					url : require.toUrl('./list.w')
 				},
+				"security_name":{
+					url : require.toUrl('./security_name.w')
+				},
 				"hongbao":{
 					url : require.toUrl('./hongbao.w')
 				},
@@ -47,8 +50,8 @@ define(function(require){
 				"login":{
 					url : require.toUrl('./login.w')
 				},
-				"registered":{
-					url : require.toUrl('./registered.w')
+				"registor":{
+					url : require.toUrl('./registor.w')
 				},
 				"important":{
 					url : require.toUrl('./important.w')

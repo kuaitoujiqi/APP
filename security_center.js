@@ -5,6 +5,8 @@ define(function(require){
 	var Model = function(){
 		this.callParent();
 	};
-
+	Model.prototype.btnNameClick = function(event){
+		justep.Shell.showPage("security_name");
+	};
 	return Model;
 });
