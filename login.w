@@ -54,6 +54,6 @@
    <div class="x-col" xid="col1"><div xid="div14" class="div14"></div></div>
    <div class="x-col x-col-10" xid="col2" style="text-align:center;"><span xid="span1"><![CDATA[或]]></span></div>
    <div class="x-col" xid="col3"><div xid="div15" class="div14"></div></div></div></div>
-  <div xid="div16" style="text-align:center;color:#0000FF;margin-top:20px;"><span xid="span8"><![CDATA[新用户注册]]></span></div></div> 
+  <div xid="div16" style="text-align:center;color:#0000FF;margin-top:20px;"><span xid="span8" bind-click="registorBtnClick"><![CDATA[新用户注册]]></span></div></div> 
   </div> 
 </div>

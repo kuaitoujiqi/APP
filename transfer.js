@@ -23,9 +23,6 @@ define(function(require){
             }
         });	
 	};
-	Model.prototype.transferBtnClick = function(event){
-		justep.Shell.showPage("transfer");
-	};
 	Model.prototype.listBtnClick = function(event){
 		justep.Shell.showPage("list");
 	};

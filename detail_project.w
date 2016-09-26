@@ -89,12 +89,7 @@
    <div class="x-col" xid="col39" style="text-align:right;">
     <span xid="span61" class="time" bind-text='ref("fShang")'><![CDATA[]]></span></div> 
    <div class="x-col x-col-10" xid="col38"></div></div>
-  <div component="$UI/system/components/justep/row/row" class="x-row" xid="row18">
-   <div class="x-col x-col-10" xid="col42" style="text-align:center;">
-    <span xid="span70">项目类型：</span></div> 
-   <div class="x-col" xid="col43" style="text-align:right;">
-    <span xid="span69" style="width:62px;" bind-text='ref("fLei")'><![CDATA[]]></span></div> 
-   <div class="x-col x-col-10" xid="col41"></div></div></li></ul> </div></div>
+  </li></ul> </div></div>
   <div xid="div3" style="background-color:white;"><div component="$UI/system/components/bootstrap/row/row" class="row" xid="row1">
    <div class="col col-xs-12 panel col-pane" xid="col1" style="height:100%; overflow: auto;">
     <div component="$UI/system/components/justep/list/list" class="x-list" xid="list1" data="placeOneData">

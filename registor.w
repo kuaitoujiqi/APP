@@ -7,7 +7,8 @@
   <column label="userpass" name="userpass" type="String" xid="default2"></column>
   <column label="Sname" name="Sphone" type="String" xid="default3"></column>
   <column label="Sarea" name="Scode" type="String" xid="default4"></column>
-  <column label="Sbrand" name="ScodePhone" type="String" xid="default5"></column></div></div>  
+  <column label="Sbrand" name="ScodePhone" type="String" xid="default5"></column>
+  <column label="id" name="fId" type="String" xid="xid1"></column></div></div>  
   <div component="$UI/system/components/justep/panel/panel" class="x-panel x-full"
     xid="panel1"> 
     <div class="x-panel-top" xid="top1">

@@ -14,6 +14,9 @@ define(function(require){
 				"list":{
 					url : require.toUrl('./list.w')
 				},
+				"security_name":{
+					url : require.toUrl('./security_name.w')
+				},
 				"hongbao":{
 					url : require.toUrl('./hongbao.w')
 				},
@@ -44,11 +47,17 @@ define(function(require){
 				"risk":{
 					url : require.toUrl('./risk.w')
 				},
-				"login":{
-					url : require.toUrl('./login.w')
+				"test":{
+					url : require.toUrl('./test.w')
 				},
-				"registered":{
-					url : require.toUrl('./registered.w')
+				"withdraw_btn":{
+					url : require.toUrl('./withdraw_btn.w')
+				},
+				"recharge_btn":{
+					url : require.toUrl('./recharge_btn.w')
+				},
+				"registor":{
+					url : require.toUrl('./registor.w')
 				},
 				"important":{
 					url : require.toUrl('./important.w')
