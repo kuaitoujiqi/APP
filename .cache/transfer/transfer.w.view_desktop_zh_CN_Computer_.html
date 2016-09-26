@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window crMJrIn" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="crMJrIn" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/bootstrap/progress/progress,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/button/buttonGroup,$model/UI2/system/components/justep/panel/panel,">  
+  <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">.progress.crMJrIn{height: 5px} .x-panel-content.crMJrIn{background-color: rgb(243, 241, 254)} .x-card.btn-group.crMJrIn .btn.active.crMJrIn{color: rgb(53, 179, 228); border-bottom: 3px solid rgb(73, 123, 234)} .list-group-item.crMJrIn{margin-bottom: 10px} .row2.crMJrIn{float: left}</style>  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="crMJrIn" class="crMJrIn"/>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p23e770db83e148d6b9d743a933829607-iosstatusbar crMJrIn" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="crMJrIn"> 
+    <div class="x-panel-top crMJrIn" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="crMJrIn"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar crMJrIn" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;项目列表&quot;}" __cid="crMJrIn"> 
+        <div class="x-titlebar-left crMJrIn" __cid="crMJrIn"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon crMJrIn" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="crMJrIn"> 
+            <i class="icon-chevron-left crMJrIn" __cid="crMJrIn"/>  
+            <span __cid="crMJrIn" class="crMJrIn"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title crMJrIn" __cid="crMJrIn">项目列表</div>  
+        <div class="x-titlebar-right  crMJrIn" __cid="crMJrIn"> 
+          <div class="empty crMJrIn" __cid="crMJrIn"/> 
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content crMJrIn" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="crMJrIn"> 
+      <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pb677d1b40e0044b19a33e5c8bb04101e-iosstatusbar crMJrIn" xid="panel2" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="crMJrIn"> 
+        <div class="x-panel-top crMJrIn" xid="top2" style="background-color:white;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="crMJrIn"> 
+          <div component="$model/UI2/system/components/justep/button/buttonGroup" class="btn-group x-card btn-group-justified crMJrIn" xid="buttonGroup2" data-bind="component:{name:'$model/UI2/system/components/justep/button/buttonGroup'}" data-config="{&quot;tabbed&quot;:true}" __cid="crMJrIn"> 
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-icon-left crMJrIn" xid="button3" style="background-color:white;font-size:17px;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'},event:{click:$model._callModelFn.bind($model, 'listBtnClick')}" data-config="{&quot;icon&quot;:&quot;icon-compose&quot;,&quot;label&quot;:&quot;投资列表&quot;}" __cid="crMJrIn"> 
+              <i xid="i3" class="icon-compose crMJrIn" __cid="crMJrIn"/>  
+              <span xid="span3" __cid="crMJrIn" class="crMJrIn">投资列表</span> 
+            </a>  
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-icon-left crMJrIn" xid="button4" style="background-color:white;font-size:17px;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'},event:{click:$model._callModelFn.bind($model, 'transferBtnClick')}" data-config="{&quot;icon&quot;:&quot;icon-social-buffer-outline&quot;,&quot;label&quot;:&quot;债权转让&quot;}" __cid="crMJrIn"> 
+              <i xid="i4" class="icon-social-buffer-outline crMJrIn" __cid="crMJrIn"/>  
+              <span xid="span4" __cid="crMJrIn" class="crMJrIn">债权转让</span> 
+            </a> 
+          </div> 
+        </div>  
+        <div class="x-panel-content crMJrIn" xid="content2" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="crMJrIn"> 
+          <div xid="div16" style="position:relative;top:10px;" class="div16 crMJrIn" __cid="crMJrIn"> 
+            <div component="$model/UI2/system/components/justep/list/list" class="x-list crMJrIn" xid="list2" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;transferData&quot;,&quot;limit&quot;:1000}" __cid="crMJrIn"> 
+              <ul class="x-list-template hide crMJrIn" xid="listTemplateUl1" __cid="crMJrIn" data-bind="foreach:{data:$model.foreach_list2($element),afterRender:$model.foreach_afterRender_list2.bind($model,$element)},event:{click:$model._callModelFn.bind($model, 'detailClick')}"> 
+                <li xid="li1" class="list-group-item x-flex   img_home crMJrIn" __cid="crMJrIn"> 
+                  <div class="x-flex1 crMJrIn" xid="div3" __cid="crMJrIn"> 
+                    <h5 xid="h51" __cid="crMJrIn" class="crMJrIn" data-bind="text:ref(&quot;fTitle&quot;)"/>  
+                    <div component="$model/UI2/system/components/justep/row/row" class="x-row crMJrIn" xid="row4" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="crMJrIn"> 
+                      <div class="x-col x-col-33 x-col-center crMJrIn" xid="col3" style="text-align:center;" __cid="crMJrIn"> 
+                        <span xid="span1" style="font-size:24px;color:#FF0000;" __cid="crMJrIn" class="crMJrIn" data-bind="text:ref(&quot;fRate&quot;)"/>  
+                        <span xid="span14" __cid="crMJrIn" class="crMJrIn">%</span> 
+                      </div>  
+                      <div class="x-col x-col-33 x-col-center crMJrIn" xid="col4" style="text-align:center;" __cid="crMJrIn"> 
+                        <span xid="span2" style="font-size:24px;" __cid="crMJrIn" class="crMJrIn" data-bind="text:ref(&quot;fMoney&quot;)"/>  
+                        <span xid="span16" __cid="crMJrIn" class="crMJrIn">元</span> 
+                      </div>  
+                      <div class="x-col x-col-33 x-col-center crMJrIn" xid="col10" style="text-align:center;" __cid="crMJrIn"> 
+                        <span xid="span5" style="font-size:24px;" __cid="crMJrIn" class="crMJrIn" data-bind="text:ref(&quot;fJia&quot;)"/>  
+                        <span xid="span17" __cid="crMJrIn" class="crMJrIn">元</span> 
+                      </div> 
+                    </div>  
+                    <div component="$model/UI2/system/components/justep/row/row" class="x-row crMJrIn" xid="row5" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="crMJrIn"> 
+                      <div class="x-col x-col-center crMJrIn" xid="col13" style="text-align:center;" __cid="crMJrIn"> 
+                        <span xid="span8" __cid="crMJrIn" class="crMJrIn">年化利率</span> 
+                      </div>  
+                      <div class="x-col x-col-center crMJrIn" xid="col12" style="text-align:center;" __cid="crMJrIn"> 
+                        <span xid="span6" __cid="crMJrIn" class="crMJrIn">原始价格</span> 
+                      </div>  
+                      <div class="x-col x-col-center crMJrIn" xid="col11" style="text-align:center;" __cid="crMJrIn"> 
+                        <span xid="span7" __cid="crMJrIn" class="crMJrIn">转让价格</span> 
+                      </div> 
+                    </div>  
+                    <div class="progress crMJrIn" component="$model/UI2/system/components/bootstrap/progress/progress" xid="progress1" data-bind="component:{name:'$model/UI2/system/components/bootstrap/progress/progress'}" __cid="crMJrIn"> 
+                      <div class="progress-bar progress-bar-success crMJrIn" role="progressbar" xid="progressBar1" __cid="crMJrIn"> 
+                        <span xid="span9" __cid="crMJrIn" class="crMJrIn">0%</span> 
+                      </div> 
+                    </div>  
+                    <div component="$model/UI2/system/components/justep/row/row" class="x-row crMJrIn" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="crMJrIn"> 
+                      <div class="x-col x-col-center crMJrIn" xid="col2" style="text-align:left;" __cid="crMJrIn"> 
+                        <span xid="span10" __cid="crMJrIn" class="crMJrIn">还本日期：</span>  
+                        <span xid="span20" __cid="crMJrIn" class="crMJrIn" data-bind="text:ref(&quot;fTime&quot;)"/> 
+                      </div>  
+                      <div class="x-col x-col-center crMJrIn" xid="col19" style="text-align:right;" __cid="crMJrIn"> 
+                        <span xid="span18" __cid="crMJrIn" class="crMJrIn">预期收益：</span>  
+                        <span xid="span19" __cid="crMJrIn" class="crMJrIn" data-bind="text:val(&quot;fShou&quot;)"/>  
+                        <span xid="span21" __cid="crMJrIn" class="crMJrIn">元</span> 
+                      </div> 
+                    </div> 
+                  </div> 
+                </li> 
+              </ul> 
+            </div> 
+          </div> 
+        </div>  
+        <style __cid="crMJrIn" class="crMJrIn">.x-panel.pb677d1b40e0044b19a33e5c8bb04101e-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pb677d1b40e0044b19a33e5c8bb04101e-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pb677d1b40e0044b19a33e5c8bb04101e-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pb677d1b40e0044b19a33e5c8bb04101e-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pb677d1b40e0044b19a33e5c8bb04101e-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pb677d1b40e0044b19a33e5c8bb04101e-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pb677d1b40e0044b19a33e5c8bb04101e-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pb677d1b40e0044b19a33e5c8bb04101e-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pb677d1b40e0044b19a33e5c8bb04101e-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+      </div> 
+    </div>  
+    <style __cid="crMJrIn" class="crMJrIn">.x-panel.p23e770db83e148d6b9d743a933829607-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p23e770db83e148d6b9d743a933829607-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p23e770db83e148d6b9d743a933829607-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p23e770db83e148d6b9d743a933829607-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p23e770db83e148d6b9d743a933829607-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p23e770db83e148d6b9d743a933829607-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p23e770db83e148d6b9d743a933829607-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p23e770db83e148d6b9d743a933829607-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p23e770db83e148d6b9d743a933829607-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+  </div> 
+</div>
