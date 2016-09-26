@@ -32,9 +32,11 @@ define(function(require){
                                         "userpass":userData.val("userpass")  //POS提交密码字段
                                 },
                                 "dataType" : "json",
-                                "url" : "http://localhost:8080/checkuserLogin.php", //PHP数据库校验用户名和密码是否正常
+                                "url" : "https://m.kuaitoujiqi.com/app/welcome/login", //PHP数据库校验用户名和密码是否正常
                                 "success" : function(data) {
-                                        if(data['code']==200){          //php返回200，代表后端程序成功返回查询结果
+                                        if(data['code']==200){         
+                                        	console.log(data);
+                                        	//php返回200，代表后端程序成功返回查询结果
                                                 localStorage.setItem('username',data['data']['username']);  //登录成功存储用户名到html localStorage
                                                 localStorage.setItem('userid',data['data']['userid']);  //登录成功存储中文名称到html localStorage
                                                 window.location.href="./index.w";   //登录成功，跳转到APP首页

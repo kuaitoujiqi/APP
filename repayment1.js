@@ -7,10 +7,14 @@ define(function(require){
 	};
 	Model.prototype.investDataCustomRefresh = function(event){
 		var investData = event.source;
+		var uid = localStorage.getItem('uid');
         $.ajax({
-            type: "GET",
+            type: "POST",
             url: require.toUrl('https://m.kuaitoujiqi.com/app/usercenter/repayment'),
             dataType: 'json',
+            data:{
+                "uid":uid,
+        },
             async: false,
             cache: false,
             success: function(data){

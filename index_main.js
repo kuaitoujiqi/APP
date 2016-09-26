@@ -19,6 +19,7 @@ define(function(require) {
 	//加载数据
 	Model.prototype.productDataCustomRefresh = function(event){
 		var newsData = event.source;
+		var uid = localStorage.getItem('uid');
         $.ajax({
             type: "GET",
 //            url: require.toUrl('./json/newsData_in_server.json'),

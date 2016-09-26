@@ -10,14 +10,20 @@ define(function(require){
 	};
 	Model.prototype.owerDataCustomRefresh = function(event){
 		var owerData = event.source;
+		var uid = localStorage.getItem('uid');
+		console.log(uid);
         $.ajax({
-            type: "GET",
+            type: "POST",
 //            url: require.toUrl('./json/owerData.json'),
             url: require.toUrl('https://m.kuaitoujiqi.com/app/usercenter/index'),
             dataType: 'json',
+            data:{
+                "uid":uid,
+        },
             async: false,
             cache: false,
             success: function(data){
+            	console.log(data.data);
             	owerData.loadData(data.data);//将返回的数据加载到data组件
             },
             error: function(){
@@ -29,7 +35,8 @@ define(function(require){
 		justep.Shell.showPage("account");
 	};
 	Model.prototype.cardBtnClick = function(event){
-		window.location.href='https://pay.sina.com.cn/zjtg/website/view/debit_card.html?ft=4eaa3c98-5bb4-4d97-9d2a-f9c7602ee5d0';
+		var uid = localStorage.getItem('uid');
+		window.location.href='https://m.kuaitoujiqi.com/app/usercenter/binding?uid='+uid;
 	};
 	Model.prototype.investBtnClick = function(event){
 		justep.Shell.showPage("invest1");
