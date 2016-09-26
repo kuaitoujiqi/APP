@@ -17,11 +17,11 @@
           <div class="x-titlebar-title"></div>  
           <div class="x-titlebar-right reverse" xid="div3">
    
-   <img src="./img/icon24.png" alt="" xid="importantBtn" height="26px" bind-click="importantBtnClick"></img></div></div> 
+   </div></div> 
       </div>  
     <div class="x-panel-content" xid="content1"><div xid="div16">
    <div component="$UI/system/components/justep/list/list" class="x-list " data="owerData" limit="3" xid="list2">
-   <ul class="x-list-template" xid="listTemplateUl2" bind-click="detailClick">
+   <ul class="x-list-template" xid="listTemplateUl2">
     <li xid="li2" class="list-group-item x-flex   img_home">
      <div class="x-flex1" xid="div4">
       <div component="$UI/system/components/justep/row/row" class="x-row row23" xid="row23" style="color:#FFFFFF;background-color:#8000FF;">
@@ -66,10 +66,10 @@
    <div class="x-col" xid="col63"></div>
    <div class="x-col" xid="col62">
     <div component="$UI/system/components/justep/button/buttonGroup" class="btn-group" tabbed="true" xid="buttonGroup2">
-     <a component="$UI/system/components/justep/button/button" class="btn btn-default" label="充值" xid="button7" style="margin-right:10px;width:80px;">
+     <a component="$UI/system/components/justep/button/button" class="btn btn-default" label="充值" xid="button7" style="margin-right:10px;width:80px;" bind-click="rechargeBtnClick">
       <i xid="i8"></i>
       <span xid="span38">充值</span></a> 
-     <a component="$UI/system/components/justep/button/button" class="btn btn-default" label="提现" xid="button8" style="width:80px;">
+     <a component="$UI/system/components/justep/button/button" class="btn btn-default" label="提现" xid="button8" style="width:80px;background-color:white;color:#400000;" bind-click="withdrawBtnClick">
       <i xid="i9"></i>
       <span xid="span37">提现</span></a> </div> </div> </div></div> </li> </ul> </div></div>
   <div xid="div7" class="div7">

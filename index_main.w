@@ -78,7 +78,7 @@
    <div class="x-col x-col-center" xid="col12">
     <span xid="span9">项目期限</span></div> 
    <div class="x-col x-col-center" xid="col11">
-    <span xid="span10">可购余额</span></div> </div><div class="progress" component="$UI/system/components/bootstrap/progress/progress" xid="progress1">
+    <span xid="span10">可购余额</span></div> </div><div class="progress" component="$UI/system/components/bootstrap/progress/progress" xid="progress1" bind-click="masterGridCellRender">
    <div class="progress-bar progress-bar-success" role="progressbar" xid="progressBar1" bind-text=' ref("fProgress")'>
     <span xid="span9">0%</span></div> </div><div component="$UI/system/components/justep/row/row" class="x-row" xid="row7">
    <div class="x-col x-col-center" xid="col17">

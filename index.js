@@ -47,8 +47,14 @@ define(function(require){
 				"risk":{
 					url : require.toUrl('./risk.w')
 				},
-				"login":{
-					url : require.toUrl('./login.w')
+				"test":{
+					url : require.toUrl('./test.w')
+				},
+				"withdraw_btn":{
+					url : require.toUrl('./withdraw_btn.w')
+				},
+				"recharge_btn":{
+					url : require.toUrl('./recharge_btn.w')
 				},
 				"registor":{
 					url : require.toUrl('./registor.w')

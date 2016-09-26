@@ -34,6 +34,12 @@ define(function(require){
 	Model.prototype.platBtnClick = function(event){
 		justep.Shell.showPage("account");
 	};
+	Model.prototype.rechargeBtnClick = function(event){
+		justep.Shell.showPage("recharge_btn");
+	};
+	Model.prototype.withdrawBtnClick = function(event){
+		justep.Shell.showPage("withdraw_btn");
+	};
 	Model.prototype.cardBtnClick = function(event){
 		var uid = localStorage.getItem('uid');
 		window.location.href='https://m.kuaitoujiqi.com/app/usercenter/binding?uid='+uid;

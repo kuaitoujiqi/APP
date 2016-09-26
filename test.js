@@ -8,7 +8,9 @@ define(function(require){
         var Model = function(){
                 this.callParent();
         };
-
+        Model.prototype.registorBtnClick = function(event){
+		justep.Shell.showPage("registor");
+	};
         
         Model.prototype.btnCheckUserLogin = function(event){
                 var userData = this.comp("userData");
