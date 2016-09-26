@@ -23,7 +23,7 @@ define(function(require){
             async: false,
             cache: false,
             success: function(data){
-            	console.log(data.data);
+//            	console.log(data.data);
             	owerData.loadData(data.data);//将返回的数据加载到data组件
             },
             error: function(){
@@ -35,7 +35,8 @@ define(function(require){
 		justep.Shell.showPage("account");
 	};
 	Model.prototype.rechargeBtnClick = function(event){
-		justep.Shell.showPage("recharge_btn");
+//		justep.Shell.showPage("recharge_btn");
+		window.location.href='http://www.kuaitoujiqi.com:8080/app/usercenter/send_recharge';
 	};
 	Model.prototype.withdrawBtnClick = function(event){
 		justep.Shell.showPage("withdraw_btn");
