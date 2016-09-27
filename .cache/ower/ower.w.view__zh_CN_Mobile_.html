@@ -3,7 +3,7 @@
 <div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cQVrumq" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cQVrumq" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/button/buttonGroup,$model/UI2/system/components/justep/panel/panel,">  
   <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">.div2.cQVrumq{padding: 30px 0px} .div5.cQVrumq, .div7.cQVrumq{margin: 20px 0px; background-color: rgb(255, 255, 255)} .x-panel-content.cQVrumq{background-color: rgb(243, 241, 255); padding-top: 0px} .fr.cQVrumq{padding-left: 15px; line-height: 35px} .btn-primary.cQVrumq{border: 0px} .x-list.cQVrumq, .x-list-template.cQVrumq, .list-group-item.cQVrumq{padding: 0px} .row25.cQVrumq{margin-top: 10px} .row23.cQVrumq{padding: 0px}</style>  
   <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cQVrumq" class="cQVrumq"/>  
-  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p68565ac3d1a64785836030d730e61561-iosstatusbar cQVrumq" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cQVrumq"> 
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p0d9b4b0d9dbb4d2abe140a64236d3c0d-iosstatusbar cQVrumq" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cQVrumq"> 
     <div class="x-panel-top cQVrumq" xid="top1" style="background-color:#497BEA;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cQVrumq"> 
       <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cQVrumq" style="background-color:#497BEA;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" __cid="cQVrumq"> 
         <div class="x-titlebar-left cQVrumq" __cid="cQVrumq"> 
@@ -22,7 +22,7 @@
           <ul class="x-list-template hide cQVrumq" xid="listTemplateUl2" __cid="cQVrumq" data-bind="foreach:{data:$model.foreach_list2($element),afterRender:$model.foreach_afterRender_list2.bind($model,$element)}"> 
             <li xid="li2" class="list-group-item x-flex   img_home cQVrumq" __cid="cQVrumq"> 
               <div class="x-flex1 cQVrumq" xid="div4" __cid="cQVrumq"> 
-                <div component="$model/UI2/system/components/justep/row/row" class="x-row row23 cQVrumq" xid="row23" style="color:#FFFFFF;background-color:#8000FF;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cQVrumq"> 
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row row23 cQVrumq" xid="row23" style="color:#FFFFFF;background-color:#8000FF;padding-top:30px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cQVrumq"> 
                   <div class="x-col cQVrumq" xid="col53" __cid="cQVrumq"/>  
                   <div class="x-col cQVrumq" xid="col55" style="text-align:center;" __cid="cQVrumq"> 
                     <span xid="span34" __cid="cQVrumq" class="cQVrumq">总资产（元）</span> 
@@ -37,7 +37,7 @@
                   <div class="x-col cQVrumq" xid="col56" __cid="cQVrumq"/> 
                 </div>  
                 <div component="$model/UI2/system/components/justep/row/row" class="x-row row23 cQVrumq" xid="row20" style="color:#FFFFFF;background-color:#8000FF;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cQVrumq"> 
-                  <div class="x-col cQVrumq" xid="col23" __cid="cQVrumq"> 
+                  <div class="x-col cQVrumq" xid="col23" __cid="cQVrumq" data-bind="text:ref(&quot;fEared&quot;)"> 
                     <div component="$model/UI2/system/components/justep/row/row" class="x-row cQVrumq" xid="row22" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cQVrumq"> 
                       <div class="x-col cQVrumq" xid="col22" style="text-align:center;font-size:20px;" __cid="cQVrumq"> 
                         <span xid="span26" __cid="cQVrumq" class="cQVrumq" data-bind="text:ref(&quot;fEared&quot;)"/> 
@@ -49,10 +49,10 @@
                       </div> 
                     </div> 
                   </div>  
-                  <div class="x-col cQVrumq" xid="col24" __cid="cQVrumq"> 
+                  <div class="x-col cQVrumq" xid="col24" __cid="cQVrumq" data-bind="text:ref(&quot;fInvest&quot;)"> 
                     <div component="$model/UI2/system/components/justep/row/row" class="x-row cQVrumq" xid="row19" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cQVrumq"> 
                       <div class="x-col cQVrumq" xid="col20" style="font-size:20px;text-align:center;" __cid="cQVrumq"> 
-                        <span xid="span10" __cid="cQVrumq" class="cQVrumq" data-bind="text:ref(&quot;fInvest&quot;)"/> 
+                        <span xid="span10" __cid="cQVrumq" class="cQVrumq" data-bind="text:val(&quot;fInvest&quot;)"/> 
                       </div> 
                     </div>  
                     <div component="$model/UI2/system/components/justep/row/row" class="x-row cQVrumq" xid="row10" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cQVrumq"> 
@@ -100,7 +100,7 @@
       <div xid="div7" class="div7 cQVrumq" __cid="cQVrumq"> 
         <div component="$model/UI2/system/components/justep/row/row" class="x-row cQVrumq" xid="row13" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cQVrumq"> 
           <div class="x-col x-col-10 cQVrumq" xid="col35" style="text-align:center;" __cid="cQVrumq"> 
-            <img src="@justepContextPath@/v_2bba2d495302432cab570a3cae12da68l_zh_CNs_d_m/APP/img/ower1.jpg" alt="" xid="image2" __cid="cQVrumq" class="cQVrumq"/> 
+            <img src="@justepContextPath@/v_0068606b89e34535ac78e4c35db6ccb2l_zh_CNs_d_m/APP/img/ower1.jpg" alt="" xid="image2" __cid="cQVrumq" class="cQVrumq"/> 
           </div>  
           <div class="x-col x-col-67 fr cQVrumq" xid="col34" __cid="cQVrumq"> 
             <span xid="span15" __cid="cQVrumq" class="cQVrumq">我的账户</span> 
@@ -114,7 +114,7 @@
         </div>  
         <div component="$model/UI2/system/components/justep/row/row" class="x-row cQVrumq" xid="row14" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cQVrumq"> 
           <div class="x-col x-col-10 cQVrumq" xid="col38" style="text-align:center;" __cid="cQVrumq"> 
-            <img src="@justepContextPath@/v_ae3e812cef4c4e788e67644e98b2bed5l_zh_CNs_d_m/APP/img/ower2.jpg" alt="" xid="image3" __cid="cQVrumq" class="cQVrumq"/> 
+            <img src="@justepContextPath@/v_f68631bcc5c7463795466627772c4872l_zh_CNs_d_m/APP/img/ower2.jpg" alt="" xid="image3" __cid="cQVrumq" class="cQVrumq"/> 
           </div>  
           <div class="x-col x-col-67 cQVrumq" xid="col37" __cid="cQVrumq"> 
             <div component="$model/UI2/system/components/justep/row/row" class="x-row row16 cQVrumq" xid="row16" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cQVrumq"> 
@@ -135,7 +135,7 @@
         </div>  
         <div component="$model/UI2/system/components/justep/row/row" class="x-row cQVrumq" xid="row15" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cQVrumq"> 
           <div class="x-col x-col-10 cQVrumq" xid="col41" style="text-align:center;" __cid="cQVrumq"> 
-            <img src="@justepContextPath@/v_f4fed4ba4182458eaeca5cc76a96f2d4l_zh_CNs_d_m/APP/img/ower3.jpg" alt="" xid="image4" __cid="cQVrumq" class="cQVrumq"/> 
+            <img src="@justepContextPath@/v_69235cf4b7ec409da5fc9663db200016l_zh_CNs_d_m/APP/img/ower3.jpg" alt="" xid="image4" __cid="cQVrumq" class="cQVrumq"/> 
           </div>  
           <div class="x-col x-col-67 fr cQVrumq" xid="col40" __cid="cQVrumq"> 
             <span xid="span19" __cid="cQVrumq" class="cQVrumq">安全中心</span> 
@@ -151,7 +151,7 @@
       <div xid="div8" style="background-color:#FFFFFF;" __cid="cQVrumq" class="cQVrumq"> 
         <div component="$model/UI2/system/components/justep/row/row" class="x-row cQVrumq" xid="row17" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cQVrumq"> 
           <div class="x-col x-col-10 cQVrumq" xid="col45" style="text-align:center;" __cid="cQVrumq"> 
-            <img src="@justepContextPath@/v_40178d0cf0634831932e541f897077afl_zh_CNs_d_m/APP/img/ower4.jpg" alt="" xid="image5" __cid="cQVrumq" class="cQVrumq"/> 
+            <img src="@justepContextPath@/v_e7b6ccb4038b404597a0e6c233c99686l_zh_CNs_d_m/APP/img/ower4.jpg" alt="" xid="image5" __cid="cQVrumq" class="cQVrumq"/> 
           </div>  
           <div class="x-col x-col-67 fr cQVrumq" xid="col46" __cid="cQVrumq"> 
             <span xid="span22" __cid="cQVrumq" class="cQVrumq">红包记录</span> 
@@ -165,7 +165,7 @@
         </div>  
         <div component="$model/UI2/system/components/justep/row/row" class="x-row cQVrumq" xid="row18" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cQVrumq"> 
           <div class="x-col x-col-10 cQVrumq" xid="col48" style="text-align:center;" __cid="cQVrumq"> 
-            <img src="@justepContextPath@/v_9c53d28abb7c466aa2a5a25cbac6f27fl_zh_CNs_d_m/APP/img/ower5.jpg" alt="" xid="image6" __cid="cQVrumq" class="cQVrumq"/> 
+            <img src="@justepContextPath@/v_07845c3919d1447abf377b4d5073005al_zh_CNs_d_m/APP/img/ower5.jpg" alt="" xid="image6" __cid="cQVrumq" class="cQVrumq"/> 
           </div>  
           <div class="x-col x-col-67 fr cQVrumq" xid="col49" __cid="cQVrumq"> 
             <span xid="span24" __cid="cQVrumq" class="cQVrumq">银行卡管理</span> 
@@ -179,6 +179,6 @@
         </div> 
       </div> 
     </div>  
-    <style __cid="cQVrumq" class="cQVrumq">.x-panel.p68565ac3d1a64785836030d730e61561-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p68565ac3d1a64785836030d730e61561-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p68565ac3d1a64785836030d730e61561-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p68565ac3d1a64785836030d730e61561-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p68565ac3d1a64785836030d730e61561-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p68565ac3d1a64785836030d730e61561-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p68565ac3d1a64785836030d730e61561-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p68565ac3d1a64785836030d730e61561-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p68565ac3d1a64785836030d730e61561-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+    <style __cid="cQVrumq" class="cQVrumq">.x-panel.p0d9b4b0d9dbb4d2abe140a64236d3c0d-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p0d9b4b0d9dbb4d2abe140a64236d3c0d-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p0d9b4b0d9dbb4d2abe140a64236d3c0d-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p0d9b4b0d9dbb4d2abe140a64236d3c0d-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p0d9b4b0d9dbb4d2abe140a64236d3c0d-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p0d9b4b0d9dbb4d2abe140a64236d3c0d-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p0d9b4b0d9dbb4d2abe140a64236d3c0d-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p0d9b4b0d9dbb4d2abe140a64236d3c0d-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p0d9b4b0d9dbb4d2abe140a64236d3c0d-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
   </div> 
 </div>

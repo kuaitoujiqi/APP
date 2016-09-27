@@ -8,5 +8,9 @@ define(function(require){
 	Model.prototype.btnNameClick = function(event){
 		justep.Shell.showPage("security_name");
 	};
+	Model.prototype.idcardBtn = function(event){
+		var uid = localStorage.getItem('uid');
+		window.location.href='https://m.kuaitoujiqi.com/app/usercenter/binding?uid='+uid;
+	};
 	return Model;
 });

@@ -48,7 +48,7 @@
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row5">
    <div class="x-col" xid="col13" style="text-align:center;"><span xid="span17"><![CDATA[银行卡]]></span></div>
    <div class="x-col" xid="col14" style="text-align:center;"><span xid="span18"><![CDATA[未添加]]></span></div>
-   <div class="x-col" xid="col15" style="text-align:center;"><a component="$UI/system/components/justep/button/button" class="btn btn-default" xid="button5" icon="icon-ios7-arrow-right" style="background-color:white;color:#C0C0C0;height:22px;width:22px;">
+   <div class="x-col" xid="col15" style="text-align:center;"><a component="$UI/system/components/justep/button/button" class="btn btn-default" xid="button5" icon="icon-ios7-arrow-right" style="background-color:white;color:#C0C0C0;height:22px;width:22px;" bind-click="idcardBtn">
    <i xid="i5" class="icon-ios7-arrow-right"></i>
    <span xid="span19"></span></a></div></div></div>
   <div xid="div3" style="color:#FF0000;text-align:center;"><span xid="span20"><![CDATA[修改交易密码和绑定银行卡将跳转到新浪支付进行修改]]></span></div></div>

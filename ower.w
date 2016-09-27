@@ -24,7 +24,7 @@
    <ul class="x-list-template" xid="listTemplateUl2">
     <li xid="li2" class="list-group-item x-flex   img_home">
      <div class="x-flex1" xid="div4">
-      <div component="$UI/system/components/justep/row/row" class="x-row row23" xid="row23" style="color:#FFFFFF;background-color:#8000FF;">
+      <div component="$UI/system/components/justep/row/row" class="x-row row23" xid="row23" style="color:#FFFFFF;background-color:#8000FF;padding-top:30px;">
        <div class="x-col" xid="col53"></div>
        <div class="x-col" xid="col55" style="text-align:center;">
         <span xid="span34">总资产（元）</span></div> 
@@ -35,32 +35,30 @@
         <span xid="span35" style="font-size:20px;text-align:center;" bind-text='ref("fTotal")'></span></div> 
        <div class="x-col" xid="col56"></div></div> 
       <div component="$UI/system/components/justep/row/row" class="x-row row23" xid="row20" style="color:#FFFFFF;background-color:#8000FF;">
-       <div class="x-col" xid="col23">
-        <div component="$UI/system/components/justep/row/row" class="x-row" xid="row22">
-         <div class="x-col" xid="col22" style="text-align:center;font-size:20px;">
-          <span xid="span26" bind-text='ref("fEared")'></span></div> </div> 
-        <div component="$UI/system/components/justep/row/row" class="x-row" xid="row21">
-         <div class="x-col" xid="col21" style="text-align:center;">
-          <span xid="span9">已获收益（元）</span></div> </div> </div> 
-       <div class="x-col" xid="col24">
-        <div component="$UI/system/components/justep/row/row" class="x-row" xid="row19">
-         <div class="x-col" xid="col20" style="font-size:20px;text-align:center;">
-          <span xid="span10" bind-text='ref("fInvest")'></span></div> </div> 
-        <div component="$UI/system/components/justep/row/row" class="x-row" xid="row10">
-         <div class="x-col" xid="col19" style="text-align:center;">
-          <span xid="span25">待收收益（元）</span></div> </div> </div> </div> 
+       <div class="x-col" xid="col23" bind-text=' ref("fEared")'>
+        
+  <div component="$UI/system/components/justep/row/row" class="x-row" xid="row22">
+   <div class="x-col" xid="col22" style="text-align:center;font-size:20px;">
+    <span xid="span26" bind-text='ref("fEared")'></span></div> </div><div component="$UI/system/components/justep/row/row" class="x-row" xid="row21">
+   <div class="x-col" xid="col21" style="text-align:center;">
+    <span xid="span9">已获收益（元）</span></div> </div></div> 
+       <div class="x-col" xid="col24" bind-text=' ref("fInvest")'>
+        
+  <div component="$UI/system/components/justep/row/row" class="x-row" xid="row19">
+   <div class="x-col" xid="col20" style="font-size:20px;text-align:center;">
+    <span xid="span10" bind-text='val("fInvest")'></span></div> </div><div component="$UI/system/components/justep/row/row" class="x-row" xid="row10">
+   <div class="x-col" xid="col19" style="text-align:center;">
+    <span xid="span25">待收收益（元）</span></div> </div></div> </div> 
        
        
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row1" style="background-color:#F3F1FF;">
    <div class="x-col" xid="col1"></div>
    <div class="x-col" xid="col2"></div>
    <div class="x-col" xid="col3"></div></div><div component="$UI/system/components/justep/row/row" class="x-row row25" xid="row25" style="background-color:white;">
-       <div class="x-col" xid="col61" style="text-align:center;">
-        <span xid="span36">可用余额</span></div> 
-       <div class="x-col" xid="col60"></div>
-       <div class="x-col" xid="col59"></div>
-  </div>
-  <div component="$UI/system/components/justep/row/row" class="x-row" xid="row26" style="background-color:white;">
+   <div class="x-col" xid="col61" style="text-align:center;">
+    <span xid="span36">可用余额</span></div> 
+   <div class="x-col" xid="col60"></div>
+   <div class="x-col" xid="col59"></div></div><div component="$UI/system/components/justep/row/row" class="x-row" xid="row26" style="background-color:white;">
    <div class="x-col" xid="col64" style="font-size:24px;text-align:center;">
     <span xid="span39" bind-text='ref("fUse")'></span></div> 
    <div class="x-col" xid="col63"></div>

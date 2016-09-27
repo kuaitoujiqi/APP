@@ -3,7 +3,7 @@
 <div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cQVrumq" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cQVrumq" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/button/buttonGroup,$model/UI2/system/components/justep/panel/panel,">
   <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.div2.cQVrumq{padding: 30px 0px} .div5.cQVrumq, .div7.cQVrumq{margin: 20px 0px; background-color: rgb(255, 255, 255)} .x-panel-content.cQVrumq{background-color: rgb(243, 241, 255); padding-top: 0px} .fr.cQVrumq{padding-left: 15px; line-height: 35px} .btn-primary.cQVrumq{border: 0px} .x-list.cQVrumq, .x-list-template.cQVrumq, .list-group-item.cQVrumq{padding: 0px} .row25.cQVrumq{margin-top: 10px} .row23.cQVrumq{padding: 0px}</xhtml:style>  
   <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cQVrumq" class="cQVrumq"></div>  
-  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p68565ac3d1a64785836030d730e61561-iosstatusbar cQVrumq" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cQVrumq"> 
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p0d9b4b0d9dbb4d2abe140a64236d3c0d-iosstatusbar cQVrumq" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cQVrumq"> 
     <div class="x-panel-top cQVrumq" xid="top1" style="background-color:#497BEA;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cQVrumq"> 
       <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cQVrumq" style="background-color:#497BEA;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" __cid="cQVrumq"> 
         <div class="x-titlebar-left cQVrumq" __cid="cQVrumq"> 
@@ -22,7 +22,7 @@
           <ul class="x-list-template hide cQVrumq" xid="listTemplateUl2" bind-foreach="{data:$model.foreach_list2($element),afterRender:$model.foreach_afterRender_list2.bind($model,$element)}" __cid="cQVrumq"> 
             <li xid="li2" class="list-group-item x-flex   img_home cQVrumq" __cid="cQVrumq"> 
               <div class="x-flex1 cQVrumq" xid="div4" __cid="cQVrumq"> 
-                <div component="$model/UI2/system/components/justep/row/row" class="x-row row23 cQVrumq" xid="row23" style="color:#FFFFFF;background-color:#8000FF;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cQVrumq"> 
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row row23 cQVrumq" xid="row23" style="color:#FFFFFF;background-color:#8000FF;padding-top:30px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cQVrumq"> 
                   <div class="x-col cQVrumq" xid="col53" __cid="cQVrumq"/>  
                   <div class="x-col cQVrumq" xid="col55" style="text-align:center;" __cid="cQVrumq"> 
                     <span xid="span34" __cid="cQVrumq" class="cQVrumq">总资产（元）</span>
@@ -37,29 +37,29 @@
                   <div class="x-col cQVrumq" xid="col56" __cid="cQVrumq"/>
                 </div>  
                 <div component="$model/UI2/system/components/justep/row/row" class="x-row row23 cQVrumq" xid="row20" style="color:#FFFFFF;background-color:#8000FF;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cQVrumq"> 
-                  <div class="x-col cQVrumq" xid="col23" __cid="cQVrumq"> 
+                  <div class="x-col cQVrumq" xid="col23" bind-text=" ref(&quot;fEared&quot;)" __cid="cQVrumq"> 
                     <div component="$model/UI2/system/components/justep/row/row" class="x-row cQVrumq" xid="row22" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cQVrumq"> 
                       <div class="x-col cQVrumq" xid="col22" style="text-align:center;font-size:20px;" __cid="cQVrumq"> 
                         <span xid="span26" bind-text="ref(&quot;fEared&quot;)" __cid="cQVrumq" class="cQVrumq"/>
                       </div> 
-                    </div>  
+                    </div>
                     <div component="$model/UI2/system/components/justep/row/row" class="x-row cQVrumq" xid="row21" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cQVrumq"> 
                       <div class="x-col cQVrumq" xid="col21" style="text-align:center;" __cid="cQVrumq"> 
                         <span xid="span9" __cid="cQVrumq" class="cQVrumq">已获收益（元）</span>
                       </div> 
-                    </div> 
+                    </div>
                   </div>  
-                  <div class="x-col cQVrumq" xid="col24" __cid="cQVrumq"> 
+                  <div class="x-col cQVrumq" xid="col24" bind-text=" ref(&quot;fInvest&quot;)" __cid="cQVrumq"> 
                     <div component="$model/UI2/system/components/justep/row/row" class="x-row cQVrumq" xid="row19" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cQVrumq"> 
                       <div class="x-col cQVrumq" xid="col20" style="font-size:20px;text-align:center;" __cid="cQVrumq"> 
-                        <span xid="span10" bind-text="ref(&quot;fInvest&quot;)" __cid="cQVrumq" class="cQVrumq"/>
+                        <span xid="span10" bind-text="val(&quot;fInvest&quot;)" __cid="cQVrumq" class="cQVrumq"/>
                       </div> 
-                    </div>  
+                    </div>
                     <div component="$model/UI2/system/components/justep/row/row" class="x-row cQVrumq" xid="row10" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cQVrumq"> 
                       <div class="x-col cQVrumq" xid="col19" style="text-align:center;" __cid="cQVrumq"> 
                         <span xid="span25" __cid="cQVrumq" class="cQVrumq">待收收益（元）</span>
                       </div> 
-                    </div> 
+                    </div>
                   </div> 
                 </div>  
                 <div component="$model/UI2/system/components/justep/row/row" class="x-row cQVrumq" xid="row1" style="background-color:#F3F1FF;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cQVrumq"> 
@@ -72,8 +72,8 @@
                     <span xid="span36" __cid="cQVrumq" class="cQVrumq">可用余额</span>
                   </div>  
                   <div class="x-col cQVrumq" xid="col60" __cid="cQVrumq"/>  
-                  <div class="x-col cQVrumq" xid="col59" __cid="cQVrumq"/> 
-                </div>  
+                  <div class="x-col cQVrumq" xid="col59" __cid="cQVrumq"/>
+                </div>
                 <div component="$model/UI2/system/components/justep/row/row" class="x-row cQVrumq" xid="row26" style="background-color:white;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cQVrumq"> 
                   <div class="x-col cQVrumq" xid="col64" style="font-size:24px;text-align:center;" __cid="cQVrumq"> 
                     <span xid="span39" bind-text="ref(&quot;fUse&quot;)" __cid="cQVrumq" class="cQVrumq"/>
@@ -179,6 +179,6 @@
         </div> 
       </div>
     </div>  
-    <style __cid="cQVrumq" class="cQVrumq">.x-panel.p68565ac3d1a64785836030d730e61561-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p68565ac3d1a64785836030d730e61561-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p68565ac3d1a64785836030d730e61561-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p68565ac3d1a64785836030d730e61561-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p68565ac3d1a64785836030d730e61561-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p68565ac3d1a64785836030d730e61561-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p68565ac3d1a64785836030d730e61561-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p68565ac3d1a64785836030d730e61561-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p68565ac3d1a64785836030d730e61561-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+    <style __cid="cQVrumq" class="cQVrumq">.x-panel.p0d9b4b0d9dbb4d2abe140a64236d3c0d-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p0d9b4b0d9dbb4d2abe140a64236d3c0d-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p0d9b4b0d9dbb4d2abe140a64236d3c0d-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p0d9b4b0d9dbb4d2abe140a64236d3c0d-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p0d9b4b0d9dbb4d2abe140a64236d3c0d-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p0d9b4b0d9dbb4d2abe140a64236d3c0d-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p0d9b4b0d9dbb4d2abe140a64236d3c0d-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p0d9b4b0d9dbb4d2abe140a64236d3c0d-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p0d9b4b0d9dbb4d2abe140a64236d3c0d-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
   </div> 
 </div>
