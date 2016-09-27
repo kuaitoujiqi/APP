@@ -48,7 +48,7 @@
     <div class="x-col" xid="col5">
      <span xid="span7">存钱罐余额</span></div> 
     <div class="x-col" xid="col6">
-     <span xid="span8" bind-text='ref("fMoney")'><![CDATA[]]></span>
+     <span xid="span8" bind-text='ref("fUse")'><![CDATA[]]></span>
   <span xid="span1"><![CDATA[元]]></span></div> </div> 
    <div component="$UI/system/components/justep/row/row" class="x-row" xid="row3">
     <div class="x-col x-col-10" xid="col8" style="text-align:right;">
@@ -72,7 +72,7 @@
     <div class="x-col" xid="col15">
      <span xid="span16">预期收益</span></div> 
     <div class="x-col" xid="col13">
-     <span xid="span17" bind-text='ref("fYu")'><![CDATA[]]></span>
+     <span xid="span17" bind-text='ref("fInvest")'><![CDATA[]]></span>
   <span xid="span21"><![CDATA[元]]></span></div> </div> 
    <div component="$UI/system/components/justep/row/row" class="x-row" xid="row6">
     <div class="x-col x-col-10" xid="col17" style="text-align:right;">

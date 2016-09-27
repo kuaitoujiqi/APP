@@ -11,8 +11,7 @@ define(function(require){
                 var userData = this.comp("userData");
                 var uid = localStorage.getItem('uid');
                 var money = userData.val("money");
-               window.location.href='http://www.kuaitoujiqi.com:8080/app/usercenter/send_recharge?uid='+uid+'&&money='+money;
-
+               window.location.href='http://m.kuaitoujiqi.com/app/usercenter/send_recharge?uid='+uid+'&&money='+money;
 
                 };
                 

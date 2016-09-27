@@ -7,14 +7,19 @@ define(function(require){
 	};
 		Model.prototype.owerDataCustomRefresh = function(event){
 		var owerData = event.source;
+		var uid = localStorage.getItem('uid');
         $.ajax({
-            type: "GET",
-            url: require.toUrl('./json/owerData.json'),
+            type: "POST",
+            url: require.toUrl('https://m.kuaitoujiqi.com/app/usercenter/index'),
             dataType: 'json',
+            data:{
+                "uid":uid,
+        },
             async: false,
             cache: false,
             success: function(data){
-            	owerData.loadData(data);//将返回的数据加载到data组件
+//            	console.log(data);
+            	owerData.loadData(data.data);//将返回的数据加载到data组件
             },
             error: function(){
               throw justep.Error.create("加载数据失败");

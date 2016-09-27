@@ -23,7 +23,7 @@ define(function(require){
             async: false,
             cache: false,
             success: function(data){
-//            	console.log(data.data);
+            	console.log(data.data);
             	owerData.loadData(data.data);//将返回的数据加载到data组件
             },
             error: function(){
