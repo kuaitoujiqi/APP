@@ -15,3 +15,6 @@
 .row2{
 	float:left;
 }
+.x-row-line{
+	border-top:1px solid #ddd;
+}

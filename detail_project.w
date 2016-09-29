@@ -1,22 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <div xmlns="http://www.w3.org/1999/xhtml" component="$UI/system/components/justep/window/window" design="device:m;" xid="window" class="window">  
   <div component="$UI/system/components/justep/model/model" xid="model" style="left:18px;top:83px;height:244px;"> 
-  <div component="$UI/system/components/justep/data/data" autoLoad="true" xid="placeOneData" idColumn="fID" onCustomRefresh="placeOneDataCustomRefresh">
-   <column label="id" name="fID" type="String" xid="default6"></column>
-  <column label="标题" name="fTitle" type="String" xid="xid6"></column>
-  <column label="图片" name="fImg" type="String" xid="xid7"></column></div>
-  <div component="$UI/system/components/justep/data/data" autoLoad="true" xid="placeTwoData" idColumn="fID" onCustomRefresh="placeTwoDataCustomRefresh">
-   <column label="id" name="fID" type="String" xid="column2"></column>
-  <column label="父级ID" name="fOneID" type="String" xid="column3"></column>
-  <column label="标题" name="fTitle1" type="String" xid="column1"></column>
-  <column label="文本1" name="fText1" type="String" xid="xid1"></column>
-  <column label="标题1" name="fTitle2" type="String" xid="xid2"></column>
-  <column label="文本2" name="fText2" type="String" xid="xid3"></column>
-  <column label="标题2" name="fTitle3" type="String" xid="xid4"></column>
-  <column label="文本1" name="fText3" type="String" xid="xid5"></column>
-  <column label="文本11" name="fText11" type="String" xid="xid8"></column>
-  <column label="文本22" name="fText22" type="String" xid="xid9"></column>
-  <column label="文本33" name="fText33" type="String" xid="xid10"></column></div>
+  
+  
   <div component="$UI/system/components/justep/data/data" autoLoad="true" xid="detailData" idColumn="fID" onCustomRefresh="detailDataCustomRefresh">
    <column label="ID" name="fID" type="String" xid="xid11"></column>
   <column label="项目标题" name="fTitle" type="String" xid="xid12"></column>
@@ -27,7 +13,22 @@
   <column label="项目编号" name="fNum" type="String" xid="xid17"></column>
   <column label="上线时间" name="fShang" type="String" xid="xid18"></column>
   <column label="项目类型" name="fLei" type="String" xid="xid19"></column>
-  <column label="状态" name="fStatus" type="String" xid="xid20"></column></div></div>  
+  <column label="状态" name="fStatus" type="String" xid="xid20"></column>
+  <column label="进度条" name="fJin" type="Float" xid="xid21"></column></div><div component="$UI/system/components/justep/data/data" autoLoad="true" xid="placeOneData" idColumn="fID" onCustomRefresh="placeOneDataCustomRefresh">
+   <column label="id" name="fID" type="String" xid="default6"></column>
+  <column label="标题" name="fTitle" type="String" xid="xid6"></column>
+  <column label="图片" name="fImg" type="String" xid="xid7"></column></div><div component="$UI/system/components/justep/data/data" autoLoad="true" xid="placeTwoData" idColumn="fID" onCustomRefresh="placeTwoDataCustomRefresh">
+   <column label="id" name="fID" type="String" xid="column2"></column>
+  <column label="父级ID" name="fOneID" type="String" xid="column3"></column>
+  <column label="标题" name="fTitle1" type="String" xid="column1"></column>
+  <column label="文本1" name="fText1" type="String" xid="xid1"></column>
+  <column label="标题1" name="fTitle2" type="String" xid="xid2"></column>
+  <column label="文本2" name="fText2" type="String" xid="xid3"></column>
+  <column label="标题2" name="fTitle3" type="String" xid="xid4"></column>
+  <column label="文本1" name="fText3" type="String" xid="xid5"></column>
+  <column label="文本11" name="fText11" type="String" xid="xid8"></column>
+  <column label="文本22" name="fText22" type="String" xid="xid9"></column>
+  <column label="文本33" name="fText33" type="String" xid="xid10"></column></div></div>  
   <div component="$UI/system/components/justep/panel/panel" 
     class="x-panel x-full" xid="panel1"> 
       <div class="x-panel-top" xid="top1"> 
@@ -59,7 +60,7 @@
    <div class="x-col" xid="col24" style="text-align:center;">
     <span xid="span15">年化收益率</span></div> </div>
   <div class="progress" component="$UI/system/components/bootstrap/progress/progress" xid="progress2">
-   <div class="progress-bar progress-bar-success" role="progressbar" xid="progressBar2">
+   <div class="progress-bar progress-bar-success" role="progressbar" xid="progressBar2" bind-css="{'progress-bar-success':val('state')=='success','progress-bar-info':val('state')!='success'}" bind-style='{width:val("fJin")} '>
     <span xid="span17">0%</span></div> </div>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row14">
    <div class="x-col" xid="col25" style="text-align:center;">
@@ -74,7 +75,8 @@
    <div class="x-col" xid="col33" style="text-align:center;">
     <span xid="span58">可投金额</span>
     <span xid="span55">/</span>
-    <span xid="span57">借款总额（元）</span></div> </div></li></ul> </div></div>
+    <span xid="span57">借款总额（元）</span></div> </div>
+  </li></ul> </div></div>
   <div xid="div2" class="div2" style="background-color:white;"><div component="$UI/system/components/justep/list/list" class="x-list" xid="list4" data="detailData">
    <ul class="x-list-template" xid="listTemplateUl4">
     <li xid="li4"><div component="$UI/system/components/justep/row/row" class="x-row" xid="row16">

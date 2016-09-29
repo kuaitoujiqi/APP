@@ -19,7 +19,6 @@ define(function(require) {
 	//加载数据
 	Model.prototype.productDataCustomRefresh = function(event){
 		var newsData = event.source;
-		var uid = localStorage.getItem('uid');
         $.ajax({
             type: "GET",
 //            url: require.toUrl('./json/newsData_in_server.json'),
@@ -28,15 +27,7 @@ define(function(require) {
             async: false,
             cache: false,
             success: function(data){
-            	console.log(data.data.bulk);
-//            	$restMoney = data.data.bulk[0]['fMoney'];
-//            	console.log($restMoney);
-//            	$money = data.data.bulk.fTotal;
-//            	width = ($money-$restMoney)/$money;
-//            	console.log(width);
-            	$(data.data.bulk).each(function(index,element){
-            		console.log(element);
-            	});
+            console.log(data.data.bulk);
             	newsData.loadData(data.data.bulk)//到data组件
             },
             error: function(){
@@ -52,24 +43,7 @@ define(function(require) {
 	//进入项目列表
 	Model.prototype.detailClick = function(event){
 		justep.Shell.showPage("list");
-	};
-	Model.prototype.masterGridCellRender = function(event){
-                if(event.colName==="fJD"){
-                        var sValue="0";
-                        var sValue1;
-                        if(event.colVal){
-                                sValue=event.colVal;
-                                sValue1=(event.colVal-3)+"%";
-                        }
-                        var sHTML='<div style="height:5px;white-space: normal;"><div class="progress" component="$UI/system/components/bootstrap/progress/progress"> '+
-                                                          '<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="'+sValue+'" aria-valuemin="0" aria-valuemax="100" style="width:'+sValue1+';height:100%;" > '+
-                                                                  '<span>'+sValue+'%</span> '+
-                                                          '</div> '+
-                                          '</div></div> ';
-                event.html = sHTML;
-                }
-                        
-        };	
+	};	
 	
 	//进入风控体系
 	Model.prototype.riskClick = function(event){
@@ -77,7 +51,7 @@ define(function(require) {
 	};	
 	//进入登录
 	Model.prototype.loginClick = function(event){
-		justep.Shell.showPage("test");
+		justep.Shell.showPage("login");
 	};	
 	//进入公告中心页面
 	Model.prototype.announceBtnClick = function(event){

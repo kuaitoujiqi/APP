@@ -3,16 +3,17 @@
   <div component="$UI/system/components/justep/model/model" xid="model" style="left:18px;top:83px;height:244px;"> 
   <div component="$UI/system/components/justep/data/data" autoLoad="true" xid="newsData" idColumn="fID" onCustomRefresh="productDataCustomRefresh">
    <column label="id" name="fID" type="String" xid="xid1"></column>
-   <column label="标题" name="fTitle" type="String" xid="xid2"></column>
-   <column label="年化利率" name="fRate" type="String" xid="xid3"></column>
-   <column label="项目期限" name="fTime" type="String" xid="xid4"></column>
-   <rule xid="rule1">
-    <col name="fPostNumber" xid="ruleCol1">
-     <calculate xid="calculate1">
-      <expr xid="default1">$row.val(&quot;fPostNumber&quot;)&gt;=0?$row.val(&quot;fPostNumber&quot;)+&quot;跟贴&quot;:&quot;&quot;;</expr></calculate> </col> </rule> 
-   <column label="可购余额" name="fMoney" type="String" xid="xid5"></column>
-   <column label="上线时间" name="fShang" type="String" xid="xid6"></column>
-   <column label="借款总额" name="fTotal" type="String" xid="xid7"></column></div></div>  
+  <column label="标题" name="fTitle" type="String" xid="xid2"></column>
+  <column label="年化利率" name="fRate" type="String" xid="xid3"></column>
+  <column label="项目期限" name="fTime" type="String" xid="xid4"></column>
+  <rule xid="rule1">
+   <col name="fPostNumber" xid="ruleCol1">
+    <calculate xid="calculate1">
+     <expr xid="default1">$row.val(&quot;fPostNumber&quot;)&gt;=0?$row.val(&quot;fPostNumber&quot;)+&quot;跟贴&quot;:&quot;&quot;;</expr></calculate> </col> </rule>
+  <column label="可购余额" name="fMoney" type="String" xid="xid5"></column>
+  <column label="上线时间" name="fShang" type="String" xid="xid6"></column>
+  <column label="借款总额" name="fTotal" type="String" xid="xid7"></column>
+  <column label="进度条" name="fJin" type="String" xid="xid8"></column></div></div>  
   <div component="$UI/system/components/justep/panel/panel" 
     class="x-panel x-full" xid="panel1"> 
       <div class="x-panel-top" xid="top1"> 
@@ -37,7 +38,7 @@
       <span xid="span4">债权转让</span></a> </div> </div> 
    <div class="x-panel-content" xid="content2">
     <div xid="div16" style="position:relative;top:10px;">
-     <div component="$UI/system/components/justep/list/list" class="x-list" limit="1000" xid="list2" data="newsData">
+     <div component="$UI/system/components/justep/list/list" class="x-list" limit="35" xid="list2" data="newsData">
       <ul class="x-list-template" xid="listTemplateUl1" bind-click="detailClick">
        <li xid="li1" class="list-group-item x-flex   img_home">
         <div class="x-flex1" xid="div3">
@@ -52,7 +53,7 @@
           <div class="x-col x-col-33 x-col-center" xid="col10" style="text-align:center;">
            <span xid="span5" bind-text=' ref("fMoney")' style="font-size:24px;"></span>
   <span xid="span17"><![CDATA[元]]></span></div> </div> 
-         <div component="$UI/system/components/justep/row/row" class="x-row" xid="row5">
+         <div component="$UI/system/components/justep/row/row" class="x-row" xid="row5" style="color:#C0C2CB;">
           <div class="x-col x-col-center" xid="col13" style="text-align:center;">
            <span xid="span8">年化利率</span></div> 
           <div class="x-col x-col-center" xid="col12" style="text-align:center;">
@@ -60,14 +61,12 @@
           <div class="x-col x-col-center" xid="col11" style="text-align:center;">
            <span xid="span7">可购余额</span></div> </div> 
          <div class="progress" component="$UI/system/components/bootstrap/progress/progress" xid="progress1">
-          <div class="progress-bar progress-bar-success" role="progressbar" xid="progressBar1">
+          <div class="progress-bar progress-bar-success" role="progressbar" xid="progressBar1" bind-css="{'progress-bar-success':val('state')=='success','progress-bar-info':val('state')!='success'}" bind-style="{width:val('fJin')}">
            <span xid="span9">0%</span></div> </div> 
-         <div component="$UI/system/components/justep/row/row" class="x-row" xid="row7">
-          <div class="x-col x-col-center" xid="col17" style="text-align:center;">
+         <div component="$UI/system/components/justep/row/row" class="x-row" xid="row7" style="color:#C0C2CB;font-size:6px;">
+          <div class="x-col x-col-center" xid="col17" style="text-align:left;">
            <span xid="span10">按月付息  到期还本</span></div> 
-          <div class="x-col x-col-center" xid="col18" style="text-align:center;">
-   <span xid="span14"><![CDATA[上线时间：]]></span>
-  <span xid="span11" bind-text=' ref("fShang")'></span></div><div class="x-col x-col-center" xid="col19" style="text-align:center;">
+          <div class="x-col x-col-center" xid="col19" style="text-align:center;">
    <span xid="span13"><![CDATA[借款总额：]]></span>
   <span xid="span12" bind-text='val("fTotal")'></span>
   <span xid="span18"><![CDATA[元]]></span></div></div> 

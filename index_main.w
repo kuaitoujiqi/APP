@@ -9,7 +9,7 @@
   <column label="可购余额" name="fMoney" type="String" xid="xid5"></column>
   <column label="上线时间" name="fShang" type="String" xid="xid6"></column>
   <column label="借款总额" name="fTotal" type="String" xid="xid7"></column>
-  <column label="进度条" name="fProgress" type="String" xid="xid8"></column></div></div> 
+  <column label="进度条" name="fJin" type="String" xid="xid8"></column></div></div> 
 <div component="$UI/system/components/justep/panel/panel" class="x-panel x-full" xid="panel1">
    <div class="x-panel-content" xid="content1"><div component="$UI/system/components/justep/contents/contents" class="x-contents x-full" active="0" xid="contents3" wrap="false" swipe="false">
    <div class="x-contents-content" xid="homeContent">
@@ -49,13 +49,13 @@
     <div xid="div5" style="padding-top:10px;">
      <span xid="span4">启动机器</span></div> </div> </div></div><div xid="div6" style="margin-top:10px;background-color:white;">
    <div component="$UI/system/components/justep/row/row" class="x-row" xid="row2">
-    <div class="x-col x-col-20" xid="col6" style="text-align:center;">
+    <div class="x-col x-col-25" xid="col6" style="text-align:center;">
      <span xid="span6">项目列表</span></div> 
     <div class="x-col" xid="col7" style="text-align:right;">
      <a component="$UI/system/components/justep/button/button" class="btn btn-default" xid="button1" style="background-color:white;color:#C0C0C0;height:24px;width:24px;font-size:18px;" icon="icon-ios7-arrow-right">
       <i xid="i1" class="icon-ios7-arrow-right"></i>
       <span xid="span7"></span></a> </div> </div> </div>
-  <div xid="div16" style="position:relative;top:10px;margin-bottom:10px;">
+  <div xid="div16" style="position:relative;top:10px;margin-bottom:10px;padding-bottom:0px;">
    <div component="$UI/system/components/justep/list/list" class="x-list" data="newsData" limit="3" xid="list2">
     <ul class="x-list-template" xid="listTemplateUl1" bind-click="detailClick">
      <li xid="li1" class="list-group-item x-flex   img_home" style="margin-bottom:10px;">
@@ -72,20 +72,17 @@
   <span xid="span19"><![CDATA[个月]]></span></div> 
    <div class="x-col x-col-33 x-col-center" xid="col10" style="text-align:center;">
     <span xid="span8" bind-text='ref("fMoney")'></span>
-  <span xid="span20"><![CDATA[元]]></span></div> </div><div component="$UI/system/components/justep/row/row" class="x-row" xid="row5">
+  <span xid="span20"><![CDATA[元]]></span></div> </div><div component="$UI/system/components/justep/row/row" class="x-row" xid="row5" style="font-size:6px;color:#C0C2CB;">
    <div class="x-col x-col-center" xid="col13">
     <span xid="span8">年化利率</span></div> 
    <div class="x-col x-col-center" xid="col12">
     <span xid="span9">项目期限</span></div> 
    <div class="x-col x-col-center" xid="col11">
     <span xid="span10">可购余额</span></div> </div><div class="progress" component="$UI/system/components/bootstrap/progress/progress" xid="progress1" bind-click="masterGridCellRender">
-   <div class="progress-bar progress-bar-success" role="progressbar" xid="progressBar1" bind-text=' ref("fProgress")'>
-    <span xid="span9">0%</span></div> </div><div component="$UI/system/components/justep/row/row" class="x-row" xid="row7">
-   <div class="x-col x-col-center" xid="col17">
+   <div class="progress-bar progress-bar-success" role="progressbar" xid="progressBar1" bind-css="{'progress-bar-success':val('state')=='success','progress-bar-info':val('state')!='success'}" bind-style="{width:val('fJin')}">
+    <span xid="span9">0%</span></div> </div><div component="$UI/system/components/justep/row/row" class="x-row" xid="row7" style="font-size:6px;color:#C0C2CB;">
+   <div class="x-col x-col-center" xid="col17" style="text-align:left;">
     <span xid="span10">按月付息  到期还本</span></div> 
-   <div class="x-col x-col-center" xid="col18">
-    <span xid="span16"><![CDATA[上线时间：]]></span>
-  <span xid="span18" bind-text=' val("fShang")'>上线时间</span></div> 
    <div class="x-col x-col-center" xid="col19">
     <span xid="span17"><![CDATA[借款总额：]]></span>
   <span xid="span12" bind-text='ref("fTotal")'></span>

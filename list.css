@@ -14,3 +14,13 @@
 .list-group-item{
 	margin-bottom:10px;
 }
+.progress-bar-info {
+    background-image: -webkit-linear-gradient(top, #3381ed 0, #3381ed 100%);
+    background-image: -o-linear-gradient(top, #033c73 0, #022241 100%);
+    background-image: linear-gradient(to bottom, #3381ed 0, #3381ed 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff033c73', endColorstr='#ff022241', GradientType=0);
+}
+.progress{
+	margin-bottom:0px;
+}

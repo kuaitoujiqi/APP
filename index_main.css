@@ -22,6 +22,9 @@ h5 ,.h5{ color:#000; font-size:16px;}
 	text-align:center;
 	
 }
+.progress{
+	margin-bottom:0px;
+}
 .btn-default{
 	padding:0px;
 	border:0px;
@@ -32,6 +35,7 @@ h5 ,.h5{ color:#000; font-size:16px;}
 .x-panel-content{
 	background-color:#f3f1fe;
 }
+
 /*页脚按钮组*/
 .x-wangyi.btn-group{ background-color:#fff;}
 .x-wangyi.btn-group .btn{ border-top:0;}
@@ -47,4 +51,11 @@ h5 ,.h5{ color:#000; font-size:16px;}
 .x-nomargin{ margin-left:0; margin-right:0;}
 .x-nopadding{ padding-left:0; padding-right:0;}
 
+.progress-bar-info {
+    background-image: -webkit-linear-gradient(top, #3381ed 0, #3381ed 100%);
+    background-image: -o-linear-gradient(top, #033c73 0, #022241 100%);
+    background-image: linear-gradient(to bottom, #3381ed 0, #3381ed 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff033c73', endColorstr='#ff022241', GradientType=0);
+}
 
