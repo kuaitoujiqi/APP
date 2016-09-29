@@ -28,6 +28,15 @@ define(function(require) {
             async: false,
             cache: false,
             success: function(data){
+            	console.log(data.data.bulk);
+//            	$restMoney = data.data.bulk[0]['fMoney'];
+//            	console.log($restMoney);
+//            	$money = data.data.bulk.fTotal;
+//            	width = ($money-$restMoney)/$money;
+//            	console.log(width);
+            	$(data.data.bulk).each(function(index,element){
+            		console.log(element);
+            	});
             	newsData.loadData(data.data.bulk)//到data组件
             },
             error: function(){
