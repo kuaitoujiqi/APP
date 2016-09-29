@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cyUbYjm" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cyUbYjm" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">null</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cyUbYjm" class="cyUbYjm"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p809349eb46bd4317a615f184b16f5d08-iosstatusbar cyUbYjm" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cyUbYjm"> 
+    <div class="x-panel-top cyUbYjm" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cyUbYjm"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cyUbYjm" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;立即投资&quot;}" __cid="cyUbYjm"> 
+        <div class="x-titlebar-left cyUbYjm" __cid="cyUbYjm"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cyUbYjm" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cyUbYjm"> 
+            <i class="icon-chevron-left cyUbYjm" __cid="cyUbYjm"/>  
+            <span __cid="cyUbYjm" class="cyUbYjm"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cyUbYjm" __cid="cyUbYjm">立即投资</div>  
+        <div class="x-titlebar-right  cyUbYjm" __cid="cyUbYjm">
+          <div class="empty cyUbYjm" __cid="cyUbYjm"/>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cyUbYjm" xid="content1" style="background-color:#f3f1ff;padding-top:20px;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cyUbYjm">
+      <div xid="div1" __cid="cyUbYjm" class="cyUbYjm">
+        <div component="$model/UI2/system/components/justep/list/list" class="x-list cyUbYjm" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" __cid="cyUbYjm"> 
+          <ul class="x-list-template hide cyUbYjm" xid="listTemplateUl1" __cid="cyUbYjm"> 
+            <li xid="li1" __cid="cyUbYjm" class="cyUbYjm">
+              <div component="$model/UI2/system/components/justep/row/row" class="x-row cyUbYjm" xid="row1" style="line-height:30px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cyUbYjm"> 
+                <div class="x-col cyUbYjm" xid="col1" __cid="cyUbYjm">
+                  <span xid="span1" __cid="cyUbYjm" class="cyUbYjm">剩余可投金额</span>  
+                  <span xid="span2" __cid="cyUbYjm" class="cyUbYjm"/>  
+                  <span xid="span3" __cid="cyUbYjm" class="cyUbYjm">元</span>
+                </div> 
+              </div>  
+              <div component="$model/UI2/system/components/justep/row/row" class="x-row cyUbYjm" xid="row2" style="background-color:white;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cyUbYjm"> 
+                <div class="x-col x-col-center cyUbYjm" xid="col4" __cid="cyUbYjm">
+                  <span xid="span4" __cid="cyUbYjm" class="cyUbYjm">投资份额</span>
+                </div>  
+                <div class="x-col cyUbYjm" xid="col5" __cid="cyUbYjm">
+                  <input component="$model/UI2/system/components/justep/input/input" class="form-control cyUbYjm" xid="input1" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" __cid="cyUbYjm"/>
+                </div>  
+                <div class="x-col x-col-center cyUbYjm" xid="col6" __cid="cyUbYjm">
+                  <span xid="span5" __cid="cyUbYjm" class="cyUbYjm">份</span>
+                </div>
+              </div>  
+              <div component="$model/UI2/system/components/justep/row/row" class="x-row cyUbYjm" xid="row3" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cyUbYjm"> 
+                <div class="x-col cyUbYjm" xid="col7" __cid="cyUbYjm">
+                  <span xid="span7" __cid="cyUbYjm" class="cyUbYjm">总计</span>  
+                  <span xid="span8" __cid="cyUbYjm" class="cyUbYjm"/>  
+                  <span xid="span9" __cid="cyUbYjm" class="cyUbYjm">元，可赚</span>  
+                  <span xid="span10" __cid="cyUbYjm" class="cyUbYjm"/>  
+                  <span xid="span11" __cid="cyUbYjm" class="cyUbYjm">元（100元/份）</span>
+                </div> 
+              </div>
+            </li>
+          </ul> 
+        </div>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-block cyUbYjm" xid="button1" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;立即投资&quot;}" __cid="cyUbYjm"> 
+          <i xid="i1" __cid="cyUbYjm" class="cyUbYjm"/>  
+          <span xid="span12" __cid="cyUbYjm" class="cyUbYjm">立即投资</span>
+        </a>
+      </div>
+    </div>  
+    <style __cid="cyUbYjm" class="cyUbYjm">.x-panel.p809349eb46bd4317a615f184b16f5d08-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p809349eb46bd4317a615f184b16f5d08-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p809349eb46bd4317a615f184b16f5d08-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p809349eb46bd4317a615f184b16f5d08-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p809349eb46bd4317a615f184b16f5d08-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p809349eb46bd4317a615f184b16f5d08-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p809349eb46bd4317a615f184b16f5d08-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p809349eb46bd4317a615f184b16f5d08-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p809349eb46bd4317a615f184b16f5d08-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>

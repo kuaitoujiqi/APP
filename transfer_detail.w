@@ -65,16 +65,15 @@
         <div class="x-col" xid="col25" style="text-align:center;">
          <span xid="span3" bind-text='ref("fTime")'></span></div> 
         <div class="x-col" xid="col26" style="text-align:center;">
-         <span xid="span52" bind-text='ref("fTou")'></span>
+         <span xid="span52" bind-text='ref("fTransfer")'></span>
          <span xid="span54">/</span>
-         <span xid="span53" bind-text='ref("fTotal")'></span></div> </div> 
+         <span xid="span53" bind-text='ref("fOriginal")'></span></div> </div> 
        <div component="$UI/system/components/justep/row/row" class="x-row" xid="row15">
         <div class="x-col" xid="col34" style="text-align:center;">
          <span xid="span56"><![CDATA[还款日期]]></span></div> 
         <div class="x-col" xid="col33" style="text-align:center;">
-         <span xid="span58" bind-text='ref("fTransfer")'><![CDATA[转让金额]]></span>
-         <span xid="span55">/</span>
-         <span xid="span57" bind-text='ref("fOriginal")'><![CDATA[原始价格（元）]]></span></div> </div> </li> </ul> </div> </div> 
+         <span xid="span58">转让金额</span><span xid="span55">/</span>
+         <span xid="span57"><![CDATA[原始价格（元）]]></span></div> </div> </li> </ul> </div> </div> 
    <div xid="div2" class="div2" style="background-color:white;">
     <div component="$UI/system/components/justep/list/list" class="x-list" xid="list4" data="transferDetailData">
      <ul class="x-list-template" xid="listTemplateUl4">
