@@ -4,6 +4,10 @@ define(function(require){
 	var Model = function(){
 		this.callParent();
 	};
+	//图片路径转换
+	Model.prototype.getImageUrl = function(url){
+		return require.toUrl(url);
+	};
 	Model.prototype.importantBtnClick = function(event){
 		justep.Shell.showPage("important");
 	};	

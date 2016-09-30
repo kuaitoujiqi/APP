@@ -28,7 +28,10 @@
   <column label="文本1" name="fText3" type="String" xid="xid5"></column>
   <column label="文本11" name="fText11" type="String" xid="xid8"></column>
   <column label="文本22" name="fText22" type="String" xid="xid9"></column>
-  <column label="文本33" name="fText33" type="String" xid="xid10"></column></div></div>  
+  <column label="文本33" name="fText33" type="String" xid="xid10"></column>
+  <column label="图片1" name="fImg1" type="String" xid="xid22"></column>
+  <column label="图片2" name="fImg2" type="String" xid="xid23"></column>
+  <column label="图片3" name="fImg3" type="String" xid="xid24"></column></div></div>  
   <div component="$UI/system/components/justep/panel/panel" 
     class="x-panel x-full" xid="panel1"> 
       <div class="x-panel-top" xid="top1"> 
@@ -112,10 +115,11 @@
        <div xid="div14" bind-text=' ref("fText2")' style="text-align:left;" class="tet"></div>
        <div xid="div16" bind-text=' ref("fTitle3")' style="line-height:40px;text-align:left;" class="tit"></div>
        <div xid="div17" bind-text=' ref("fText3")' style="text-align:left;" class="tet"></div>
-       <div component="$UI/system/components/justep/row/row" class="x-row text_row" xid="row4">
+       <div xid="div6"><img src="" alt="" xid="image1" bind-foreach=' ref("fImg1")'></img></div><div xid="div7"><img src="" alt="" xid="image2" bind-attr-src=' ref("fImg2")'></img></div><div xid="div11"><img src="" alt="" xid="image3" bind-foreach=' ref("fImg3")'></img></div><div component="$UI/system/components/justep/row/row" class="x-row text_row" xid="row4">
         <div class="x-col" xid="col9" bind-text=' ref("fText11")'></div>
         <div class="x-col" xid="col10" bind-text='ref("fText22")'></div>
         <div class="x-col" xid="col11" bind-text='ref("fText33")'></div></div> 
+  
   </li> </ul> </div> </div> </div></div>
   <div xid="div18"><a component="$UI/system/components/justep/button/button" class="btn btn-warning" label="立即投资" xid="button4" style="width:100%;" bind-click="btnImmediateInvest">
    <i xid="i4"></i>

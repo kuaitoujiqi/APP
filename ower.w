@@ -62,7 +62,7 @@
    <div class="x-col" xid="col64" style="font-size:24px;text-align:center;">
     <span xid="span39" bind-text='ref("fUse")'></span></div> 
    <div class="x-col" xid="col63"></div>
-   <div class="x-col" xid="col62">
+   <div class="x-col x-col-67" xid="col62">
     <div component="$UI/system/components/justep/button/buttonGroup" class="btn-group" tabbed="true" xid="buttonGroup2">
      <a component="$UI/system/components/justep/button/button" class="btn btn-default" label="充值" xid="button7" style="margin-right:10px;width:80px;" bind-click="rechargeBtnClick">
       <i xid="i8"></i>
@@ -74,7 +74,7 @@
    <div component="$UI/system/components/justep/row/row" class="x-row" xid="row13">
     <div class="x-col x-col-10" xid="col35" style="text-align:center;">
      <img src="$UI/APP/img/ower1.jpg" alt="" xid="image2"></img></div> 
-    <div class="x-col x-col-67 fr" xid="col34">
+    <div class="x-col x-col-75 fr" xid="col34">
      <span xid="span15">我的账户</span></div> 
     <div class="x-col" xid="col33">
      <a component="$UI/system/components/justep/button/button" class="btn btn-primary" xid="btnPlat" icon="icon-ios7-arrow-right" style="background-color:white;color:#C0C0C0;width:18px;" bind-click="platBtnClick">
@@ -83,12 +83,12 @@
    <div component="$UI/system/components/justep/row/row" class="x-row" xid="row14">
     <div class="x-col x-col-10" xid="col38" style="text-align:center;">
      <img src="$UI/APP/img/ower2.jpg" alt="" xid="image3"></img></div> 
-    <div class="x-col x-col-67" xid="col37">
+    <div class="x-col x-col-75" xid="col37">
      <div component="$UI/system/components/justep/row/row" class="x-row row16" xid="row16">
       <div class="x-col" xid="col43">
        <span xid="span17">投资记录</span></div> 
-      <div class="x-col" xid="col44" style="text-align:right;">
-       <span xid="span20">待收回账/累计收益</span></div> </div> </div> 
+      <div class="x-col x-col-67" xid="col44" style="text-align:right;">
+       <span xid="span20" style="font-size:8px;">待收回账/累计收益</span></div> </div> </div> 
     <div class="x-col" xid="col36">
      <a component="$UI/system/components/justep/button/button" class="btn btn-primary" xid="button3" icon="icon-ios7-arrow-right" style="background-color:white;color:#C0C0C0;width:18px;" bind-click="investBtnClick">
       <i xid="i4" class="icon-ios7-arrow-right"></i>
@@ -96,7 +96,7 @@
    <div component="$UI/system/components/justep/row/row" class="x-row" xid="row15">
     <div class="x-col x-col-10" xid="col41" style="text-align:center;">
      <img src="$UI/APP/img/ower3.jpg" alt="" xid="image4"></img></div> 
-    <div class="x-col x-col-67 fr" xid="col40">
+    <div class="x-col x-col-75 fr" xid="col40">
      <span xid="span19">安全中心</span></div> 
     <div class="x-col" xid="col39">
       <a component="$UI/system/components/justep/button/button" class="btn btn-primary" xid="button1" icon="icon-ios7-arrow-right" style="background-color:white;color:#C0C0C0;width:18px;" bind-click="safeCenterBtnClick">
@@ -106,7 +106,7 @@
    <div component="$UI/system/components/justep/row/row" class="x-row" xid="row17">
     <div class="x-col x-col-10" xid="col45" style="text-align:center;">
      <img src="$UI/APP/img/ower4.jpg" alt="" xid="image5"></img></div> 
-    <div class="x-col x-col-67 fr" xid="col46">
+    <div class="x-col x-col-75 fr" xid="col46">
      <span xid="span22">红包记录</span></div> 
     <div class="x-col" xid="col47">
      <a component="$UI/system/components/justep/button/button" class="btn btn-primary" xid="button5" icon="icon-ios7-arrow-right" style="background-color:white;color:#C0C0C0;width:18px;" bind-click="hongbaoBtnClick">
@@ -115,7 +115,7 @@
    <div component="$UI/system/components/justep/row/row" class="x-row" xid="row18">
     <div class="x-col x-col-10" xid="col48" style="text-align:center;">
      <img src="$UI/APP/img/ower5.jpg" alt="" xid="image6"></img></div> 
-    <div class="x-col x-col-67 fr" xid="col49">
+    <div class="x-col x-col-75 fr" xid="col49">
      <span xid="span24">银行卡管理</span></div> 
     <div class="x-col" xid="col50">
      <a component="$UI/system/components/justep/button/button" class="btn btn-primary" xid="button6" icon="icon-ios7-arrow-right" style="background-color:white;color:#C0C0C0;width:18px;" bind-click="cardBtnClick">
