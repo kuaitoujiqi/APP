@@ -78,6 +78,9 @@ define(function(require){
             }
         });	
 	};	
+	Model.prototype.btnImmediateInvest = function(event){
+		justep.Shell.showPage("Immediate_invest");
+	};
 	
 	//页面加载
 	Model.prototype.contentActive = function(event){

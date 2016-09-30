@@ -77,6 +77,10 @@ define(function(require){
 				"contact":{
 					url : require.toUrl('./contact.w')
 				},
+				
+				"Immediate_invest":{
+					url : require.toUrl('./Immediate_invest.w')
+				},
 				"infore":{
 					url : require.toUrl('./infore.w')
 				},
