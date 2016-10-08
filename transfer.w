@@ -44,13 +44,13 @@
          <h5 bind-text='ref("fTitle")' xid="h51"></h5>
          <div component="$UI/system/components/justep/row/row" class="x-row" xid="row4">
           <div class="x-col x-col-25 x-col-center" xid="col3" style="text-align:center;">
-           <span xid="span1" bind-text='ref("fRate")' style="font-size:24px;color:#FF0000;"></span>
+           <span xid="span1" bind-text='ref("fRate")' style="font-size:20px;color:#FF0000;"></span>
   <span xid="span14"><![CDATA[%]]></span></div> 
-          <div class="x-col x-col-center" xid="col4" style="text-align:center;">
-           <span xid="span2" bind-text='ref("fMoney")' style="font-size:24px;"></span>
+          <div class="x-col x-col-center" xid="col4" style="text-align:center;width:auto;">
+           <span xid="span2" bind-text='ref("fMoney")' style="font-size:20px;"></span>
   <span xid="span16"><![CDATA[元]]></span></div> 
-          <div class="x-col x-col-center" xid="col10" style="text-align:center;">
-           <span xid="span5" bind-text='ref("fJia")' style="font-size:24px;"></span>
+          <div class="x-col x-col-center" xid="col10" style="text-align:center;width:auto;">
+           <span xid="span5" bind-text='ref("fJia")' style="font-size:20px;"></span>
   <span xid="span17"><![CDATA[元]]></span></div> </div> 
          <div component="$UI/system/components/justep/row/row" class="x-row" xid="row5" style="font-size:6px;color:#C0C2CB;">
           <div class="x-col x-col-25 x-col-center" xid="col13" style="text-align:center;">

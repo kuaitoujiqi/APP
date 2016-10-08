@@ -58,22 +58,22 @@
   <div xid="div16" style="position:relative;top:10px;margin-bottom:10px;padding-bottom:0px;">
    <div component="$UI/system/components/justep/list/list" class="x-list" data="newsData" limit="3" xid="list2">
     <ul class="x-list-template" xid="listTemplateUl1" bind-click="detailClick">
-     <li xid="li1" class="list-group-item x-flex   img_home" style="margin-bottom:10px;">
+     <li xid="li1" class="list-group-item x-flex   img_home" style="margin-bottom:10px;padding-bottom:0px;">
       <div class="x-flex1" xid="div7">
        
        
        
        
   <h5 bind-text=' ref("fTitle")' xid="h51" style="height:20px;"></h5><div component="$UI/system/components/justep/row/row" class="x-row" xid="row4">
-   <div class="x-col x-col-33 x-col-center" xid="col8" style="text-align:center;">
-    <span xid="span11" bind-text=' val("fRate")' style="font-size:24px;color:#FF0000;"></span></div> 
-   <div class="x-col x-col-33 x-col-center" xid="col5" style="text-align:center;">
-    <span xid="span5" bind-text='ref("fTime")' style="font-size:24px;"></span>
+   <div class="x-col x-col-25 x-col-center" xid="col8" style="text-align:center;">
+    <span xid="span11" bind-text=' val("fRate")' style="font-size:20px;color:#FF0000;"></span></div> 
+   <div class="x-col x-col-center" xid="col5" style="text-align:center;">
+    <span xid="span5" bind-text='ref("fTime")' style="font-size:20px;"></span>
   <span xid="span19"><![CDATA[个月]]></span></div> 
-   <div class="x-col x-col-33 x-col-center" xid="col10" style="text-align:center;">
-    <span xid="span8" bind-text='ref("fMoney")'></span>
+   <div class="x-col x-col-center" xid="col10" style="text-align:center;">
+    <span xid="span8" bind-text='ref("fMoney")' style="font-size:20px;"></span>
   <span xid="span20"><![CDATA[元]]></span></div> </div><div component="$UI/system/components/justep/row/row" class="x-row" xid="row5" style="font-size:6px;color:#C0C2CB;">
-   <div class="x-col x-col-center" xid="col13">
+   <div class="x-col x-col-25 x-col-center" xid="col13">
     <span xid="span8">年化利率</span></div> 
    <div class="x-col x-col-center" xid="col12">
     <span xid="span9">项目期限</span></div> 

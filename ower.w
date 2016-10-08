@@ -10,7 +10,7 @@
   <div component="$UI/system/components/justep/panel/panel" 
     class="x-panel x-full" xid="panel1"> 
       <div class="x-panel-top" xid="top1" style="background-color:#497BEA;"> 
-        <div component="$UI/system/components/justep/titleBar/titleBar" class="x-titlebar" style="background-color:#497BEA;">
+        <div component="$UI/system/components/justep/titleBar/titleBar" class="x-titlebar" style="background-color:#497BEA;color:#497BEA;">
           <div class="x-titlebar-left"> 
             <img src="" alt="" xid="image1"></img>
   <span xid="span2"></span></div>  
@@ -24,52 +24,47 @@
    <ul class="x-list-template" xid="listTemplateUl2">
     <li xid="li2" class="list-group-item x-flex   img_home">
      <div class="x-flex1" xid="div4">
-      <div component="$UI/system/components/justep/row/row" class="x-row row23" xid="row23" style="color:#FFFFFF;background-color:#8000FF;padding-top:30px;">
+      <div component="$UI/system/components/justep/row/row" class="x-row row23" xid="row23" style="color:#FFFFFF;background-color:#497BEA;padding-top:30px;">
        <div class="x-col" xid="col53"></div>
        <div class="x-col" xid="col55" style="text-align:center;">
         <span xid="span34">总资产（元）</span></div> 
        <div class="x-col" xid="col54"></div></div> 
-      <div component="$UI/system/components/justep/row/row" class="x-row row23" xid="row24" style="color:#FFFFFF;background-color:#8000FF;">
+      <div component="$UI/system/components/justep/row/row" class="x-row row23" xid="row24" style="color:#FFFFFF;background-color:#497BEA;">
        <div class="x-col" xid="col57"></div>
        <div class="x-col" xid="col58" style="text-align:center;">
         <span xid="span35" style="font-size:20px;text-align:center;" bind-text='ref("fTotal")'></span></div> 
        <div class="x-col" xid="col56"></div></div> 
-      <div component="$UI/system/components/justep/row/row" class="x-row row23" xid="row20" style="color:#FFFFFF;background-color:#8000FF;">
-       <div class="x-col" xid="col23" bind-text=' ref("fEared")'>
+      <div component="$UI/system/components/justep/row/row" class="x-row row23" xid="row20" style="color:#FFFFFF;background-color:#4774DB;">
+       <div class="x-col" xid="col23" bind-text=' ref("fEared")' style="text-align:center;font-size:18px;">
         
-  <div component="$UI/system/components/justep/row/row" class="x-row" xid="row22">
-   <div class="x-col" xid="col22" style="text-align:center;font-size:20px;">
-    <span xid="span26" bind-text='ref("fEared")'></span></div> </div><div component="$UI/system/components/justep/row/row" class="x-row" xid="row21">
-   <div class="x-col" xid="col21" style="text-align:center;">
-    <span xid="span9">已获收益（元）</span></div> </div></div> 
-       <div class="x-col" xid="col24" bind-text=' ref("fInvest")'>
+  <span xid="span3" bind-text='ref("fEared")'></span></div> 
+       <div class="x-col" xid="col24" bind-text=' ref("fInvest")' style="text-align:center;font-size:18px;">
         
-  <div component="$UI/system/components/justep/row/row" class="x-row" xid="row19">
-   <div class="x-col" xid="col20" style="font-size:20px;text-align:center;">
-    <span xid="span10" bind-text='val("fInvest")'></span></div> </div><div component="$UI/system/components/justep/row/row" class="x-row" xid="row10">
-   <div class="x-col" xid="col19" style="text-align:center;">
-    <span xid="span25">待收收益（元）</span></div> </div></div> </div> 
+  <span xid="span4" bind-text='val("fInvest")'></span></div> </div> 
        
        
-  <div component="$UI/system/components/justep/row/row" class="x-row" xid="row1" style="background-color:#F3F1FF;">
+  <div component="$UI/system/components/justep/row/row" class="x-row" xid="row2" style="background-color:#4774DB;">
+   <div class="x-col x-col-center" xid="col4" style="text-align:center;color:#FFFFFF;"><span xid="span9">已获收益（元）</span></div>
+   <div class="x-col x-col-center" xid="col5" style="color:#FFFFFF;text-align:center;"><span xid="span25">待收收益（元）</span></div>
+   </div><div component="$UI/system/components/justep/row/row" class="x-row" xid="row1" style="background-color:#F3F1FF;">
    <div class="x-col" xid="col1"></div>
    <div class="x-col" xid="col2"></div>
    <div class="x-col" xid="col3"></div></div><div component="$UI/system/components/justep/row/row" class="x-row row25" xid="row25" style="background-color:white;">
    <div class="x-col" xid="col61" style="text-align:center;">
-    <span xid="span36">可用余额</span></div> 
+    <span xid="span36" style="font-size:8px;">可用余额</span></div> 
    <div class="x-col" xid="col60"></div>
    <div class="x-col" xid="col59"></div></div><div component="$UI/system/components/justep/row/row" class="x-row" xid="row26" style="background-color:white;">
    <div class="x-col" xid="col64" style="font-size:24px;text-align:center;">
     <span xid="span39" bind-text='ref("fUse")'></span></div> 
-   <div class="x-col" xid="col63"></div>
-   <div class="x-col x-col-67" xid="col62">
+   <div class="x-col x-col-67" xid="col62" style="text-align:center;">
     <div component="$UI/system/components/justep/button/buttonGroup" class="btn-group" tabbed="true" xid="buttonGroup2">
-     <a component="$UI/system/components/justep/button/button" class="btn btn-default" label="充值" xid="button7" style="margin-right:10px;width:80px;" bind-click="rechargeBtnClick">
+     <a component="$UI/system/components/justep/button/button" class="btn btn-default btn-sm" label="充值" xid="button7" style="margin-right:10px;width:60px;" bind-click="rechargeBtnClick">
       <i xid="i8"></i>
       <span xid="span38">充值</span></a> 
-     <a component="$UI/system/components/justep/button/button" class="btn btn-default" label="提现" xid="button8" style="width:80px;background-color:white;color:#400000;" bind-click="withdrawBtnClick">
+     <a component="$UI/system/components/justep/button/button" class="btn btn-default btn-sm" label="提现" xid="button8" style="background-color:white;color:#400000;width:60px;" bind-click="withdrawBtnClick">
       <i xid="i9"></i>
-      <span xid="span37">提现</span></a> </div> </div> </div></div> </li> </ul> </div></div>
+      <span xid="span37">提现</span></a> </div> </div> </div>
+  </div> </li> </ul> </div></div>
   <div xid="div7" class="div7">
    <div component="$UI/system/components/justep/row/row" class="x-row" xid="row13">
     <div class="x-col x-col-10" xid="col35" style="text-align:center;">

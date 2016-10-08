@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <div xmlns="http://www.w3.org/1999/xhtml" component="$UI/system/components/justep/window/window" design="device:m;" xid="window" class="window">  
   <div component="$UI/system/components/justep/model/model" xid="model" style="top:203px;left:44px;height:auto;"> 
-  <div component="$UI/system/components/justep/data/data" autoLoad="false" xid="userData" idColumn="fID" autoNew="true">
+  <div component="$UI/system/components/justep/data/data" autoLoad="true" xid="userData" idColumn="fID" autoNew="true">
    <column label="id" name="fID" type="String" xid="default1"></column>
   <column label="userpass" name="fSheng" type="String" xid="default2"></column>
   <column label="Sname" name="fFen" type="String" xid="default3"></column>

@@ -3,17 +3,25 @@ define(function(require){
 	var justep = require("$UI/system/lib/justep");
 	var Model = function(){
 		this.callParent();
-	};
+		this.shouldShowMessage = justep.Bind.observable(false);
+	}
+      Model.prototype.getItems = function(event) {
+                if ($.trim(this.comp('button4').val()) !== "") {
+                        this.shouldShowMessage.set(false);
+                } else {
+                        this.shouldShowMessage.set(true);
+                }
+        };
 	//图片路径转换
 	Model.prototype.getImageUrl = function(url){
-		return require.toUrl(url);
+		return require.toUrl("http://www.kauitoujiqi.com/upload/image");
 	};
 	Model.prototype.importantBtnClick = function(event){
 		justep.Shell.showPage("important");
 	};	
 	Model.prototype.detailDataCustomRefresh = function(event){
 		var detailData = event.source;
-         var pid = this.params.data.ID;
+         pid = this.params.data.ID;
         $.ajax({
             type: "POST",
             //url: require.toUrl('./json/detailData.json'),
@@ -83,7 +91,10 @@ define(function(require){
         });	
 	};	
 	Model.prototype.btnImmediateInvest = function(event){
-		justep.Shell.showPage("Immediate_invest");
+		justep.Shell.showPage("Immediate_invest",{
+			data:{"ID" : pid}
+		});
+//		justep.Shell.showPage("Immediate_invest");
 	};
 	
 	//页面加载

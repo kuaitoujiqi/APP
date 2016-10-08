@@ -14,7 +14,8 @@
   <column label="上线时间" name="fShang" type="String" xid="xid18"></column>
   <column label="项目类型" name="fLei" type="String" xid="xid19"></column>
   <column label="状态" name="fStatus" type="String" xid="xid20"></column>
-  <column label="进度条" name="fJin" type="Float" xid="xid21"></column></div><div component="$UI/system/components/justep/data/data" autoLoad="true" xid="placeOneData" idColumn="fID" onCustomRefresh="placeOneDataCustomRefresh">
+  <column label="进度条" name="fJin" type="Float" xid="xid21"></column>
+  <column label="立即投资" name="fPass" type="String" xid="xid25"></column></div><div component="$UI/system/components/justep/data/data" autoLoad="true" xid="placeOneData" idColumn="fID" onCustomRefresh="placeOneDataCustomRefresh">
    <column label="id" name="fID" type="String" xid="default6"></column>
   <column label="标题" name="fTitle" type="String" xid="xid6"></column>
   <column label="图片" name="fImg" type="String" xid="xid7"></column></div><div component="$UI/system/components/justep/data/data" autoLoad="true" xid="placeTwoData" idColumn="fID" onCustomRefresh="placeTwoDataCustomRefresh">
@@ -115,14 +116,17 @@
        <div xid="div14" bind-text=' ref("fText2")' style="text-align:left;" class="tet"></div>
        <div xid="div16" bind-text=' ref("fTitle3")' style="line-height:40px;text-align:left;" class="tit"></div>
        <div xid="div17" bind-text=' ref("fText3")' style="text-align:left;" class="tet"></div>
-       <div xid="div6"><img src="" alt="" xid="image1" bind-foreach=' ref("fImg1")'></img></div><div xid="div7"><img src="" alt="" xid="image2" bind-attr-src=' ref("fImg2")'></img></div><div xid="div11"><img src="" alt="" xid="image3" bind-foreach=' ref("fImg3")'></img></div><div component="$UI/system/components/justep/row/row" class="x-row text_row" xid="row4">
+       <div xid="div6"><img src="" alt="" xid="image1" bind-attr-src=' ref("fImg1")'></img></div><div xid="div7"><img src="" alt="" xid="image2" bind-attr-src=' ref("fImg2")'></img></div><div xid="div11"><img src="" alt="" xid="image3" bind-attr-src=' ref("fImg3")'></img></div><div component="$UI/system/components/justep/row/row" class="x-row text_row" xid="row4">
         <div class="x-col" xid="col9" bind-text=' ref("fText11")'></div>
         <div class="x-col" xid="col10" bind-text='ref("fText22")'></div>
         <div class="x-col" xid="col11" bind-text='ref("fText33")'></div></div> 
   
   </li> </ul> </div> </div> </div></div>
-  <div xid="div18"><a component="$UI/system/components/justep/button/button" class="btn btn-warning" label="立即投资" xid="button4" style="width:100%;" bind-click="btnImmediateInvest">
+  <div xid="div18"><a component="$UI/system/components/justep/button/button" class="btn btn-warning" label="立即投资" xid="button4" style="width:100%;" bind-click="btnImmediateInvest" onChange="getItems">
    <i xid="i4"></i>
-   <span xid="span38">立即投资</span></a></div></div>
+   <span xid="span38">立即投资</span></a>
+  <a component="$UI/system/components/justep/button/button" class="btn btn-default" label="已结束" xid="button1" bind-visible="shouldShowMessage">
+   <i xid="i1"></i>
+   <span xid="span4">已结束</span></a></div></div>
   </div> 
 </div>
