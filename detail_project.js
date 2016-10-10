@@ -22,6 +22,7 @@ define(function(require){
 	Model.prototype.detailDataCustomRefresh = function(event){
 		var detailData = event.source;
          pid = this.params.data.ID;
+//         console.log(pid);
         $.ajax({
             type: "POST",
             //url: require.toUrl('./json/detailData.json'),
@@ -31,7 +32,10 @@ define(function(require){
             async: false,//使用同步方式，目前data组件有同步依赖
             cache: false,
             success: function(data){
-          	console.log(data.data);
+            	money = data.data.result[0]['fTou'];
+              	rate = data.data.result[0]['fRate'];
+              	time = data.data.result[0]['fTime'];
+              	each = data.data.result[0]['fEach'];
             detailData.loadData(data.data.result);//将返回的数据加载到data组件
             },
             error: function(){
@@ -92,7 +96,9 @@ define(function(require){
 	};	
 	Model.prototype.btnImmediateInvest = function(event){
 		justep.Shell.showPage("Immediate_invest",{
-			data:{"ID" : pid}
+			data:{
+				"ID" : pid
+			}
 		});
 //		justep.Shell.showPage("Immediate_invest");
 	};

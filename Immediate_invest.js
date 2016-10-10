@@ -7,42 +7,28 @@ define(function(require){
 	};
 	 
         Model.prototype.btnInvestClick = function(event){
-               var userData = this.comp("userData");
-                var params = {
-                        "userData" : userData.toJson(true)
-                };
-                $.ajax({
-                "url" : "/takeout",
-                "type" : "post",
-                "async" : false,
-                 "data":{
-                        "Sphone":userData.val("Sphone")
-                                },
-                                "dataType" : "json",
-                                "url" : "https://m.kuaitoujiqi.com/app/welcome/sendmessage", //PHP数据库校验用户名和密码是否正常
-                                "success" : function(data) {
-                                	
-                                        if(data['code']==200){          //php返回200，代表后端程序成功返回查询结果
-                                               alert('验证码发送成功，请注意查收');
-                                                key = data.data;
-//                                               localStorage.setItem('Sphone',data['data']['Sphone']);
-                                               
-                                        } else if(data['code']==401) //返回400，代表数据库查询不到记录，用户名或密码
-                                        {
-                                        	alert('格式不正确')
-                                        }    
-                                        else if(data['code']==400) //返回400，代表数据库查询不到记录，用户名或密码
-                                        {
-                                        	alert('发送失败，请稍后再试')
-                                        }        
-                                },
-                                "error": function(){
-                                                alert("数据传输失败！");
-                                        }
-                                
-                        });
+               var userData = event.source;
+               var pid = this.params.data.ID;	
+               $.ajax({
+                   type: "POST",
+                   //url: require.toUrl('./json/detailData.json'),
+                   url: require.toUrl('https://m.kuaitoujiqi.com/app/product/bulk_standard'),
+                   data:{'id':pid},
+                   dataType: 'json',
+                   async: false,//使用同步方式，目前data组件有同步依赖
+                   cache: false,
+                   success: function(data){
+//                     	userData.loadData(data.data.result);//将返回的数据加载到data组件
+                   },
+                   error: function(){
+                     throw justep.Error.create("加载数据失败");
+                   }
+               });	
 
         };
+      Model.prototype.btnClick = function(event){
+		justep.Shell.showPage("risk");
+	};	
 
 	return Model;
 });

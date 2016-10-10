@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cvYvIFv" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cvYvIFv" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">
-  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.risk_text.cvYvIFv{margin: 10px 40px; text-indent: 2em}</xhtml:style>  
-  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cvYvIFv" class="cvYvIFv"></div>  
-  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pd50b89b919af41da9857e15cd072a517-iosstatusbar cvYvIFv" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cvYvIFv"> 
-    <div class="x-panel-top cvYvIFv" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cvYvIFv"> 
-      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cvYvIFv" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;风控体系&quot;}" __cid="cvYvIFv"> 
-        <div class="x-titlebar-left cvYvIFv" __cid="cvYvIFv"> 
-          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cvYvIFv" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cvYvIFv"> 
-            <i class="icon-chevron-left cvYvIFv" __cid="cvYvIFv"/>  
-            <span __cid="cvYvIFv" class="cvYvIFv"/> 
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cuYRBfu" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cuYRBfu" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.risk_text.cuYRBfu{margin: 10px 40px; text-indent: 2em}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cuYRBfu" class="cuYRBfu"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pbd25afece653411898f31960afe44a4f-iosstatusbar cuYRBfu" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cuYRBfu"> 
+    <div class="x-panel-top cuYRBfu" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cuYRBfu"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cuYRBfu" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;风控体系&quot;}" __cid="cuYRBfu"> 
+        <div class="x-titlebar-left cuYRBfu" __cid="cuYRBfu"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cuYRBfu" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cuYRBfu"> 
+            <i class="icon-chevron-left cuYRBfu" __cid="cuYRBfu"/>  
+            <span __cid="cuYRBfu" class="cuYRBfu"/> 
           </a> 
         </div>  
-        <div class="x-titlebar-title cvYvIFv" __cid="cvYvIFv">风控体系</div>  
-        <div class="x-titlebar-right  cvYvIFv" __cid="cvYvIFv">
-          <div class="empty cvYvIFv" __cid="cvYvIFv"/>
+        <div class="x-titlebar-title cuYRBfu" __cid="cuYRBfu">风控体系</div>  
+        <div class="x-titlebar-right  cuYRBfu" __cid="cuYRBfu">
+          <div class="empty cuYRBfu" __cid="cuYRBfu"/>
         </div> 
       </div> 
     </div>  
-    <div class="x-panel-content cvYvIFv" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cvYvIFv">
-      <div xid="div1" __cid="cvYvIFv" class="cvYvIFv"> 
-        <img src="$model/UI2/APP/img/risk2_02.png" alt="" xid="image1" class="center-block cvYvIFv" style="width:100%;" __cid="cvYvIFv"/>
+    <div class="x-panel-content cuYRBfu" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cuYRBfu">
+      <div xid="div1" __cid="cuYRBfu" class="cuYRBfu"> 
+        <img src="$model/UI2/APP/img/risk2_02.png" alt="" xid="image1" class="center-block cuYRBfu" style="width:100%;" __cid="cuYRBfu"/>
       </div>  
-      <div xid="div2" class="risk_text cvYvIFv" __cid="cvYvIFv"> 
-        <span xid="span1" __cid="cvYvIFv" class="cvYvIFv">快投机器采用独创的STS风控体系，对借款企业所属行业、发展状况、固定资产、商誉等多方面多维度考察。通过平台合作的律师事务所和会计师事务所严格的尽职调查，保障项目的安全稳健。严格的贷前审核和完善的贷后管理规程，确保借款人信息真实、借贷关系明确、还款来源清晰、资产处置快速且足额。此外，与核心企业、资产管理公司、担保公司签订担保、保证或债务收购协议，保障投资人本息收益安全。</span>
+      <div xid="div2" class="risk_text cuYRBfu" __cid="cuYRBfu"> 
+        <span xid="span1" __cid="cuYRBfu" class="cuYRBfu">快投机器采用独创的STS风控体系，对借款企业所属行业、发展状况、固定资产、商誉等多方面多维度考察。通过平台合作的律师事务所和会计师事务所严格的尽职调查，保障项目的安全稳健。严格的贷前审核和完善的贷后管理规程，确保借款人信息真实、借贷关系明确、还款来源清晰、资产处置快速且足额。此外，与核心企业、资产管理公司、担保公司签订担保、保证或债务收购协议，保障投资人本息收益安全。</span>
       </div>  
-      <div xid="div3" __cid="cvYvIFv" class="cvYvIFv"> 
-        <img src="$model/UI2/APP/img/risk2_05.png" alt="" xid="image2" class="center-block cvYvIFv" __cid="cvYvIFv"/>
+      <div xid="div3" __cid="cuYRBfu" class="cuYRBfu"> 
+        <img src="$model/UI2/APP/img/risk2_05.png" alt="" xid="image2" class="center-block cuYRBfu" __cid="cuYRBfu"/>
       </div>
     </div>  
-    <style __cid="cvYvIFv" class="cvYvIFv">.x-panel.pd50b89b919af41da9857e15cd072a517-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pd50b89b919af41da9857e15cd072a517-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pd50b89b919af41da9857e15cd072a517-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pd50b89b919af41da9857e15cd072a517-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pd50b89b919af41da9857e15cd072a517-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pd50b89b919af41da9857e15cd072a517-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pd50b89b919af41da9857e15cd072a517-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pd50b89b919af41da9857e15cd072a517-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pd50b89b919af41da9857e15cd072a517-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+    <style __cid="cuYRBfu" class="cuYRBfu">.x-panel.pbd25afece653411898f31960afe44a4f-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pbd25afece653411898f31960afe44a4f-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pbd25afece653411898f31960afe44a4f-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pbd25afece653411898f31960afe44a4f-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pbd25afece653411898f31960afe44a4f-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pbd25afece653411898f31960afe44a4f-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pbd25afece653411898f31960afe44a4f-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pbd25afece653411898f31960afe44a4f-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pbd25afece653411898f31960afe44a4f-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
   </div> 
 </div>

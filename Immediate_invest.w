@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <div xmlns="http://www.w3.org/1999/xhtml" component="$UI/system/components/justep/window/window" design="device:m;" xid="window" class="window">  
   <div component="$UI/system/components/justep/model/model" xid="model" style="top:203px;left:44px;height:auto;"> 
-  <div component="$UI/system/components/justep/data/data" autoLoad="true" xid="userData" idColumn="fID" autoNew="true">
+  <div component="$UI/system/components/justep/data/data" autoLoad="true" xid="userData" idColumn="fID" autoNew="true" onCustomRefresh="btnInvestClick">
    <column label="id" name="fID" type="String" xid="default1"></column>
-  <column label="userpass" name="fSheng" type="String" xid="default2"></column>
+  <column label="userpass" name="fTou" type="String" xid="default2"></column>
   <column label="Sname" name="fFen" type="String" xid="default3"></column>
   <column label="Sarea" name="fTotal" type="String" xid="default4"></column>
   <column label="Sbrand" name="fLi" type="String" xid="default5"></column></div></div>  
@@ -25,11 +25,11 @@
           </div>
         </div> 
       </div>  
-    <div class="x-panel-content" xid="content1" style="background-color:#f3f1ff;padding-top:20px;"><div xid="div1"><div component="$UI/system/components/justep/list/list" class="x-list" xid="list1" data="userData">
+    <div class="x-panel-content" xid="content1" style="background-color:#f3f1ff;padding-top:20px;"><div xid="div1"><div component="$UI/system/components/justep/list/list" class="x-list" xid="list1" data="userData" autoLoad="true">
    <ul class="x-list-template" xid="listTemplateUl1">
     <li xid="li1"><div component="$UI/system/components/justep/row/row" class="x-row" xid="row1" style="line-height:30px;font-size:18px;padding-left:10px;">
    <div class="x-col" xid="col1"><span xid="span1"><![CDATA[剩余可投金额]]></span>
-  <span xid="span2" bind-text='ref("fSheng")'></span>
+  <span xid="span2" bind-text='val("fTou")'></span>
   <span xid="span3"><![CDATA[元]]></span></div>
    </div>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row2" style="background-color:white;padding-left:10px;padding-right:10px;">
@@ -43,7 +43,7 @@
   <span xid="span10" bind-text='ref("fLi")'></span>
   <span xid="span11"><![CDATA[元（100元/份）]]></span></div>
    </div></li></ul> </div>
-  <a component="$UI/system/components/justep/button/button" class="btn btn-default btn-block" label="立即投资" xid="button1" style="margin-top:100px;background-color:#FF8040;" onClick="btnInvestClick">
+  <a component="$UI/system/components/justep/button/button" class="btn btn-default btn-block" label="立即投资" xid="button1" style="margin-top:100px;background-color:#FF8040;" onClick="btnInvestClick" bind-click="btnClick">
    <i xid="i1"></i>
    <span xid="span12">立即投资</span></a></div></div>
   </div> 

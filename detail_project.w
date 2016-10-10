@@ -3,8 +3,8 @@
   <div component="$UI/system/components/justep/model/model" xid="model" style="left:18px;top:83px;height:244px;"> 
   
   
-  <div component="$UI/system/components/justep/data/data" autoLoad="true" xid="detailData" idColumn="fID" onCustomRefresh="detailDataCustomRefresh">
-   <column label="ID" name="fID" type="String" xid="xid11"></column>
+  <div component="$UI/system/components/justep/data/data" autoLoad="true" xid="detailData" idColumn="ID" onCustomRefresh="detailDataCustomRefresh">
+   <column label="ID" name="ID" type="String" xid="xid11"></column>
   <column label="项目标题" name="fTitle" type="String" xid="xid12"></column>
   <column label="年化利率" name="fRate" type="String" xid="xid13"></column>
   <column label="期限" name="fTime" type="String" xid="xid14"></column>

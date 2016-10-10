@@ -13,7 +13,8 @@
         <div component="$UI/system/components/justep/titleBar/titleBar" class="x-titlebar" style="background-color:#497BEA;color:#497BEA;">
           <div class="x-titlebar-left"> 
             <img src="" alt="" xid="image1"></img>
-  <span xid="span2"></span></div>  
+  <span xid="span2"></span>
+  </div>  
           <div class="x-titlebar-title"></div>  
           <div class="x-titlebar-right reverse" xid="div3">
    

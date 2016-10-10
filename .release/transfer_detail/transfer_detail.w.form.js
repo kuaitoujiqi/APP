@@ -12,14 +12,14 @@ require('$model/UI2/system/components/justep/data/data');
 require('$model/UI2/system/components/justep/window/window');
 require('$model/UI2/system/components/justep/panel/panel');
 var __parent1=require('$model/UI2/system/lib/base/modelBase'); 
-var __parent0=require('$model/UI2/APP/transfer_detail'); 
+var __parent0=require('$model/UI2/APPTEST/transfer_detail'); 
 var __result = __parent1._extend(__parent0).extend({
 	constructor:function(contextUrl){
 	this.__sysParam='true';
 	this.__contextUrl=contextUrl;
 	this.__id='';
-	this.__cid='c36ZzIv';
-	this._flag_='05a91c5d6bcc636bc0e1f29dcc8b7e40';
+	this.__cid='c6fuqq2';
+	this._flag_='15cb5db98c90a2425314f5df03bc3f14';
 	this.callParent(contextUrl);
  var __Data__ = require("$UI/system/components/justep/data/data");new __Data__(this,{"autoLoad":true,"confirmDelete":true,"confirmRefresh":true,"defCols":{"fID":{"define":"fID","label":"ID","name":"fID","relation":"fID","type":"String"},"fLei":{"define":"fLei","label":"项目类型","name":"fLei","relation":"fLei","type":"String"},"fNum":{"define":"fNum","label":"项目编号","name":"fNum","relation":"fNum","type":"String"},"fOriginal":{"define":"fOriginal","label":"原始价格","name":"fOriginal","relation":"fOriginal","type":"String"},"fRate":{"define":"fRate","label":"利率","name":"fRate","relation":"fRate","type":"String"},"fShang":{"define":"fShang","label":"上线时间","name":"fShang","relation":"fShang","type":"String"},"fTime":{"define":"fTime","label":"还款日期","name":"fTime","relation":"fTime","type":"String"},"fTitle":{"define":"fTitle","label":"项目名称","name":"fTitle","relation":"fTitle","type":"String"},"fTransfer":{"define":"fTransfer","label":"转让金额","name":"fTransfer","relation":"fTransfer","type":"String"}},"directDelete":false,"events":{"onCustomRefresh":"detailDataCustomRefresh"},"idColumn":"fID","limit":20,"xid":"transferDetailData"});
  new __Data__(this,{"autoLoad":true,"confirmDelete":true,"confirmRefresh":true,"defCols":{"fID":{"define":"fID","label":"ID","name":"fID","relation":"fID","type":"String"},"fTitle":{"define":"fTitle","label":"名称","name":"fTitle","relation":"fTitle","type":"String"}},"directDelete":false,"events":{"onCustomRefresh":"transferOneDataCustomRefresh"},"idColumn":"fID","limit":20,"xid":"transferOneData"});

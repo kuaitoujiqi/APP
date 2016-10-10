@@ -58,4 +58,23 @@ h5 ,.h5{ color:#000; font-size:16px;}
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff033c73', endColorstr='#ff022241', GradientType=0);
 }
+.progress{
+	height:5px;
+}
+.x-panel-content{
+	background-color:#f3f1fe;
+}
+.x-card.btn-group .btn.active {
+    color: #35b3e4;
+    border-bottom: 3px solid #497bea;
+}
 
+.list-group-item{
+	margin-bottom:10px;
+}
+.row2{
+	float:left;
+}
+.x-row-line{
+	border-top:1px solid #ddd;
+}
